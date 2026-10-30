@@ -165,23 +165,44 @@ def write_csv(rows):
     tmp.replace(CSV_PATH)
 
 
+
 def write_excel(rows):
-    # Artifact-tool creates a genuine .xlsx without depending on Excel/LibreOffice.
-    from artifact_tool import Workbook, SpreadsheetFile
-    wb = Workbook.create()
-    sh = wb.worksheets.add("Literature")
-    sh.get_range_by_indexes(0, 0, 1, len(FIELDS)).values = [FIELDS]
-    for i in range(0, len(rows), 200):
-        batch = rows[i:i+200]
-        matrix = [[str(row.get(k, "")) for k in FIELDS] for row in batch]
-        sh.get_range_by_indexes(i+1, 0, len(matrix), len(FIELDS)).values = matrix
-    sh.freeze_panes.freeze_rows(1)
-    sh.get_range("A:A").format.column_width = 19
-    sh.get_range("B:B").format.column_width = 25
-    sh.get_range("D:D").format.column_width = 55
-    sh.get_range("I:I").format.column_width = 70
-    sh.get_range("K:P").format.column_width = 50
-    SpreadsheetFile.export_xlsx(wb).save(str(DATA / "literature.xlsx"))
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill, Alignment
+    from openpyxl.utils import get_column_letter
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Literature"
+
+    ws.append(FIELDS)
+
+    for row in rows:
+        ws.append([str(row.get(k, "")) for k in FIELDS])
+
+    ws.freeze_panes = "A2"
+    ws.auto_filter.ref = ws.dimensions
+
+    for cell in ws[1]:
+        cell.font = Font(color="FFFFFF", bold=True)
+        cell.fill = PatternFill("solid", fgColor="17365D")
+        cell.alignment = Alignment(wrap_text=True)
+
+    widths = {
+        "A": 24, "B": 28, "C": 24,
+        "D": 60, "E": 30, "F": 16,
+        "G": 50, "H": 14, "I": 75,
+        "J": 40, "K": 40, "L": 55,
+        "M": 55, "N": 55, "O": 55,
+        "P": 18, "Q": 18, "R": 35,
+        "S": 25
+    }
+
+    for col, width in widths.items():
+        ws.column_dimensions[col].width = width
+
+    wb.save(DATA / "literature.xlsx")
+
 
 
 def write_report(new_rows, from_date, to_date, failures):
