@@ -1,41 +1,57 @@
-
 {
-
-"journals": [
-  "Nature",
-  "Nature Energy",
-  "Nature Sustainability",
-  "Nature Climate Change",
-  "Nature Water",
-  "Nature Communications",
-  "Nature Geoscience",
-  "Nature Reviews Earth & Environment",
-  "Communications Earth & Environment",
-  "Science",
-  "Science Advances",
-  "Proceedings of the National Academy of Sciences",
-  "Joule",
-  "One Earth",
-  "Energy & Environmental Science",
-  "Water Resources Research",
-  "Journal of Hydrology",
-  "Hydrology and Earth System Sciences",
-  "Advances in Water Resources"
-],
-  "queries": [
-    "hydropower renewable integration",
-    "hydropower reservoir operation",
-    "hydropower climate change",
-    "water energy nexus",
-    "reservoir management",
-    "energy system decarbonization",
-    "energy storage flexibility",
-    "renewable energy land use",
-    "critical minerals energy transition"
+  "journals": [
+    "Nature",
+    "Science",
+    "Nature Energy",
+    "Nature Sustainability",
+    "Nature Climate Change",
+    "Nature Water",
+    "Nature Communications",
+    "Nature Geoscience",
+    "Nature Reviews Earth & Environment",
+    "Communications Earth & Environment",
+    "Science Advances",
+    "Proceedings of the National Academy of Sciences",
+    "Joule",
+    "One Earth",
+    "Energy & Environmental Science",
+    "Environmental Science & Technology",
+    "Environmental Research Letters",
+    "Earth's Future",
+    "Water Resources Research",
+    "Journal of Hydrology",
+    "Hydrology and Earth System Sciences",
+    "Advances in Water Resources"
   ],
+  "queries": [
+    "(hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR \"variable renewable\")",
+    "(hydropower OR hydroelectric) AND (drought OR \"power shortage\" OR outage OR blackout)",
+    "(hydropower OR hydroelectric OR reservoir) AND (flexibility OR \"grid services\" OR balancing)",
+    "(reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)",
+    "(\"water-energy\" OR \"water energy nexus\" OR \"energy-water\")",
+    "(\"pumped storage\" OR \"pumped hydro\")",
+    "(drought OR heatwave) AND (\"power system\" OR \"electricity system\" OR grid) AND (reliability OR adequacy)",
+    "(\"deep uncertainty\" OR \"robust decision\" OR satisficing) AND (water OR hydropower OR energy)"
+  ],
+  "seed_dois": [
+    "10.1038/s44221-023-00126-0",
+    "10.1038/s41467-019-12810-5",
+    "10.1038/s41893-025-01626-5"
+  ],
+  "seed_from_date": "2019-01-01",
+  "must_include_any": [
+    "hydropower", "hydroelectric", "hydro-", "reservoir", "dam ", "dams", "pumped",
+    "streamflow", "river", "drought", "water", "power system", "electricity", "grid"
+  ],
+  "exclude_if_any": [
+    "reservoir computing", "viral reservoir", "reservoir host", "oil reservoir", "gas reservoir",
+    "petroleum reservoir", "hydrocarbon reservoir", "vaccine", "tumor", "cancer"
+  ],
+  "research_interests": "hydropower operation and its flexibility for wind and solar integration; drought and climate risks to hydropower-dependent power grids; water-energy trade-offs of the energy transition; reservoir operation and planning under deep uncertainty; transferable mechanisms rather than single-site case studies.",
+  "contact_email": "",
   "start_date": "2021-01-01",
   "lookback_days": 180,
   "max_pages_per_query": 5,
-  "max_ai_papers_per_run": 50,
+  "max_ai_papers_per_run": 60,
   "ai_model": "gpt-4.1-mini"
 }
