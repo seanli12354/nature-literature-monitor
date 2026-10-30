@@ -1,2 +1,2 @@
 requests>=2.31,<3
-artifact-tool>=0.1
+openpyxl>=3.1,<4
