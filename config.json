@@ -26,7 +26,7 @@
   "queries": [
     "(hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR \"variable renewable\")",
     "(hydropower OR hydroelectric) AND (drought OR \"power shortage\" OR outage OR blackout)",
-    "(hydropower OR hydroelectric OR reservoir) AND (flexibility OR \"grid services\" OR balancing)",
+    "(hydropower OR hydroelectric) AND (flexibility OR \"grid services\" OR balancing OR \"capacity credit\")",
     "(reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)",
     "(\"water-energy\" OR \"water energy nexus\" OR \"energy-water\")",
     "(\"pumped storage\" OR \"pumped hydro\")",
@@ -40,12 +40,36 @@
   ],
   "seed_from_date": "2019-01-01",
   "must_include_any": [
-    "hydropower", "hydroelectric", "hydro-", "reservoir", "dam ", "dams", "pumped",
-    "streamflow", "river", "drought", "water", "power system", "electricity", "grid"
+    "hydropower",
+    "hydroelectric",
+    "hydro-",
+    "hydro power",
+    "dam ",
+    "dams",
+    "reservoir",
+    "pumped",
+    "streamflow",
+    "river flow",
+    "water-energy",
+    "water–energy",
+    "energy-water",
+    "energy–water",
+    "nexus",
+    "water stress",
+    "water scarcity",
+    "drought"
   ],
   "exclude_if_any": [
-    "reservoir computing", "viral reservoir", "reservoir host", "oil reservoir", "gas reservoir",
-    "petroleum reservoir", "hydrocarbon reservoir", "vaccine", "tumor", "cancer"
+    "reservoir computing",
+    "viral reservoir",
+    "reservoir host",
+    "oil reservoir",
+    "gas reservoir",
+    "petroleum reservoir",
+    "hydrocarbon reservoir",
+    "vaccine",
+    "tumor",
+    "cancer"
   ],
   "research_interests": "hydropower operation and its flexibility for wind and solar integration; drought and climate risks to hydropower-dependent power grids; water-energy trade-offs of the energy transition; reservoir operation and planning under deep uncertainty; transferable mechanisms rather than single-site case studies.",
   "contact_email": "",
@@ -53,5 +77,16 @@
   "lookback_days": 180,
   "max_pages_per_query": 5,
   "max_ai_papers_per_run": 60,
-  "ai_model": "gpt-4.1-mini"
+  "ai_model": "gpt-4.1-mini",
+  "must_also_include_any": [
+    "electricity",
+    "power",
+    "energy",
+    "grid",
+    "renewable",
+    "solar",
+    "wind",
+    "photovoltaic",
+    "generation"
+  ]
 }

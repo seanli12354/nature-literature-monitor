@@ -75,9 +75,8 @@ FIELDS = [
 def build_rss_url(domain):
     query = (
         f"site:{domain} "
-        "(hydropower OR hydroelectric OR reservoir "
-        "OR drought OR water OR electricity "
-        "OR renewable OR climate OR energy)"
+        "(hydropower OR hydroelectric OR \"pumped storage\" OR reservoir OR drought) "
+        "(electricity OR power OR grid OR outage OR shortage)"
     )
     return (
         "https://news.google.com/rss/search?"
@@ -148,7 +147,20 @@ def fetch_source(name, domain, cutoff):
             "career opportunity",
             "how it works",
             "what is hydropower",
-            "internship"
+            "internship",
+            "jobs -",
+            "basics",
+            "types of hydropower",
+            "benefits of hydropower",
+            "how hydropower works",
+            "voices of hydropower",
+            "mythbusters",
+            "hydropower office",
+            "hydrokinetic office",
+            "incentive program",
+            "hydroelectric incentives",
+            "e-library",
+            "training manual"
         ]
 
         if any(
@@ -296,7 +308,12 @@ def main():
 
             count = 0
 
+            seen_titles = {(r["source"], r["title"].casefold()) for r in existing.values()}
             for row in found:
+                title_key = (row["source"], row["title"].casefold())
+                if title_key in seen_titles:
+                    continue  # Google News often lists one page under several URLs
+                seen_titles.add(title_key)
                 if row["id"] not in existing:
                     existing[row["id"]] = row
                     new_rows.append(row)

@@ -103,13 +103,15 @@ def resolve_seeds():
 
 
 def prefilter(title, abstract):
+    """Keep a record only if it has a domain term AND (if configured) an energy term."""
     text = f"{title} {abstract}".lower()
-    must = [w.lower() for w in CONFIG.get("must_include_any", [])]
     exclude = [w.lower() for w in CONFIG.get("exclude_if_any", [])]
     if exclude and any(w in text for w in exclude):
         return "excluded"
-    if must and not any(w in text for w in must):
-        return "off-topic"
+    for group in ("must_include_any", "must_also_include_any"):
+        words = [w.lower() for w in CONFIG.get(group, [])]
+        if words and not any(w in text for w in words):
+            return "off-topic"
     return "pass"
 
 
@@ -189,7 +191,10 @@ SYSTEM_PROMPT = (
     "'None stated' if absent), generalizability (Local case / Regional / Global or transferable mechanism), "
     "direction_hint (one sentence on an open question this suggests for the researcher's interests), theme, "
     "relevance (High, Medium or Low for the researcher's interests). Never invent numbers, mechanisms or "
-    "full-text details; write 'Not established from abstract' where necessary. Researcher's interests: "
+    "full-text details; write 'Not established from abstract' where necessary. Do not force a connection: "
+    "if the paper is not about the researcher's interests, set relevance to Low and direction_hint to "
+    "'Not relevant'. High means it directly studies one of the interests; Medium means it offers a method, "
+    "dataset or framing the researcher could directly reuse. Researcher's interests: "
 )
 
 
@@ -222,7 +227,17 @@ def load_rows():
     if not CSV_PATH.exists():
         return {}
     with CSV_PATH.open(encoding="utf-8-sig", newline="") as f:
-        return {row["key"]: row for row in csv.DictReader(f)}
+        rows = {row["key"]: row for row in csv.DictReader(f)}
+    for row in rows.values():
+        # Re-screen every stored record so rule changes also apply to old rows.
+        row["prefilter"] = prefilter(row.get("title", ""), row.get("abstract", ""))
+        if row["prefilter"] != "pass" and not row.get("analyzed_at"):
+            row["evidence_status"] = f"Skipped by keyword prefilter ({row['prefilter']})"
+        for f in ("query", "seed", "type", "citations_per_year"):
+            row.setdefault(f, "")
+        if not row.get("citations_per_year"):
+            row["citations_per_year"] = citations_per_year(float(row.get("citations") or 0), row.get("published", ""))
+    return rows
 
 
 def write_csv(rows):
