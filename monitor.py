@@ -86,17 +86,18 @@ def collect(sources, from_date, to_date):
     source_ids = "|".join(sources.values())
     for query in CONFIG["queries"]:
         for page in range(1, CONFIG["max_pages_per_query"] + 1):
-            payload = openalex("works", {
-                "search": query,
-                "filter": (
-    f"primary_location.source.id:{source_ids},"
-    f"from_publication_date:{from_date},"
-    f"to_publication_date:{to_date},"
-    f"type:article|review|editorial|letter"
-),
-                "per_page": 100,
-                "page": page,
-            })
+
+payload = openalex("works", {
+    "filter": (
+        f"primary_location.source.id:{source_ids},"
+        f"from_publication_date:{from_date},"
+        f"to_publication_date:{to_date},"
+        f"title_and_abstract.search:{query}"
+    ),
+    "per_page": 100,
+    "page": page,
+})
+
             works = payload.get("results", [])
             for w in works:
                 journal = source_name(w)
@@ -247,15 +248,41 @@ def main():
             existing[key] = row
             fresh.append(row)
     fresh.sort(key=lambda r: (r.get("published", ""), r.get("title", "")), reverse=True)
-    failures = []
-    budget = int(CONFIG["max_ai_papers_per_run"])
-    for row in fresh[:budget]:
-        try:
-            row.update(analyze(row))
-        except Exception as exc:
-            failures.append(f"{row['openalex_id']}: {str(exc)[:180]}")
-    for row in fresh[budget:]:
-        row["evidence_status"] = "Pending AI analysis (run cap)"
+   
+failures = []
+budget = int(CONFIG["max_ai_papers_per_run"])
+
+pending = [
+    row for row in existing.values()
+    if not row.get("analyzed_at")
+    and row.get("abstract")
+]
+
+pending.sort(
+    key=lambda r: (
+        r.get("published", ""),
+        r.get("title", "")
+    ),
+    reverse=True
+)
+
+for row in pending[:budget]:
+    try:
+        row.update(analyze(row))
+        row["analyzed_at"] = date.today().isoformat()
+    except Exception as exc:
+        failures.append(
+            f"{row['openalex_id']}: {str(exc)[:180]}"
+        )
+
+for row in pending[budget:]:
+    row["evidence_status"] = "Pending AI analysis (run cap)"
+
+print(
+    f"AI analyzed: {min(budget, len(pending)) - len(failures)}, "
+    f"remaining: {max(0, len(pending) - budget)}"
+)
+
     all_rows = sorted(existing.values(), key=lambda r: (r.get("published", ""), r.get("title", "")), reverse=True)
     write_csv(all_rows)
     write_excel(all_rows)
