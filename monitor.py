@@ -88,7 +88,12 @@ def collect(sources, from_date, to_date):
         for page in range(1, CONFIG["max_pages_per_query"] + 1):
             payload = openalex("works", {
                 "search": query,
-                "filter": f"primary_location.source.id:{source_ids},from_publication_date:{from_date},to_publication_date:{to_date},type:article",
+                "filter": (
+    f"primary_location.source.id:{source_ids},"
+    f"from_publication_date:{from_date},"
+    f"to_publication_date:{to_date},"
+    f"type:article|review|editorial|letter"
+),
                 "per_page": 100,
                 "page": page,
             })
