@@ -1,14 +1,27 @@
 
 {
-  "journals": [
-    "Nature",
-    "Nature Energy",
-    "Nature Sustainability",
-    "Nature Climate Change",
-    "Nature Water",
-    "Nature Communications",
-    "Communications Earth & Environment"
-  ],
+
+"journals": [
+  "Nature",
+  "Nature Energy",
+  "Nature Sustainability",
+  "Nature Climate Change",
+  "Nature Water",
+  "Nature Communications",
+  "Nature Geoscience",
+  "Nature Reviews Earth & Environment",
+  "Communications Earth & Environment",
+  "Science",
+  "Science Advances",
+  "Proceedings of the National Academy of Sciences",
+  "Joule",
+  "One Earth",
+  "Energy & Environmental Science",
+  "Water Resources Research",
+  "Journal of Hydrology",
+  "Hydrology and Earth System Sciences",
+  "Advances in Water Resources"
+],
   "queries": [
     "hydropower renewable integration",
     "hydropower reservoir operation",
