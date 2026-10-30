@@ -327,7 +327,7 @@ def main():
 
             seen_titles = {title_key(r["source"], r["title"]) for r in existing.values()}
             for row in found:
-                title_key = title_key(row["source"], row["title"])
+                tkey = title_key(row["source"], row["title"])
                 if tkey in seen_titles:
                     continue  # Google News often lists one page under several URLs
                 seen_titles.add(tkey)
