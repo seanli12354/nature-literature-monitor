@@ -34,8 +34,8 @@
     "critical minerals energy transition"
   ],
   "start_date": "2021-01-01",
-  "lookback_days": 30,
+  "lookback_days": 180,
   "max_pages_per_query": 5,
-  "max_ai_papers_per_run": 10,
+  "max_ai_papers_per_run": 50,
   "ai_model": "gpt-4.1-mini"
 }
