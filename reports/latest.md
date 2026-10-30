@@ -1,1294 +1,822 @@
 # Nature literature monitor — 2026-10-30
 
 **Publication window checked:** 2026-09-30 to 2026-10-30
-**Newly discovered papers:** 161
+**Newly discovered papers:** 102
 
 This report is based on OpenAlex metadata and abstracts, not full-text review.
 
-## WeedNet: a foundation model-based global-to-local AI approach for weed species identification and classification
-- **Journal/date:** Nature Communications / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41467-026-78044-4
+## Nonlinear directional emission on monolayer MoS 2 by optical orbit-orbit coupling
+- **Journal/date:** Science Advances / 2026-09-30
+- **DOI:** https://doi.org/10.1126/sciadv.aei3860
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Stress homogenization enabled by a layered composite electrolyte for high-performance all-solid-state lithium metal batteries
-- **Journal/date:** Nature Communications / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41467-026-78129-0
+## Intratumoral therapeutic dust for chemo-photodynamic combination treatment
+- **Journal/date:** Science Advances / 2026-09-30
+- **DOI:** https://doi.org/10.1126/sciadv.aeh5237
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## SARS-CoV-2-specific monoclonal antibody AER002 in Long COVID: an exploratory randomized phase 2a mechanistic trial
-- **Journal/date:** Nature Communications / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41467-026-77925-y
+## In situ azetidine polymerization elevates the performance of commercial polymer resin sorbents in carbon dioxide capture
+- **Journal/date:** Science Advances / 2026-09-30
+- **DOI:** https://doi.org/10.1126/sciadv.aeg5572
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Rapid urban land uplift enhanced by crustal faults during groundwater recovery
-- **Journal/date:** Communications Earth & Environment / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s43247-026-03915-z
+## Watershed‐Scale Simulation of Hydrology and Carbon Cycling With Explicit Lake Representation
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr045215
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Programmable DNA protonuclei reveal environmental context on protein phase separation
-- **Journal/date:** Nature Communications / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41467-026-78144-1
+## Watershed Characteristics Modulate the Global Response of Fractional Evapotranspiration to Wet Climate Extremes
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr044079
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Preparing for disasters
-- **Journal/date:** Nature Sustainability / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41893-026-01956-y
+## Varying Seasonal Runoff Drives the Timing and Volume of Water‐Dependent Recreational Activities in the Sacramento‐San Joaquin Delta
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr043188
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Navigating the land–energy nexus for carbon-neutral power systems in China
-- **Journal/date:** Nature Sustainability / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41893-026-01941-5
+## Time‐Varying Operation Policies With GRU‐Based Parameterization for Adaptive Multi‐Objective Reservoir Operation Under Climate Change
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr043033
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Identification of functional bacterial-viral pneumotypes associated with airway inflammation and all-cause mortality in critically ill patients
-- **Journal/date:** Nature Communications / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41467-026-78146-z
+## Structure–Function Coherent Coarsening for Cross‐Resolution Ecohydrological Modeling
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042963
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A Robust Gel Polymer Electrode with Controlled-Release Polymerization towards Practical Lithium-Sulfur Batteries
-- **Journal/date:** Nature Communications / 2026-09-30
-- **DOI:** https://doi.org/10.1038/s41467-026-78038-2
+## Spatiotemporal Dynamics of Active Root Zone Storage Revealed From Hybrid Machine Learning
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042803
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Nationwide sustainability assessment of PFAS treatment in U.S. water utilities
-- **Journal/date:** Nature Communications / 2026-10-01
-- **DOI:** https://doi.org/10.1038/s41467-026-77509-w
+## Quantitative Evaluation of Baseflow Separation Methods Using an Integrated Hydrologic Model in a Snow‐Dominated Watershed
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042147
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Molecularly engineered zwitterionic‑fluorinated hydrogel electrolyte for durable Ah-level zinc-ion batteries
-- **Journal/date:** Nature Communications / 2026-10-01
-- **DOI:** https://doi.org/10.1038/s41467-026-77562-5
+## Quantifying Vegetation Dependence on Groundwater: Evidence From Northern China's Drylands
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042844
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## High-entropy enabled two-dimensional ferroelectricity and memristive synapses in van der Waals layered materials
-- **Journal/date:** Nature Communications / 2026-10-01
-- **DOI:** https://doi.org/10.1038/s41467-026-77175-y
+## Quantifying Groundwater–Surface Water Exchange on a River Island: A Comparative Analysis of Direct and Indirect Methods
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr043579
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Head-to-tail assembled borphyrins for solid-state lithium extraction
-- **Journal/date:** Nature Communications / 2026-10-01
-- **DOI:** https://doi.org/10.1038/s41467-026-78080-0
+## Phosphorus composition in urban estuarine sediments: similar spatial patterns, distinct seasonal drivers, transformation pathways and risks
+- **Journal/date:** Journal of Hydrology / 2026-10-01
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136679
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Cross-border electricity tariffs undermine power system efficiency, decarbonization and reliability in North America
-- **Journal/date:** Nature Communications / 2026-10-01
-- **DOI:** https://doi.org/10.1038/s41467-026-77773-w
+## On the Adversarial Robustness of Hydrological Models
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr043726
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A multiplexed wearable microfluidic platform for non-invasive sweat-inspired monitoring of plant guttation biomarkers
-- **Journal/date:** Nature Communications / 2026-10-01
-- **DOI:** https://doi.org/10.1038/s41467-026-77955-6
+## Offshore Groundwater Salinization and Flushing in the Canterbury Bight During Glacial‐Interglacial Cycles
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr043274
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Switchable quantum dot photoluminescence across a broad spectrum with all-visible-light activated diarylethene photoswitches
-- **Journal/date:** Nature Communications / 2026-10-02
-- **DOI:** https://doi.org/10.1038/s41467-026-78224-2
+## Modeling Incentive‐Driven Cooperation in Agricultural Water Use Under Unequal Withdrawal Condition
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042236
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Spatial transcriptomics reveals microenvironmental heterogeneity in osteoarthritic subchondral bone
-- **Journal/date:** Nature Communications / 2026-10-02
-- **DOI:** https://doi.org/10.1038/s41467-026-77518-9
+## In the Age of AI—Are National Models and Data Sets Still Important for Stream Flow Prediction?
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042530
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Cationic chain-anchored monolayer enables wide-temperature composite polymer electrolytes for lithium-metal batteries
-- **Journal/date:** Nature Communications / 2026-10-02
-- **DOI:** https://doi.org/10.1038/s41467-026-78048-0
+## HydroDiffusion: Diffusion‐Based Probabilistic Streamflow Forecasting With a State Space Backbone
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr043158
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Sustainability cost of defect engineering in color centers for quantum communications
-- **Journal/date:** Nature Communications / 2026-10-03
-- **DOI:** https://doi.org/10.1038/s41467-026-78261-x
+## Hydraulic Barrier Optimization Using Random‐Walk Particle Tracking in Heterogeneous Media: Effects of Dispersion, Particle Discretization and Algorithmic Initialization
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr045756
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Self-restoration of reactive centers via contaminant-to-catalyst electron replenishment for sustained Fenton-like activity
-- **Journal/date:** Nature Communications / 2026-10-03
-- **DOI:** https://doi.org/10.1038/s41467-026-78165-w
+## High Frequency Storm Sampling and Analysis of Hysteretic Transport Behavior Offers Insights Into Dynamic Microplastic Activation, Flux and Depletion Within a Peri‐Urban Stream
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042595
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Seasonal predictability of spring solar resources and wind-solar variability across the United States
-- **Journal/date:** Communications Earth & Environment / 2026-10-03
-- **DOI:** https://doi.org/10.1038/s43247-026-04114-6
+## From Hazard to Resource: A Screening‐Level Assessment of Glacial Lake Hydropower Potential and Development Suitability in the Poiqu River Basin, Central Himalaya
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr041374
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Long-term, national-scale records of landslide persistence and dynamic hazard in a mountain landscape
-- **Journal/date:** Communications Earth & Environment / 2026-10-03
-- **DOI:** https://doi.org/10.1038/s43247-026-04109-3
+## Four Decades of Reach‐Scale Declines in Total Phosphorus Across the Yellow River Basin Driven by Vegetation Restoration and Dam Impoundment
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr042728
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Global climate impact of land-surface change driven by radiative effects
-- **Journal/date:** Nature Communications / 2026-10-03
-- **DOI:** https://doi.org/10.1038/s41467-026-77834-0
+## Flood Types Reveal Non‐Stationarity in Flood Peaks Masked by Annual‐Maximum Series
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr044218
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Aridity-driven shifts in plant–microbial diversity relationships across the arid and semi-arid grasslands of northern China
-- **Journal/date:** Communications Earth & Environment / 2026-10-03
-- **DOI:** https://doi.org/10.1038/s43247-026-04127-1
+## Exploring Climate Change Effects on Concurrent Floods and Concurrent Droughts via Statistical Deep Learning
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr044519
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Superlattice Engineering in Relaxor Ferroelectric-based Capacitors for Ultra-Highly Efficient Recoverable Energy Storage Density
-- **Journal/date:** Nature Communications / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s41467-026-77971-6
+## Evolution of Institutional Dynamics in Water Resource Governance in the Yellow River Basin
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr043277
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Selective radical pathways on defect-engineered electrophilic biochar for sustainable water purification
-- **Journal/date:** Nature Communications / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s41467-026-78421-z
+## Evaluating SWOT Satellite Data With Gage Information in the United States and Canada
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr041915
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Reframing decentralized diagnostics with a programmable multi-dimensional microfluidic system
-- **Journal/date:** Nature Communications / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s41467-026-77744-1
+## Diagnosing Latent Storage Representations in LSTM Reservoir Release Policies
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr043135
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Global scale river discharge and mean depth from radar altimetry and model
-- **Journal/date:** Nature Communications / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s41467-026-78275-5
+## Designing for effective heat transfer in a solid thermal energy storage system
+- **Journal/date:** Joule / 2026-10-01
+- **DOI:** https://doi.org/10.1016/j.joule.2026.102684
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## From gigawatts to critical mineral demands for EU solar and wind
-- **Journal/date:** Nature Energy / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s41560-026-02147-x
+## Demand-side strategies unlock gigaton-scale GHG mitigation beyond supply-side limits in the global lithium-ion battery supply chain
+- **Journal/date:** One Earth / 2026-10-01
+- **DOI:** https://doi.org/10.1016/j.oneear.2026.101863
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Elastically bendable chiral metal halide crystals
-- **Journal/date:** Nature Communications / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s41467-026-77915-0
+## Deep Learning‐Based Fusion of Hydrodynamic Model and Remote Sensing Observation for Mapping the Inundation Dynamics in Large Wetlands Under Changing Environment
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr040618
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Climate warming amplifies coastal hypoxia response to extreme river discharge
-- **Journal/date:** Communications Earth & Environment / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s43247-026-04106-6
+## Contrasting Groundwater Response to Surface Water Shortages in the Upper and Lower Colorado River Basins
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr041695
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Circularity measures enhance resilience of net zero pathways for agriculture
-- **Journal/date:** Communications Earth & Environment / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s43247-026-04052-3
+## Assessing Hydrological Model Representation of Irrigation and Subsurface Flow in a Heavily Anthropogenic‐Influenced Catchment
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2026wr043528
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Cascading fishery collapse associated with thermal habitat degradation, marine heatwaves, and predator influx
-- **Journal/date:** Communications Earth & Environment / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s43247-026-04110-w
+## Agricultural Drought Response in Temperate Climates Requires Institutional Development and Coordination to Support Adaptation
+- **Journal/date:** Water Resources Research / 2026-10-01
+- **DOI:** https://doi.org/10.1029/2025wr041667
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Baseflow dominates river flow during droughts across the global streamflow network
-- **Journal/date:** Communications Earth & Environment / 2026-10-05
-- **DOI:** https://doi.org/10.1038/s43247-026-04107-5
+## Ultrahigh discharge voltage plateau of 3.2 V achieved in Li-CO 2 batteries using iron polyphthalocyanine
+- **Journal/date:** Science Advances / 2026-10-02
+- **DOI:** https://doi.org/10.1126/sciadv.aei5080
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Ultrathin high-performance circular polarizers based on MoOCl2/NbOCl2 van der Waals heterostructures
-- **Journal/date:** Nature Communications / 2026-10-06
-- **DOI:** https://doi.org/10.1038/s41467-026-78564-z
+## Single-photon controlled phase shifts with colloidal quantum dots at room temperature
+- **Journal/date:** Science Advances / 2026-10-02
+- **DOI:** https://doi.org/10.1126/sciadv.aee1340
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Prospects and complexities in sustainability impacts of global residue-based bioenergy deployment
-- **Journal/date:** Nature Communications / 2026-10-06
-- **DOI:** https://doi.org/10.1038/s41467-026-78339-6
+## S -Nitrosylation of glycogen phosphorylase regulates nuclear glycogenolysis and is impaired in metabolic liver disorders
+- **Journal/date:** Science Advances / 2026-10-02
+- **DOI:** https://doi.org/10.1126/sciadv.aej6157
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Marine arsenate evolution during Proterozoic oxygenation events and implications for biological phosphate metabolism
-- **Journal/date:** Communications Earth & Environment / 2026-10-06
-- **DOI:** https://doi.org/10.1038/s43247-026-03976-0
+## Precise molecular sieving in polycrystalline covalent organic framework membranes
+- **Journal/date:** Science Advances / 2026-10-02
+- **DOI:** https://doi.org/10.1126/sciadv.aee9683
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Gastrointestinal tract delivery of hydrogen by dynamic gas-releasing frameworks
-- **Journal/date:** Nature Communications / 2026-10-06
-- **DOI:** https://doi.org/10.1038/s41467-026-78290-6
+## Improving large-scale river routing models with ESA long-term CCI discharge data assimilation: advancing accuracy for climate studies
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-02
+- **DOI:** https://doi.org/10.5194/hess-30-6159-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Carbon source and pollutant matching shapes microbial succession and removal regimes under electrochemical redox control
-- **Journal/date:** Communications Earth & Environment / 2026-10-06
-- **DOI:** https://doi.org/10.1038/s43247-026-04100-y
+## A large-scale molecular dynamics investigation of anisotropic hydraulic conductivity in compacted clay system
+- **Journal/date:** Journal of Hydrology / 2026-10-02
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136540
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Anthropogenic aerosol reduction contributes to faster flash drought onset in a changing climate
-- **Journal/date:** Nature Communications / 2026-10-06
-- **DOI:** https://doi.org/10.1038/s41467-026-78230-4
+## Projected droughts readily trigger vegetation decline
+- **Journal/date:** Journal of Hydrology / 2026-10-03
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136545
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Satellite altimetry reveals heterogeneity in global flood peak timing and its shifts
-- **Journal/date:** Communications Earth & Environment / 2026-10-07
-- **DOI:** https://doi.org/10.1038/s43247-026-04115-5
+## Three-dimensional geostatistical inverse modeling of coupled heat and salt tracer tests based on mildly and highly heterogeneous synthetic fields
+- **Journal/date:** Advances in Water Resources / 2026-10-04
+- **DOI:** https://doi.org/10.1016/j.advwatres.2026.105520
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Neonatal overfeeding accelerates age-related sarcopenia and metabolic disorders through lifelong gut mucosa and microbiota programming in mice
-- **Journal/date:** Nature Communications / 2026-10-07
-- **DOI:** https://doi.org/10.1038/s41467-026-78216-2
+## Tracking hydrological drought propagation in river networks: an event-based framework
+- **Journal/date:** Journal of Hydrology / 2026-10-05
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136544
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Multi-omics reveals the DR5-FXR-CHPT1 axis governs hepatocyte pyroptosis via glycerophospholipid remodeling after major partial hepatectomy in male mice
-- **Journal/date:** Nature Communications / 2026-10-07
-- **DOI:** https://doi.org/10.1038/s41467-026-78113-8
+## Improved seasonal hydrological forecasting for Great Britain
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-05
+- **DOI:** https://doi.org/10.5194/hess-30-6189-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Hydrogen bonding in water under extreme confinement
-- **Journal/date:** Nature / 2026-10-07
-- **DOI:** https://doi.org/10.1038/s41586-026-10858-0
+## The ability of LSTM to model snowmelt versus rainfall generated floods
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-06
+- **DOI:** https://doi.org/10.5194/hess-30-6207-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## pH-responsive manganese carboxymethyl chitosan hydrogel releases pesticide to promote rice tillering and suppress root-parasitic weeds
-- **Journal/date:** Nature Communications / 2026-10-08
-- **DOI:** https://doi.org/10.1038/s41467-026-78320-3
+## Integrating rainfall event and antecedent depths into a single probabilistic framework for deriving event depth-duration-antecedent depth-frequency curves
+- **Journal/date:** Journal of Hydrology / 2026-10-06
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136551
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Topologically robust programmable processing arrays using light and matter skyrmions
-- **Journal/date:** Nature Communications / 2026-10-08
-- **DOI:** https://doi.org/10.1038/s41467-026-78249-7
+## Comparative analysis of rainfall erosivity estimation approaches and temporal resolution effects: A critical review supported by an observational case study
+- **Journal/date:** Journal of Hydrology / 2026-10-06
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136512
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Synergistic water and mineral harvesting from seawater
-- **Journal/date:** Nature Water / 2026-10-08
-- **DOI:** https://doi.org/10.1038/s44221-026-00729-3
+## Rod photoreceptors have a dual dependency on both aerobic glycolysis and OXPHOS and diverge metabolically from other retinal neurons
+- **Journal/date:** Science Advances / 2026-10-07
+- **DOI:** https://doi.org/10.1126/sciadv.aeg8687
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Filovirus reactive antibodies in wildlife hunting communities suggest ongoing zoonotic spillover in forested Guinea
-- **Journal/date:** Nature Communications / 2026-10-08
-- **DOI:** https://doi.org/10.1038/s41467-026-77653-3
+## Plenty of fish in the sea, but only one multimodal feather star robot
+- **Journal/date:** Science Advances / 2026-10-07
+- **DOI:** https://doi.org/10.1126/sciadv.aem0495
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Bromide-mediated enhancement of far-UVC/peracetic acid process for selective micropollutant abatement
-- **Journal/date:** Nature Communications / 2026-10-08
-- **DOI:** https://doi.org/10.1038/s41467-026-78410-2
+## Physical and numerical modeling of a novel unsaturated multilayered cover system for mining closure
+- **Journal/date:** Journal of Hydrology / 2026-10-07
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136495
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A universal twist-slide coupling mechanism governs deformations of DNA, RNA, and RNA-DNA hybrid duplexes
-- **Journal/date:** Nature Communications / 2026-10-08
-- **DOI:** https://doi.org/10.1038/s41467-026-78514-9
+## Escalating soil CO 2 degassing correlates with ground uplift and seismicity during the ongoing unrest of Campi Flegrei (2005–2025)
+- **Journal/date:** Science Advances / 2026-10-07
+- **DOI:** https://doi.org/10.1126/sciadv.aei8075
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Topological diversity and scintillating dynamics of dipolar surface twists in a van der Waals magnet
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78513-w
+## A prototype multi-hazard early warning system integrating flood and landslide forecasting: application in the upper Garonne River Basin
+- **Journal/date:** Journal of Hydrology / 2026-10-07
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136580
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Resistance indicators in sewage microbiota mirror clinical antibiotic use with temporal lag linked to host
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78142-3
+## A biohybrid mesh harvester for distributed energy harvesting in living tissues
+- **Journal/date:** Science Advances / 2026-10-07
+- **DOI:** https://doi.org/10.1126/sciadv.aei5963
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Precious metal free tunable manganese oxides for sustainable anion exchange membrane fuel cells
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78358-3
+## The influence of vapor pressure deficit changes on global terrestrial evapotranspiration
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-09
+- **DOI:** https://doi.org/10.5194/hess-30-6249-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Pipeline infrastructure for hydrogen transport in the United States
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78402-2
+## The influence of lakes and reservoirs on estimated flood peaks at hourly vs. daily timescale in the Alps
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-09
+- **DOI:** https://doi.org/10.5194/hess-30-6235-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Non-sewered sanitation systems reshape microplastics into chemically complex and reactive contaminants
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78391-2
+## Land surface model snow formulation sensitivity and a solar-zenith-angle snow covered area scheme evaluated across the western United States
+- **Journal/date:** Journal of Hydrology / 2026-10-09
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136567
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Multi-model collaborative early warning for battery systems with integrated fiber optic sensors
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78461-5
+## Hydrogen isotopes reveal water leakage from the core
+- **Journal/date:** Science Advances / 2026-10-09
+- **DOI:** https://doi.org/10.1126/sciadv.aei4756
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Freezing-induced solid-liquid microphase separation for self-assembly of functional nucleic acid nanoparticles
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78488-8
+## Hydrogeological controls on radial collector well intake: interactions among aquifer properties, clogging, and lateral hydraulics
+- **Journal/date:** Journal of Hydrology / 2026-10-10
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136588
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Fluorine-free polymer binder enables circular manufacturing and recycling of lithium-ion batteries
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78215-3
+## Scenario-adaptive scheduling of cascade hydro-wind-solar-pumped storage systems driven by hydrological variability
+- **Journal/date:** Journal of Hydrology / 2026-10-11
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136585
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A cross-layer 2D photodetection framework for standardized readout and signal fusion
-- **Journal/date:** Nature Communications / 2026-10-09
-- **DOI:** https://doi.org/10.1038/s41467-026-78380-5
+## A water-pinning hot spot drives templated tau aggregation
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-12
+- **DOI:** https://doi.org/10.1073/pnas.2611158123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Onset of zircon decomposition during saprolitic weathering
-- **Journal/date:** Communications Earth & Environment / 2026-10-10
-- **DOI:** https://doi.org/10.1038/s43247-026-04140-4
+## A moveable feast: Neurons become less picky eaters after hibernation
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-12
+- **DOI:** https://doi.org/10.1073/pnas.2630041123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Long-term nitrous acid evolution modulates ozone and secondary aerosol variations in global megacities
-- **Journal/date:** Nature Communications / 2026-10-10
-- **DOI:** https://doi.org/10.1038/s41467-026-78349-4
+## Technical note: A physically based correction of WRF temperature using atmospheric lapse rates for high-resolution hydrological simulations in a glacierized catchment
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-13
+- **DOI:** https://doi.org/10.5194/hess-30-6265-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Intrinsically flexible inorganic piezoelectric subnanowire enables wireless wearable bioelectronics for non-invasive multimodal human-machine interfacing
-- **Journal/date:** Nature Communications / 2026-10-10
-- **DOI:** https://doi.org/10.1038/s41467-026-78557-y
+## Progressive oxidative weathering raised sub-arc mantle fugacity on the Archaean Earth
+- **Journal/date:** Nature Geoscience / 2026-10-14
+- **DOI:** https://doi.org/10.1038/s41561-026-02119-6
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Extensive genomic diversity in Desulfovibrio reveals species-specific functional traits associated with disease
-- **Journal/date:** Nature Communications / 2026-10-10
-- **DOI:** https://doi.org/10.1038/s41467-026-78314-1
+## Plasmonic metasurface microfluidic accelerates redox reactions for rapid phenotypic antibiotic susceptibility testing
+- **Journal/date:** Science Advances / 2026-10-14
+- **DOI:** https://doi.org/10.1126/sciadv.aec7686
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Assessing the potential and cost of enhanced rock weathering in China
-- **Journal/date:** Communications Earth & Environment / 2026-10-10
-- **DOI:** https://doi.org/10.1038/s43247-026-04136-0
+## Nanoconfinement-cooperated catalysis enables rapid tandem redox kinetics for wide-temperature lithium-sulfur batteries
+- **Journal/date:** Science Advances / 2026-10-14
+- **DOI:** https://doi.org/10.1126/sciadv.aej0353
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A dual-attribution framework reveals how foreign investment and trade redistribute cobalt availability
-- **Journal/date:** Nature Communications / 2026-10-10
-- **DOI:** https://doi.org/10.1038/s41467-026-78222-4
+## Learning to infer transitively on a mental line in premotor cortex
+- **Journal/date:** Science Advances / 2026-10-14
+- **DOI:** https://doi.org/10.1126/sciadv.aec2068
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Impact of climate change on the photovoltaic power potential in Sweden across 21st century
-- **Journal/date:** Communications Earth & Environment / 2026-10-11
-- **DOI:** https://doi.org/10.1038/s43247-026-04091-w
+## From scrap to prime: Designing high-performance alloys from dirty feedstocks with machine learning
+- **Journal/date:** Science Advances / 2026-10-14
+- **DOI:** https://doi.org/10.1126/sciadv.aeg9183
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## HCV incidence and prevalence trends among people who use drugs in France 2004 to 2023
-- **Journal/date:** Nature Communications / 2026-10-11
-- **DOI:** https://doi.org/10.1038/s41467-026-78598-3
+## Global proteolysis during starvation governs proteome remodeling and a survival–regrowth trade-off in bacteria
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-15
+- **DOI:** https://doi.org/10.1073/pnas.2611560123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A method quantifying soil melanin to understand fungal impacts on soil carbon stability
-- **Journal/date:** Nature Communications / 2026-10-11
-- **DOI:** https://doi.org/10.1038/s41467-026-78616-4
+## Evidence of vertical soil hydraulic heterogeneity regulating hydrothermal simulations in Qinghai–Tibetan Plateau wetlands
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-15
+- **DOI:** https://doi.org/10.5194/hess-30-6289-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Neuronal signatures of successful one-shot memory in mid-level visual cortex
-- **Journal/date:** Nature Communications / 2026-10-12
-- **DOI:** https://doi.org/10.1038/s41467-026-78369-0
+## Drivers of the likelihood of evolutionary rescue in response to novel infectious diseases
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-15
+- **DOI:** https://doi.org/10.1073/pnas.2614169123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Global rise of a wheat pathogen through two-stage evolutionary emergence coupled with aerial dispersal
-- **Journal/date:** Nature Communications / 2026-10-12
-- **DOI:** https://doi.org/10.1038/s41467-026-78389-w
+## The need for uncertainty: why probabilistic LSTMs are key to improving flood predictions and enabling learned warning rules
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-16
+- **DOI:** https://doi.org/10.5194/hess-30-6339-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Weathering-derived calcium supports carbon storage in grassland soils
-- **Journal/date:** Communications Earth & Environment / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s43247-026-04142-2
+## Substrate-bound structures of yeast ALA synthase reveal protein dynamics initiating heme biosynthesis
+- **Journal/date:** Science Advances / 2026-10-16
+- **DOI:** https://doi.org/10.1126/sciadv.aef7768
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## U.S. oil and gas methane emission intensity declined 2019–2024 with little indication of federal policy impact
-- **Journal/date:** Communications Earth & Environment / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s43247-026-04039-0
+## S -adenosyl-L-homocysteine triggers an adaptive response that extends lifespan through the YBT1 ABC transporter
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-16
+- **DOI:** https://doi.org/10.1073/pnas.2621286123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Soil proteogenomics uncover microbial strategies for soil depth-specific carbon cycling under whole-soil warming conditions
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-78137-0
+## Mechanoadaptive nanowire viscoplastic composites with strain-enhanced conductivity for reprocessable bioelectronic interfaces
+- **Journal/date:** Science Advances / 2026-10-16
+- **DOI:** https://doi.org/10.1126/sciadv.aef5042
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Securing critical rare-earth supply through end-of-life NdFeB magnets recycling via molten salt electrolysis with consumable Mg-cathode
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-78305-2
+## Magneto-mechano-electrochemical fiber for deformation-resilient and smart electronic textiles
+- **Journal/date:** Science Advances / 2026-10-16
+- **DOI:** https://doi.org/10.1126/sciadv.aef4338
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Impact-based flood-damage assessment in Japan under longitudinal typhoon-track perturbations and levee-height variations during Hagibis (2019)
-- **Journal/date:** Communications Earth & Environment / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s43247-026-04077-8
+## Magnetically gated millimeter-scale capsule power system for leadless electrotherapy
+- **Journal/date:** Science Advances / 2026-10-16
+- **DOI:** https://doi.org/10.1126/sciadv.aeh6700
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Epitaxial-strain engineering of supported tensile noble metallene oxides for enhanced oxidation catalysis
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-78119-2
+## Insights from coproduced scenarios toward urban sustainability transformations
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-16
+- **DOI:** https://doi.org/10.1073/pnas.2537819123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Enhancing fairness in climate action through policy packages
-- **Journal/date:** Nature Climate Change / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41558-026-02751-5
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Disrupting the NAD+/NAM metabolic ratio driven by IL-1β inflammatory response potentiates chemotherapy and chemoimmunotherapy in mice
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-78491-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Current aviation roadmaps are not within planetary boundaries
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-77472-6
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Controlled crosslink cleavage and phase separation enable highly stretchable and strong 3D-printed hydrogel for soft robotics
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-78658-8
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## A multi-stage engineering framework for feasible scheduling of large-scale energy batch transport systems
-- **Journal/date:** Nature Communications / 2026-10-13
-- **DOI:** https://doi.org/10.1038/s41467-026-78556-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Whole-genome sequencing reveals inter-household networks of gut-colonising ESBL-producing Escherichia coli in two rural Malawian districts
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78449-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Universal crystallization kinetics of solution-processed semiconductors
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78354-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Surface carbonation governs olivine reactivity for rapid CO2 mineralization
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78548-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Spontaneous ferromagnetic Fe–La geminal atoms with spin and coordination modulation for acidic oxygen reduction
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-77285-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Small viruses reveal bidirectional evolution between HK97-fold viruses and encapsulins via procapsids
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78136-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Replacing anaerobic fermentation with reverse β-oxidation enables growth-coupled evolution for enhanced fatty-alcohol production
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78481-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Origami-inspired folded-interlocked nanofiber aerogels for thermal insulation
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78659-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Orientation tomography of lanthanide-doped nanoprobes by polarization-resolved micro-spectroscopy
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78323-0
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## On predictability of slip, rupture geometry, and speed of the 2025 M7.8 Mandalay, Myanmar, earthquake
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-77203-x
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Geochemical clustering reveals cryptic eruptions and tephra correlations from Antarctic fumarolic ice-cave archives
-- **Journal/date:** Communications Earth & Environment / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s43247-026-04105-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## From ancient practice to modern innovation solving the clay mineral puzzle in brickmaking
-- **Journal/date:** Nature Communications / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41467-026-78652-0
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Citizens’ assemblies propose ambitious climate policy but impacts remain limited
-- **Journal/date:** Nature Climate Change / 2026-10-14
-- **DOI:** https://doi.org/10.1038/s41558-026-02755-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Thromboxane A2 receptor signalling amplifies osteoclastogenesis in rheumatoid arthritis through ACSL1 associated mitochondrial oxidative metabolism
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-78259-5
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Remote sensing of aquatic nutrients from proxy estimation to integration with process models
-- **Journal/date:** Communications Earth & Environment / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s43247-026-04152-0
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Quantifying assets for the geopolitics of climate change mitigation
-- **Journal/date:** Nature Sustainability / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41893-026-01971-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Nickel isotopes in Apollo and Chang’e soils reveal widespread micrometeorite-driven processing of the lunar regolith
-- **Journal/date:** Communications Earth & Environment / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s43247-026-04139-x
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Myosin filaments of vertebrate skeletal and cardiac muscle are highly similar, but not identical
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-78643-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Electronic tuning of dynamic imine bonds enables programmable pore gating in metal–organic frameworks
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-78657-9
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Designing nonlinear perturbative metamaterials that compute
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-78595-6
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Dendritic computation bridges neuroscience and foundation models
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-77929-8
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Closed-loop upcycling of residual lithium in LiFePO4 into tunable thin lithium metal electrodes
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-78696-2
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## A multi-model analysis of hydrogen uptake in a climate-neutral Europe
-- **Journal/date:** Nature Communications / 2026-10-15
-- **DOI:** https://doi.org/10.1038/s41467-026-78681-9
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Regenerable, closed-loop, nonenzymatic continuous glucose monitoring enabled by in situ electrochemical interfacial alkalinization
+## ICU-acquired pneumonia beyond pathogen detection
 - **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78619-1
+- **DOI:** https://doi.org/10.1038/s41467-026-78901-2
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Polymer Brush-Mediated Surface-Initiated Polycondensation Enables sp2C-COF Thin Films with Controlled Crystallinity and High Photocatalytic Performance
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78510-z
+## Canal-mediated water redistribution and ecohydrological responses in an arid inland oasis: Evidence from stable isotopes and remote sensing
+- **Journal/date:** Journal of Hydrology / 2026-10-17
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136609
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## One Health in action: regional innovations and shared challenges in addressing antimicrobial resistance
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78634-2
+## Global patterns of reservoir normal water storage capacities estimated by statistical and machine learning models
+- **Journal/date:** Journal of Hydrology / 2026-10-19
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136648
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Multifunctional submicron-scale porous water-foamed cementitious materials
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78691-7
+## Catalytic reactive-hydrogen membranes for rapid capture and hydrodefluorination of six PFAS of regulatory concern
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-19
+- **DOI:** https://doi.org/10.1073/pnas.2613985123
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## From fragmentation to fault zone architecture as a structural framework for fault weakening
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78254-w
+## Basin-scale evaluation of the Noah-MP land surface model for runoff and snow generation in the Missouri River Basin: insights and recommendations for parameterization scheme selection
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-19
+- **DOI:** https://doi.org/10.5194/hess-30-6359-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Entropy-driven graded molecular selectivity in stacking-fault-programmed crystalline metallacycle membranes
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78655-x
+## Ultrasonic metamaterial at MHz frequencies using microstructured glass
+- **Journal/date:** Science Advances / 2026-10-21
+- **DOI:** https://doi.org/10.1126/sciadv.aef0666
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Cell-free reconstitution reveals synergistic stabilization of microtubule doublets by PACRG and FAP20
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78500-1
+## Stable coexistence and transport of lytic phage infections with migrating bacterial hosts
+- **Journal/date:** Science Advances / 2026-10-21
+- **DOI:** https://doi.org/10.1126/sciadv.aef9265
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Abrupt permafrost thaw overwhelms vegetation-driven erosion reduction in sediment export on the Tibetan Plateau
-- **Journal/date:** Communications Earth & Environment / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s43247-026-04125-3
+## Scentronic: An artificial intelligence–assisted olfactory interface for remote odor sharing and transmission
+- **Journal/date:** Science Advances / 2026-10-21
+- **DOI:** https://doi.org/10.1126/sciadv.aee9266
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## 3D confinement physically regulates cell cycle progression in budding yeast
-- **Journal/date:** Nature Communications / 2026-10-16
-- **DOI:** https://doi.org/10.1038/s41467-026-78414-y
+## How high-pressure ices on large ocean worlds can support habitability: The compatibility of amino acids into ice VI and VII
+- **Journal/date:** Science Advances / 2026-10-21
+- **DOI:** https://doi.org/10.1126/sciadv.aec2045
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Unlocking electric vehicle flexibility in microgrids via lightweight on-charger coordination
-- **Journal/date:** Nature Communications / 2026-10-17
-- **DOI:** https://doi.org/10.1038/s41467-026-78319-w
+## High ambipolar mobility fluorinated MXene for ultrasensitive biosensing transistors
+- **Journal/date:** Science Advances / 2026-10-21
+- **DOI:** https://doi.org/10.1126/sciadv.aeg5289
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Subglacial landforms as proxy for offshore freshened groundwater in formerly glaciated margins
-- **Journal/date:** Communications Earth & Environment / 2026-10-17
-- **DOI:** https://doi.org/10.1038/s43247-026-04149-9
+## All-soft organic electrochemical diodes based on asymmetric active layers for signal isolation in deformable electronics
+- **Journal/date:** Science Advances / 2026-10-21
+- **DOI:** https://doi.org/10.1126/sciadv.aei3178
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Rationally micropatterned antifogging hydrogels counteracting extreme condensation
-- **Journal/date:** Nature Communications / 2026-10-17
-- **DOI:** https://doi.org/10.1038/s41467-026-78429-5
+## Evaluation of SWOT HR PIXC version D water level time series of small lakes
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-22
+- **DOI:** https://doi.org/10.5194/hess-30-6443-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Permeability heterogeneity controls fluid migration and microseismicity evolution in The Geysers geothermal field, California
-- **Journal/date:** Nature Communications / 2026-10-17
-- **DOI:** https://doi.org/10.1038/s41467-026-78210-8
+## Benchmarking convection-permitting climate simulations for hydrometeorological characterizations: a comparative study of WRF-SAAG and observation-based products in Chile
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-22
+- **DOI:** https://doi.org/10.5194/hess-30-6481-2026
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Optical-handedness-driven enantioselective synthesis and programmable chirality encoding of covalent organic frameworks
-- **Journal/date:** Nature Communications / 2026-10-17
-- **DOI:** https://doi.org/10.1038/s41467-026-78524-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Metabolic reprogramming of macrophage-specific transketolase orchestrates angiogenesis in diabetic wounds
-- **Journal/date:** Nature Communications / 2026-10-17
-- **DOI:** https://doi.org/10.1038/s41467-026-78765-6
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Symbiotic nitrogen fixation sustains carbon sinks under warming Tibetan permafrost region
-- **Journal/date:** Communications Earth & Environment / 2026-10-18
-- **DOI:** https://doi.org/10.1038/s43247-026-04085-8
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Transforming electrified railway into mechanical energy storage for electricity system decarbonization
-- **Journal/date:** Nature Communications / 2026-10-19
-- **DOI:** https://doi.org/10.1038/s41467-026-78711-6
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Towards scalable DNA data storage with DNA-SaM codec system
-- **Journal/date:** Nature Communications / 2026-10-19
-- **DOI:** https://doi.org/10.1038/s41467-026-78759-4
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Resolving short-term meteorological variability amplifies projected glacier loss and sea-level rise
-- **Journal/date:** Nature Communications / 2026-10-19
-- **DOI:** https://doi.org/10.1038/s41467-026-78260-y
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Polymer-agnostic crosslinking enables robust high-temperature dielectrics for energy storage
-- **Journal/date:** Nature Communications / 2026-10-19
-- **DOI:** https://doi.org/10.1038/s41467-026-78724-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Human targeting of morphologically unique fishes amplifies the risk of functional erosion
-- **Journal/date:** Nature Communications / 2026-10-19
-- **DOI:** https://doi.org/10.1038/s41467-026-78568-9
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Functional diversity complements taxonomical diversity in productivity-biodiversity relationships in freshwaters
-- **Journal/date:** Communications Earth & Environment / 2026-10-19
-- **DOI:** https://doi.org/10.1038/s43247-026-04169-5
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Identification and genetic characterization of megabase-scale plasmids of Enterobacteriaceae
-- **Journal/date:** Nature Communications / 2026-10-20
-- **DOI:** https://doi.org/10.1038/s41467-026-78742-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Divergent anaerobic fates of biodegradable plastics in landfill leachate
-- **Journal/date:** Nature Communications / 2026-10-20
-- **DOI:** https://doi.org/10.1038/s41467-026-78850-w
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Balancing the Performance Trade-off of Polymer Blends with Heterogeneously Dispersed Nanodomains via Reactive Processing
-- **Journal/date:** Nature Communications / 2026-10-20
-- **DOI:** https://doi.org/10.1038/s41467-026-78704-5
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Strain-engineered fabrication of high-density aligned graphene-based nanoscrolls via UV-tunable adhesive tapes
-- **Journal/date:** Nature Communications / 2026-10-21
-- **DOI:** https://doi.org/10.1038/s41467-026-78264-8
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Regionalized greenhouse gas emissions and infrastructure requirements for future global iron and steel production
-- **Journal/date:** Communications Earth & Environment / 2026-10-21
-- **DOI:** https://doi.org/10.1038/s43247-026-04129-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Kinetic acceleration of phosphate remediation in dilute aquatic environments via photovoltaic-driven solid-state electrolyte electrocoagulation
-- **Journal/date:** Nature Communications / 2026-10-21
-- **DOI:** https://doi.org/10.1038/s41467-026-78830-0
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Free tropospheric halogen oxidation drives mercury deposition in the Asia Pacific region
-- **Journal/date:** Communications Earth & Environment / 2026-10-21
-- **DOI:** https://doi.org/10.1038/s43247-026-04144-0
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Water in kimberlitic olivine provides insights into kimberlite ascent and diamond transport
-- **Journal/date:** Nature Communications / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s41467-026-78870-6
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Observation of inherent chiral Smith–Purcell effect via symmetry breaking
-- **Journal/date:** Nature Communications / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s41467-026-78729-w
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Non-polar surface passivation of PbS Quantum Dots using metal thiolates enables photodiodes rivaling InGaAs performance
-- **Journal/date:** Nature Communications / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s41467-026-78740-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Heatwave-induced capacity bottlenecks in European electricity grids
-- **Journal/date:** Nature Energy / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s41560-026-02151-1
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Determining depth-resolved spatial distribution of solid–electrolyte interphase using non-destructive angle-resolved X-ray photoelectron spectroscopy for lithium-metal batteries
-- **Journal/date:** Nature Communications / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s41467-026-78168-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Canadian lakes show contrasting phosphorus trends across climatic regions
-- **Journal/date:** Communications Earth & Environment / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s43247-026-04113-7
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## A porous solid electrolyte interface enables efficient electroreduction of captured carbon to CO
-- **Journal/date:** Nature Communications / 2026-10-22
-- **DOI:** https://doi.org/10.1038/s41467-026-78954-3
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## ZEB1 maintains energy metabolism to sustain cardiac function through synergistic regulation with TEAD1
-- **Journal/date:** Nature Communications / 2026-10-23
-- **DOI:** https://doi.org/10.1038/s41467-026-78866-2
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Persistent seasonal deoxygenation alters benthic metabolic processes and accelerates hypoxia feedbacks in the Baltic Sea
-- **Journal/date:** Communications Earth & Environment / 2026-10-23
-- **DOI:** https://doi.org/10.1038/s43247-026-04120-8
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Low-carbon technologies support energy security by buffering energy price shocks
-- **Journal/date:** Communications Earth & Environment / 2026-10-23
-- **DOI:** https://doi.org/10.1038/s43247-026-04131-5
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Coupled responses of aboveground and belowground net primary productivity stability to nitrogen deposition in grasslands
-- **Journal/date:** Communications Earth & Environment / 2026-10-23
-- **DOI:** https://doi.org/10.1038/s43247-026-04163-x
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Climate-driven water stress in the United States is seasonal, regional, and shaped by adaptation
-- **Journal/date:** Nature Communications / 2026-10-23
-- **DOI:** https://doi.org/10.1038/s41467-026-78688-2
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Chemistry-infused bandit framework for interpretable autonomous campaign of electrocatalysis
-- **Journal/date:** Nature Communications / 2026-10-23
-- **DOI:** https://doi.org/10.1038/s41467-026-78335-w
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
-
-## Single-atom-doped zeolite electrolyte for quasi-solid-state zinc-iodine batteries
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78832-y
+## Scalable architecture for measurement-induced squeezed light interferometers
+- **Journal/date:** Science Advances / 2026-10-23
+- **DOI:** https://doi.org/10.1126/sciadv.aee5135
 - **Relevance:** Low
-- **Research question:** Can single-atom-doped zeolite electrolytes improve performance and stability of quasi-solid-state zinc-iodine batteries?
-- **Main finding:** Single-atom metal-doped zeolite electrolytes enhance iodine conversion kinetics, suppress polyiodide shuttling, stabilize zinc deposition, and enable long cycle life at high rates.
-- **Significance:** Improves zinc-iodine battery performance and stability, advancing quasi-solid-state battery technology for safer, high-rate energy storage.
+- **Research question:** How can scalable multimode squeezed-light interferometers be realized to overcome optical loss limitations?
+- **Main finding:** A measurement-induced architecture shifts complexity to programmable homodyne measurements, enabling scalable, low-loss squeezed-light interferometers demonstrated up to 400 modes.
+- **Significance:** Provides a practical pathway for scalable quantum technologies critical for quantum computing, simulation, and communication.
 
-## Molecular insights into GPR55 modulation reveal an atypical activation mechanism and glycosylation-dependent efficacy regulation
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78538-1
+## Representing canopy interception in a distributed snow model to improve snow accumulation and melt timing
+- **Journal/date:** Journal of Hydrology / 2026-10-23
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136669
 - **Relevance:** Low
-- **Research question:** How does GPR55 activation and glycosylation regulate ligand efficacy at the molecular level?
-- **Main finding:** Cryo-EM structures reveal an atypical GPR55 activation mechanism and glycosylation-dependent switch converting an inverse agonist into a potent agonist.
-- **Significance:** Provides molecular basis for targeted modulation of GPR55 in diseases related to metabolism, inflammation, and neurodegeneration.
+- **Research question:** How does incorporating canopy interception processes into a distributed snow model affect snow accumulation and melt timing?
+- **Main finding:** Including canopy interception in the iSnobal model improved snow depth predictions and better captured snow cover duration and melt timing.
+- **Significance:** Improved snowmelt modeling enhances water supply forecasting in snow-dominated forested regions, supporting downstream water resource management.
 
-## In the synthetic biology era, engineered fungi could mitigate carbon dioxide emissions and enhance environmental resilience
-- **Journal/date:** Communications Earth & Environment / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s43247-026-04088-5
+## Reconciling flood control and hydropower objectives through optimized spatially-explicit capacity equivalency of cascade reservoirs
+- **Journal/date:** Journal of Hydrology / 2026-10-23
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136664
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Exsolution of metal nanoparticles by control of point defects
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78473-1
+## Multiplexed and implantable fiber sensor for real-time blood monitoring
+- **Journal/date:** Science Advances / 2026-10-23
+- **DOI:** https://doi.org/10.1126/sciadv.aei9767
+- **Relevance:** Low
+- **Research question:** Can a multiplexed implantable fiber sensor enable real-time monitoring of blood sodium and potassium levels?
+- **Main finding:** The developed sensor accurately and stably monitors Na+ and K+ ions in real time within the bloodstream.
+- **Significance:** Enables timely clinical decisions by overcoming delays and inaccuracies of traditional ex vivo blood analysis.
+
+## Integrating a global glacier model into local hydrological modeling: Impacts on melt contributions
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-23
+- **DOI:** https://doi.org/10.5194/hess-30-6511-2026
+- **Relevance:** Medium
+- **Research question:** Does coupling a global glacier model with local hydrological modeling improve accuracy of meltwater source partitioning?
+- **Main finding:** Coupling HBV with GloGEM improves glacier melt estimates and reduces parameter equifinality despite lower streamflow performance.
+- **Significance:** Improved glacier melt constraints enhance reliability of water resource projections under climate change in mountain catchments.
+
+## Hemolymph pressure-mediated friction in the tarsus of the desert locust ( Schistocerca gregaria )
+- **Journal/date:** Science Advances / 2026-10-23
+- **DOI:** https://doi.org/10.1126/sciadv.aeg9427
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Designing rigid protein fiducials to visualize GPCR conformational states
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78942-7
+## Gradient-interlayer–based flexible pressure sensors for high-performance robotic perception
+- **Journal/date:** Science Advances / 2026-10-23
+- **DOI:** https://doi.org/10.1126/sciadv.aej9537
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## Coupled sea-level and biodiversity dynamics during the Cambrian SPICE event
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78601-x
+## Bioinspired ventral-groove fibers for volume-programmable pneumatic actuation
+- **Journal/date:** Science Advances / 2026-10-23
+- **DOI:** https://doi.org/10.1126/sciadv.aeh5116
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## An integrated cathode-electrolyte architecture with Cu dual active-sites for all-solid-state Li–CO2 batteries
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78929-4
+## The role of small hydropower in achieving Sustainable Development Goals
+- **Journal/date:** Nature Reviews Earth & Environment / 2026-10-26
+- **DOI:** https://doi.org/10.1038/s43017-026-00843-6
 - **Relevance:** Not analyzed
 - **Research question:** Not analyzed
 - **Main finding:** Not analyzed
 - **Significance:** Not analyzed
 
-## A synaptic mitochondrion–ribbon–vesicle complex organizes photoreceptor neurotransmission
-- **Journal/date:** Nature Communications / 2026-10-24
-- **DOI:** https://doi.org/10.1038/s41467-026-78869-z
-- **Relevance:** Not analyzed
-- **Research question:** Not analyzed
-- **Main finding:** Not analyzed
-- **Significance:** Not analyzed
+## Propagating shocks and transitions across networked food systems: Insights from multiplayer microeconomic modeling
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-26
+- **DOI:** https://doi.org/10.1073/pnas.2321155123
+- **Relevance:** Medium
+- **Research question:** How do shocks and transitions propagate across networked food, water, and energy systems at subnational scales?
+- **Main finding:** Modeling shows that shocks like droughts and policies propagate through markets and infrastructure, affecting interconnected regions and sectors.
+- **Significance:** Understanding propagation of shocks informs adaptation and development strategies for food security under climate change.
 
-## Programmable roll-to-roll laser processing for high value application of low-grade carbon fiber materials
-- **Journal/date:** Nature Communications / 2026-10-25
-- **DOI:** https://doi.org/10.1038/s41467-026-79120-5
+## Integrating surface-active layer-permafrost hydrological processes: A systematic review and research framework
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-26
+- **DOI:** https://doi.org/10.5194/hess-30-6549-2026
 - **Relevance:** Low
-- **Research question:** Can roll-to-roll laser processing improve the mechanical and electrical properties of low-grade carbon fiber materials?
-- **Main finding:** Laser processing with a liquid precursor forms conductive graphene pathways, significantly enhancing tensile strength and conductivity of carbon fiber felts.
-- **Significance:** Enables high-value applications of abundant low-grade carbon fibers, potentially reducing material waste and advancing lightweight functional materials for aerospace.
+- **Research question:** How can surface-active layer-permafrost hydrological processes be systematically integrated and understood?
+- **Main finding:** A foundational framework integrating surface hydrological processes, active layer functions, and permafrost change impacts was established through systematic review.
+- **Significance:** Provides a holistic understanding of permafrost hydrology critical for predicting water cycle changes under climate warming.
 
-## Organic matter composition modulates its degradation under the combined effects of iron (oxyhydr)oxides and light
-- **Journal/date:** Nature Communications / 2026-10-26
-- **DOI:** https://doi.org/10.1038/s41467-026-79081-9
-- **Relevance:** Low
-- **Research question:** How does organic matter composition influence its degradation under combined effects of iron (oxyhydr)oxides and light?
-- **Main finding:** Organic matter composition determines contrasting degradation responses to iron and light, with some types undergoing oxidation and carbon loss, while others form resistant cross-linked products.
-- **Significance:** Findings inform carbon management and improve process-based carbon cycle models by elucidating how iron and light interactions affect soil and sediment carbon fate.
+## Non-stationary low-flow frequency analysis with mixed Weibull components and Copula-based dependence framework
+- **Journal/date:** Hydrology and earth system sciences / 2026-10-27
+- **DOI:** https://doi.org/10.5194/hess-30-6599-2026
+- **Relevance:** Medium
+- **Research question:** How can low-flow frequency analysis be extended to non-stationary conditions accounting for temporal trends, seasonal heterogeneity, and inter-event dependence?
+- **Main finding:** Non-stationary models better represent evolving low-flow regimes and reduce bias in severity assessments compared to traditional stationary models.
+- **Significance:** Improved low-flow frequency analysis enhances water management under climate change by providing more accurate assessments of extreme low flows.
 
-## Dynamically adaptive soft bioelectronics for neuro-immunomodulatory cancer therapy
-- **Journal/date:** Nature Communications / 2026-10-26
-- **DOI:** https://doi.org/10.1038/s41467-026-79002-w
+## Neuromodulation-inspired gated associative memory networks: Extended memory retrieval and emergent multistability
+- **Journal/date:** Proceedings of the National Academy of Sciences / 2026-10-27
+- **DOI:** https://doi.org/10.1073/pnas.2607559123
 - **Relevance:** Low
-- **Research question:** Can subdiaphragmatic vagus nerve stimulation modulate pancreatic tumor immunity to enhance cancer immunotherapy?
-- **Main finding:** Chronic subdiaphragmatic vagus nerve stimulation suppressed tumor growth and metastasis and enhanced immune response in a pancreatic tumor mouse model.
-- **Significance:** Demonstrates a novel neuromodulation platform that could improve immunotherapy outcomes for solid tumors by reprogramming tumor microenvironments.
-
-## Differentiating Westerly and Asian monsoon dust fluxes to the tropical Pacific Ocean since the late Pliocene
-- **Journal/date:** Communications Earth & Environment / 2026-10-26
-- **DOI:** https://doi.org/10.1038/s43247-026-04172-w
-- **Relevance:** Low
-- **Research question:** How can Westerly and East Asian Winter Monsoon dust fluxes to the tropical Pacific Ocean be differentiated over the last 4 million years?
-- **Main finding:** Westerly dust originates from hyper-arid deserts and responds to global cooling, while Asian monsoon dust comes from semi-arid margins influenced by vegetation cover, showing a nonlinear relationship with wind energetics.
-- **Significance:** Highlights the need to integrate dynamic vegetation impacts and anthropogenic landscape changes on dust flux into Earth System Models to improve predictions of global carbon cycling under climate change.
-
-## An Early Jurassic soft eggshell provides insights into the evolutionary history of dinosaur eggs
-- **Journal/date:** Nature Communications / 2026-10-26
-- **DOI:** https://doi.org/10.1038/s41467-026-78709-0
-- **Relevance:** Low
-- **Research question:** What are the characteristics and evolutionary significance of Early Jurassic soft dinosaur eggshells?
-- **Main finding:** Discovery of a fossilized soft eggshell from an Early Jurassic basal sauropodomorph showing features bridging non-biomineralized and biomineralized eggshells.
-- **Significance:** Improves understanding of dinosaur reproductive biology and evolutionary history of eggshell biomineralization.
-
-## Melanosome evolution shaped sensory biology and terrestrial adaptations in early aquatic vertebrates
-- **Journal/date:** Nature Communications / 2026-10-27
-- **DOI:** https://doi.org/10.1038/s41467-026-78877-z
-- **Relevance:** Low
-- **Research question:** How did melanosome evolution influence sensory biology and terrestrial adaptations in early aquatic vertebrates?
-- **Main finding:** Melanosome morphology is conserved across fish taxa and linked to ecological and physiological adaptations, with distinct patterns in lungfish and eye melanosomes reflecting evolutionary transitions.
-- **Significance:** Provides unique insights into vertebrate sensory evolution and ecological diversification during the water-to-land transition, based on fossilized cellular structures.
-
-## Evaluation of vaccine-induced anti-lipopolysaccharide antibodies against clinically relevant Klebsiella pneumoniae strains to inform vaccine design
-- **Journal/date:** Nature Communications / 2026-10-27
-- **DOI:** https://doi.org/10.1038/s41467-026-79159-4
-- **Relevance:** Low
-- **Research question:** How effective are vaccine-induced anti-lipopolysaccharide antibodies against diverse Klebsiella pneumoniae strains for vaccine design?
-- **Main finding:** Anti-O antigen antibodies show variable killing efficacy depending on capsule type, with some capsule types susceptible and others resistant.
-- **Significance:** Findings inform streamlined vaccine strategies targeting prevalent capsule types to combat neonatal sepsis caused by multidrug-resistant Klebsiella pneumoniae.
-
-## Distinct conformational states of HSV-2 gH/gL captured by cryoEM reveal structural principles governing fusion activation
-- **Journal/date:** Nature Communications / 2026-10-27
-- **DOI:** https://doi.org/10.1038/s41467-026-78793-2
-- **Relevance:** Low
-- **Research question:** What are the distinct conformational states of HSV-2 gH/gL and how do they govern fusion activation?
-- **Main finding:** CryoEM structures reveal pre-activation and intermediate states of HSV-2 gH/gL and suggest a mechanism for fusion activation involving conformational changes.
-- **Significance:** Provides fundamental understanding of herpesvirus membrane fusion activation, potentially informing antiviral strategies.
+- **Research question:** How does neuromodulation-inspired gating affect associative memory network capacity and stability?
+- **Main finding:** Neuromodulator-like gating expands memory capacity, prevents catastrophic breakdown, and creates a continuum of attractor states.
+- **Significance:** Provides a biologically plausible method to enhance computational capabilities in neural circuits and neuromorphic systems.

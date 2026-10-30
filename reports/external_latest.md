@@ -1,0 +1,292 @@
+# Weekly external information monitor
+
+Run date: 2026-10-30
+New records: 32
+
+## IPCC’s Sixty-Fifth Session - IPCC — Intergovernmental Panel on Climate Change
+
+- Date: 2026-10-29
+- Source: IPCC
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rY3A0eW81RUNhYWplUl9BQ3lQV04ybFVZMmlIcl9VQ1JiWEFWRXdrUkxKZHY1dW8wNjg0Y0hPYzE2ZkFXZmNjR1FlRFdSQzF6?oc=5
+
+IPCC’s Sixty-Fifth Session &nbsp;&nbsp; IPCC — Intergovernmental Panel on Climate Change
+
+## Lake Chad Basin project aims at earlier warnings of floods and droughts - World Meteorological Organization WMO
+
+- Date: 2026-10-28
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxQTE5NSWx0VldTcGJsUlJTckdNM1JqNFQwT0FLUU8ycHdhMEZ3OHFWNlhzcUlvNkVHQm16WnVQTkVnYVdWSVh1Tm9mbGVhX0podUpIVV9xMmZjamFuU1JHU1ZMR1ZqZUhKUS1Yck9Mdm9lQ1NtSUM5THNPc2oxM3puTGJaWHZDdmhEdENoZXlqZkRPbXE3UzRrZGtjWQ?oc=5
+
+Lake Chad Basin project aims at earlier warnings of floods and droughts &nbsp;&nbsp; World Meteorological Organization WMO
+
+## Energy Department Closes $5.1 Billion Loan to Lower Electricity Costs and Strengthen Grid Reliability in Iowa and Wisconsin - Department of Energy (.gov)
+
+- Date: 2026-10-28
+- Source: DOE
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMitwFBVV95cUxObzZFWkd4VXJobjVpejA0V2Q3ekZUaW1CM09qOXFQeGtxdFV2UzlEd1NUTHRaWlRnaGt3X2UyWVV2WEVucy1NNmdRZ1NkUEhaTEUwY2ZHUjhUaUNuVHZ1c2ZlR19NblhCZ3JqMUUyY3ZjaGRMcXpxc0pHYmZwT1NjS0lUN0xrRzh0dERIVUlFYlBBY3FUVGJSX1hBanhHRUYtUmxxR0owN2xZX3UtM2dCbmVTVWYzU3M?oc=5
+
+Energy Department Closes $5.1 Billion Loan to Lower Electricity Costs and Strengthen Grid Reliability in Iowa and Wisconsin &nbsp;&nbsp; Department of Energy (.gov)
+
+## How Hydropower Works - Department of Energy (.gov)
+
+- Date: 2026-10-27
+- Source: DOE
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PTUxDOWJDMzVtazRfUVhraDc2TVFpMENqRkZFWmhiOGlOVVJtZFpaZHBUTEFaY3ZhS1VvX2F3cTdqS3JQeGpIQnU4VEtJekdCQnkzLWRzX3dtM09XMFN1ZEs2dHY?oc=5
+
+How Hydropower Works &nbsp;&nbsp; Department of Energy (.gov)
+
+## A New Vision for United States Hydropower - Department of Energy (.gov)
+
+- Date: 2026-10-27
+- Source: DOE
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMieEFVX3lxTFByUklwQXhYb29zb0pHVnFPRUMtN1BhRGptbEhsdEhmRXVQN3FFbkZnUUs4dEw5aThmWjBaaEZoVmU4NnpNMW43UTg0Rnl5R3UycXNNZzdtZVJETFlVTUduX0FoSWs5RGxQT0RMcTl6akthVlB6SmFqbQ?oc=5
+
+A New Vision for United States Hydropower &nbsp;&nbsp; Department of Energy (.gov)
+
+## Pumped Storage Hydropower - Department of Energy (.gov)
+
+- Date: 2026-10-27
+- Source: DOE
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMia0FVX3lxTE4zWnhNZl9pYS1TeEJWV0lxcWxER2F6Rmh1Q2stWkNXVXBDSERxUDFtT3ZtR3N2dVlFUkJHUVJLSk5IcWV2WjZvajdsRkhvbEZOVlJlU2x0d2doNjlyWi1ETURDMlNXcUg5ZjhN?oc=5
+
+Pumped Storage Hydropower &nbsp;&nbsp; Department of Energy (.gov)
+
+## Mythbusters #1 - Water can't produce electricity. - International Hydropower Association (IHA)
+
+- Date: 2026-10-26
+- Source: IHA
+- Topics: Hydropower; Energy systems
+- Link: https://news.google.com/rss/articles/CBMihAFBVV95cUxPcUZJNWpRYWM3dFR0WlBSZ2VCN2Z5cWpZTzRsTVhyZmZtZnlXdk5HNWxHVkFYZm41MEtyMnpQMkdfbWluX3E5NlhSUFRBZk95d3I2MmhwMEdURkFnQWxMN0hwTUFwTFdQUkZVeTJkTFVod3VwTUhoMWJxZUt5b2VJeF9pX28?oc=5
+
+Mythbusters #1 - Water can't produce electricity. &nbsp;&nbsp; International Hydropower Association (IHA)
+
+## Integrated water resources management on a basin level: a training manual - WMO e-Library
+
+- Date: 2026-10-26
+- Source: WMO
+- Topics: Water resources
+- Link: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMURUREdKTDRQZjdGeGp2alRzSjV1bElhOXJKXzBDcHB4NlktY0R2eUdkUl9MM2RQd2lzRThBYThXZWxucE9ZLXYtUGVXUW9lVkJURlUxT2wxOHdNa3hZeFF4THA2enk1UWlZUjNvTklfS3hsMGVDZ0VOYW1hb0h5UDJHYVZYUktxeWJqUWtOVzZzLUc1cjFhVUhGWTNGZVh6Zmt2dFFxc0VMS2x5OWVrTUtpLXpscFhzS2p3QW9XWTFGQQ?oc=5
+
+Integrated water resources management on a basin level: a training manual &nbsp;&nbsp; WMO e-Library
+
+## National Renewable Energy Atlases for Wind, Solar and Hydropower – WMO Implementation Guidelines - WMO e-Library
+
+- Date: 2026-10-26
+- Source: WMO
+- Topics: Hydropower; Energy systems
+- Link: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5WX25EWmtXeThYdGNBTVBTM0hYMFdXeDB6Yng1V2pwMlVKbDFPYnROZ21ZR1RwWU5qWkJDdVd6WUZ5aUhocWE5d2dZNXJnZw?oc=5
+
+National Renewable Energy Atlases for Wind, Solar and Hydropower – WMO Implementation Guidelines &nbsp;&nbsp; WMO e-Library
+
+## Big data for climate change and disaster resilience: realising the benefits for developing countries - WMO e-Library
+
+- Date: 2026-10-26
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPa2hkTlpUYXhkMlp4ZmVyNHk5VE5fdnVud3dUQnNELWU3M1YyRkgtZlpUM1d3TkdQaC1UVkUtamFwdi0wdjZrMDdEaHQyLU1WTGN4ek9ZbVlQV2Y0Tjh0SGQ3aFVvSWlFdzhLQmpFV3RzVURldmsyZWhzNW05akJGbEFOQzF6SXU0ejZUbVRZQl9JSHhOSzR3MXNGc0p3WFZjUlNmdThqWEhLeHRJRTUwZGQ0Mm9ySVRZdFJKUk92LTAyc0NickROYTh1VC02TGo2Nm5EN1I4Ym9lLVgzWFptaXJiWXdjTms?oc=5
+
+Big data for climate change and disaster resilience: realising the benefits for developing countries &nbsp;&nbsp; WMO e-Library
+
+## Mitigating climate change in Nigeria: fuel subsidy removal as a possible policy option - WMO e-Library
+
+- Date: 2026-10-26
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ0FZSGJBbGozdHF4OHloeXEzemtQS25iemRfdlRzVjZEVkRlR0hieEdJeHp3TkdkRU85V0FHWVMtZXBQbk9ldGV1RlZBWFdMcnhQU21HQkNoUzB2X19MN29OcTl2ejhsQm9iWmdBUElZQkJyMHBUNGpWTDRoRHpuNW9TZTAwdnVUSGVzTl9yd1VQbkIxRXJtWWtjMkpZUy1yWjhkWU0tc2RZYzdnT3NOZ2hzbi1ZU0lGb2N3Y3NkMzBldmZqUnkwUjN4TmZQX0U2R2tr?oc=5
+
+Mitigating climate change in Nigeria: fuel subsidy removal as a possible policy option &nbsp;&nbsp; WMO e-Library
+
+## Recovery from disaster: resilience, adaptability and perceptions of climate change - WMO e-Library
+
+- Date: 2026-10-26
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMizAFBVV95cUxOSjZLMEdPME5LYllkOHY4Z29STzg0NmplNEtFNng1cEY4bFBKV0R1eUV0QjFxUGV4VWZ0RUgxTVlsZFVWaUZ6NWY1YjVXWTNtUThrb1VVbXlrd0xhN0wzelNybmRMSlA1Y2t4c2tpcXA4Z1JaRUFBcVZ6STdBMmxqeUdRVG9zbjhKUHloWW1pNGhnd0w4ZEs1MGJSZGFiMkJUZ1BKd29vcW1jMk52T0JhWnNhZ29pVmpqTW41bWYwR3FSLXFRVVlDR05SZWI?oc=5
+
+Recovery from disaster: resilience, adaptability and perceptions of climate change &nbsp;&nbsp; WMO e-Library
+
+## Jobs - PhD position in AI-based prediction and climate change attribution of extreme events - European Geosciences Union
+
+- Date: 2026-10-26
+- Source: EGU
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVB3OHY2RkdQTTlxQW5USFFhb19ibUk3UmVYYVJzZjNBNmtsTnZ3WXAzY1B4dEJ5Y2ZXQUsxMWRmMU9WMmVzN3hpUUNwSWg3dlg4VDZLNlRCQzQtN3AzR1hvOHNMYTd3SEJVdmhmdnZFdi1OWVZEVDRMSVdTY29MSE1OVmhTWWp2WFV2eTdWTU9jUTNjN0NwbXRWMlBWTUwzaUVydVptZnhCT0ZCbjJtT282V2M?oc=5
+
+Jobs - PhD position in AI-based prediction and climate change attribution of extreme events &nbsp;&nbsp; European Geosciences Union
+
+## Supporting the renewable electricity transition through trade - WMO e-Library
+
+- Date: 2026-10-25
+- Source: WMO
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPWFdnZ3hwNTlzWUstOVVqMkRDWXdSQkpfbzU2ZnZVVGRoTHpLVXF3MHdzdXdUTkpIQVN5WVRaSUF4c3lDa0dZWk9Xb29naDRCeUpZdzY3THg1Z2hnbG9VdUlYOS1jYVVvaVVIU25kcDhBdnMxU3FOY3NRVy1ndllPaThoSDhMNS13b1hiWEdfRUFvZ1BNTVRwLWJrSTJudXRyWU9STGlwZw?oc=5
+
+Supporting the renewable electricity transition through trade &nbsp;&nbsp; WMO e-Library
+
+## Socially just adaptation to climate change - WMO e-Library
+
+- Date: 2026-10-25
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVQtX1NWcE1na3RiS1FJQjhBX0Z5R1ZtMTYzN3c2TndTalF2WnE2dWJRcGZIUkJPbGtHUG9oRUk4UkV4WmNORjV5MmJEa2JyQnl2WVBjUWxVZTNwUHNyb0F2V1p5Vl8xR0R6SEZEc1BPdGl1VUd0T29mSDRid1d3Sk4yUThaTHpLc2E2QkxYQ3lEOEppeERscnd6bw?oc=5
+
+Socially just adaptation to climate change &nbsp;&nbsp; WMO e-Library
+
+## Climate change in the South Caucasus: a virtual synthesis - WMO e-Library
+
+- Date: 2026-10-25
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMirgFBVV95cUxQLWFiZURiZXhxQTVCRlRYamlLblcyUzZ0R3NnbHRoVmlxVGtBdUgwaDlfdExmZzBzalMydlpFWXJ4TUJlX2IyZGcwV3NzVW1CNUt0VDRQaHBwVmhNU290Y0x1d2R2ZjRZdmFhazdRd1dIcVRYSHkwUEFmOHF1dHY3TzJHV3VZX3BRQVdqOHEtanpZcWxaaXpsRHpnMHI5ZjlMaG9rcXlJX1lQZVZxbWc?oc=5
+
+Climate change in the South Caucasus: a virtual synthesis &nbsp;&nbsp; WMO e-Library
+
+## Climate and water: On the search for improved interconnections between climate models and scenarios, hydrology and water resources management - WMO e-Library
+
+- Date: 2026-10-25
+- Source: WMO
+- Topics: Water resources
+- Link: https://news.google.com/rss/articles/CBMinAJBVV95cUxPVl9KVkRWeENIR0xZNFBsSV9pRWFJS1ZfOTZNRUZmeXBFOGVXb0F4WkFqQy1yaWljc0o4RFVCbDRPU3h4X2tMZEpsUlBMdjl3R0QzWFFqRVFITkJJOGlfWHpMMGgtdmpUd3g4Qm9mbUFFaHpjWmpIMFAwV1ViTmdLZkRaLUN6MmxyRDdCQkdWbFpLWWlCOHFEbEpKNzNxNXV1akdUQmlpYVJETldtZXE2MFh6aEZhVEV3OXZhWHh4cFNwTWlpWURwcTRndGZGN0RNVnZLdy1icnU2NkFMaVByNGh2dGc2cF8xb2R5bE1KbzF6UVp1VVotOFBqRlc1ZFFWQi1KaHRyQjNmdXIxSFViaWxaeFc5enRtYnRJcQ?oc=5
+
+Climate and water: On the search for improved interconnections between climate models and scenarios, hydrology and water resources management &nbsp;&nbsp; WMO e-Library
+
+## Jobs - PhD Position in Urban Drainage, Stormwater Management and Climate Change Adaptation - European Geosciences Union
+
+- Date: 2026-10-25
+- Source: EGU
+- Topics: Water resources; Climate and drought
+- Link: https://news.google.com/rss/articles/CBMisgFBVV95cUxObHdtYWhHdk9nWm9ZSHIyem8yUmRrdXA4X24wb19hM1dPZjkyeV9qZkZoeE1GaTZQSXlqTVRybjBFSi1sWFREcVFKcDAxbVBkWU1YeFBZODMzVmxfeUg5M2p2U0xrd1paclh5N1RaVjVpT2IxcV92dmJsaGRaY25YZExBUFNFZUU1YzZMeTBmZmRGQjJQRnhEdkZZRWlTQkYxVjFhTHU3NE1xdEhqazI2M2Vn?oc=5
+
+Jobs - PhD Position in Urban Drainage, Stormwater Management and Climate Change Adaptation &nbsp;&nbsp; European Geosciences Union
+
+## Climate change in the Fertile Crescent and implications of the recent Syrian drought - WMO e-Library
+
+- Date: 2026-10-24
+- Source: WMO
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcTFMVW93TWtCWEhrU25tSldCc1IyeEFuVDloSUJTN1pBOUptVDJjRTFVV2lQOGpicV9uV1JOdWt4TXhLemlYOVZNekhYNVRsbWJNSTVrRWZnbmJJdnFzZGp2d1Bra3dZYkRMQUNaWjR5aGgzd2VoX1pGc2hMRUNDUmphRDFIenNuOVRXd2xsY0xtNDBFblhSYzFsRzhCWEJETGVwemlUUnhTbWJHUHZzaUJ1dG5SblZfME1adjBzV2xHUGpTUEFZdjh5X0lkTHU3dWc?oc=5
+
+Climate change in the Fertile Crescent and implications of the recent Syrian drought &nbsp;&nbsp; WMO e-Library
+
+## Section 242: Hydroelectric Production Incentive Program - Department of Energy (.gov)
+
+- Date: 2026-10-23
+- Source: DOE
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMikgFBVV95cUxOX05Ga0Zmbk9BX3JVYTI3dE5tZGlOUmFLYmtHcFA1dmF6VkIzTGk1LTB1S3FLMDRNS2tJYUlkZXA5ejFMbzJYY3A4cWNDRmFRV1lBTXFENzIyX1JVQm1naEZXa2h2QWlGNDRNUmlHUlUwNlEydjNCcWg2MmI2cF9zNGpkd1JrV1o5RDRGQnEtNUZVQQ?oc=5
+
+Section 242: Hydroelectric Production Incentive Program &nbsp;&nbsp; Department of Energy (.gov)
+
+## Energy Department Announces Over $125 Million for 63 Projects Across 16 States to Lower Energy Costs, Expand Electricity Access, and Advance Economic Development for America’s Tribal Communities - Department of Energy (.gov)
+
+- Date: 2026-10-22
+- Source: DOE
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxNeXlJRW1HQy0xa2U3SmhhTkt1SGszN21ORVR2WG9iSDBVSUtubUozZWQxX1hic0FEeEJfbGlEZmhaRFQtaTRTTVJHT1dpQ0NRa05wdjA4Z1hwUHNpcGctdzBRS190MUYyU3ZPeTYybi0xcUJENjFXWnZSYkhzNnN5VzZRMHBhWDN1NzJsY1ZSRVFlMzZhVnBTSUVqQzgwLW01Y2prU0tBcWI5QmJ2cHltNEc4UFpoZmxMTGc?oc=5
+
+Energy Department Announces Over $125 Million for 63 Projects Across 16 States to Lower Energy Costs, Expand Electricity Access, and Advance Economic Development for America’s Tribal Communities &nbsp;&nbsp; Department of Energy (.gov)
+
+## Voices of Hydropower: Ivar Arne Børset - International Hydropower Association (IHA)
+
+- Date: 2026-10-20
+- Source: IHA
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMieEFVX3lxTE1QTWhmdjhHbmNpUDVhcTNDWGZKa0I1TnZFRzhINUlzMUk0Y2Rxa1RtWmoySC0xdGotZnlEN0dkYl9SamJ4eTJ1WjF6eVpJamhVcjB2cTh5eUpvSFY4Q3VkLS1zUTBZaXZIeEc1MXlLalNzUkh6WUd1UQ?oc=5
+
+Voices of Hydropower: Ivar Arne Børset &nbsp;&nbsp; International Hydropower Association (IHA)
+
+## Voices of hydropower: Enrique Sola - International Hydropower Association (IHA)
+
+- Date: 2026-10-20
+- Source: IHA
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMic0FVX3lxTFB1MS1udVdoZFFoNDdvazEzOGRZSTFQOFAtMGE3SDlwR2VEdDJTOXI0Y0owUElGNF9hRWdYYlF5ZXlfcjNrUlVId2JqaDNQQ29YeWQ2TW0zdXllSGctaTdGd1YzQUxGVTdjWE1EZHh1eEZ1cTA?oc=5
+
+Voices of hydropower: Enrique Sola &nbsp;&nbsp; International Hydropower Association (IHA)
+
+## Energy Department Announces New Investments to Strengthen America's Power Grid and Lower Electricity Costs - Department of Energy (.gov)
+
+- Date: 2026-10-20
+- Source: DOE
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHJxX0hWQU5BWU1CenBzN25GcVZuc2h2R1djR0R0UVpPNDJrUDE4eW8tblFSblo2dWpyMXUzWjRmZlBkUFBTRGctN2VUa3lLSkRmeWN4YzdYSDV2aHJoZzlNS19oenMxR0hjelpsMk8ta2R2SXRZdVQ5UXFPTWVwOFV2VFFCaGU1bDB6QnlUQVpraGhyckNHaS0wNkJOSDItZjVDaEZVbUpkOVlaZUJkVEplRXN2bVE?oc=5
+
+Energy Department Announces New Investments to Strengthen America's Power Grid and Lower Electricity Costs &nbsp;&nbsp; Department of Energy (.gov)
+
+## Discover Hydropower Around the World | IHA - International Hydropower Association (IHA)
+
+- Date: 2026-10-19
+- Source: IHA
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMickFVX3lxTE9tRERENGRJR1ZiVEtzS25VUHNWRnkya3B0VmNxRVZvaVpBRDU3Uy1zc3JVajJVc0NVOHRUd1c4c3FRWFpQSXpGR0hNbXI1QVVKc3JHXzFCWU5HVFdIbGxoSjZaOFVLMjVqQVlUYXpBVFNkQQ?oc=5
+
+Discover Hydropower Around the World | IHA &nbsp;&nbsp; International Hydropower Association (IHA)
+
+## World Energy Transition Outlook 2026 1.5C Pathway - IRENA – International Renewable Energy Agency
+
+- Date: 2026-10-13
+- Source: IRENA
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMivAFBVV95cUxQZEtvbHloWXpqdFFPTUhEMk9EeDJwVnBDYWxtSm4xS2tNWDlwb1ZlQlhMWFlCcUtrTThxXzQzdjYxSjZfT2xPdE90bUhHZG43YzlZcnh1cVZub2NzRVVMWmZ3dXZoaVhQRlJ4R0lkOWRLMEtnaWh1RllXZ01FbW5EMmNWSU1ySllCX1lUTFBHemd3UC05MDhsRFpuQU9Zb2F0ckY2V0VNMjliRDgydUIxOS1vZkppdi1qSW96TA?oc=5
+
+World Energy Transition Outlook 2026 1.5C Pathway &nbsp;&nbsp; IRENA – International Renewable Energy Agency
+
+## Electrification with Renewables Holds Key to World’s Energy Needs - IRENA – International Renewable Energy Agency
+
+- Date: 2026-10-13
+- Source: IRENA
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXE3VkQzdk5mUHhYd0hHN2pBaHgyV3ZZcHRRWjZCWFhxRGRreTRrNlhldjF2NFYzTkdJQ1NDNWo1NWxtblhKSHJIMXZmNVJXRm5QOFJqMXlyREcybWdUTGg2OWhocDJ6UnlFRS1MMExlaDlYcVRqNmM0QWdHM2ZjbVdzU2N2UGRLeHV5LWNHeUVvdGhVcS1pUWo0V0VBa2VscnB2MmJBSDdHTnJueXI1YndOcHE?oc=5
+
+Electrification with Renewables Holds Key to World’s Energy Needs &nbsp;&nbsp; IRENA – International Renewable Energy Agency
+
+## World Energy Transition Outlook 2026: 1.5°C Pathway - IRENA – International Renewable Energy Agency
+
+- Date: 2026-10-13
+- Source: IRENA
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ18zRlFDWDN5dnFzWDRfSnFuQXN0UlhRN1NPQmlQTUt6TUxhaFVXS29iUEprelpRbEZTdWNISVZrbXBMVUpDaG02YU5BcmlQcmlzTE95LURSdkIwRy1OdF9GM05BU18ya0JSbWJfTkFEQzhBRF9BZTUySUp5VzN0M1JoRFFOQ0Vt?oc=5
+
+World Energy Transition Outlook 2026: 1.5°C Pathway &nbsp;&nbsp; IRENA – International Renewable Energy Agency
+
+## Can shark skin inspire more efficient hydropower turbines? - International Hydropower Association (IHA)
+
+- Date: 2026-10-09
+- Source: IHA
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0lLUm93VGNqQkN0dExOTl9tUjJyaTg1UHJ4VUQyN1UwemRhd1RURGxqX1NwS0FPaC10cWlqOWNOUGhURG13NkpLMzVhMEFESjZQZW1SWGtZOGRKcVNPdjcyWE04RmtLN3hxMDdmSDlzaFZZN0JYOFJ3dy1tUFVVSkxuZw?oc=5
+
+Can shark skin inspire more efficient hydropower turbines? &nbsp;&nbsp; International Hydropower Association (IHA)
+
+## For tropical forests, record 2024 heat and drought could become annual norm within 20 years - AGU Newsroom
+
+- Date: 2026-10-07
+- Source: AGU
+- Topics: Climate and drought
+- Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxPaTE3RDRsOEhBM2N2RThpYVR1SXMxb0lXRV9BSjQ3N1FEYW5vQkxpaHBNeW9URDA1amk3c3dSRk9TTUczR1lxcWdJUTVvUzVwX0pwT2FhT0RGTWw1VURaWnJnZHJ0TzBNMlpydG5BQWhtdVpVcWk1cW52aG5fdTFBMm9QM2RpT1owcU0yOVdZWmZjVlR6TXdEQkFGczZzSUd0ZEZCWG10eEE5dWRmZVBOandrVXJzbW9PMkFNSWxvX2cxOVZK?oc=5
+
+For tropical forests, record 2024 heat and drought could become annual norm within 20 years &nbsp;&nbsp; AGU Newsroom
+
+## Voices of hydropower: Lamu Audu - International Hydropower Association (IHA)
+
+- Date: 2026-10-06
+- Source: IHA
+- Topics: Hydropower
+- Link: https://news.google.com/rss/articles/CBMib0FVX3lxTE5SZl9iV2Z3am8zSzM2bjJjSFRzZEtaSUZpdjVBbVNlVjJYdWN0RlVzYTRibUpCMG10U1hvQkhURzBvRWFqMzFOYmpEZjZ4SEthVmtYR21uOVBicDYyN3dqWjBSSVZmOEZ6dU5XaUJwRQ?oc=5
+
+Voices of hydropower: Lamu Audu &nbsp;&nbsp; International Hydropower Association (IHA)
+
+## The GEAR Framework: Measuring how renewable energy boosts climate resilience in agriculture - IRENA – International Renewable Energy Agency
+
+- Date: 2026-10-01
+- Source: IRENA
+- Topics: Energy systems
+- Link: https://news.google.com/rss/articles/CBMizwFBVV95cUxQOTZ2SnVuRmxJVFFHXzd5X0x3Z1ZWblNhUVVqam9JVVFtWjNpVkQ4czI5ZHhCdGpaY1F2NWdTY1hobkY1bnYwUE1fWDJLNklSMGNhWGMxT2ZqUjhtOFl5aXY4YS13Z18zNzh4SWNKM3Z1T1RkT3JPeE5pUU1KSDhnb1RaZWlKcnREQ1BtQUR2NF8wRWp0eXZfRWJzSXJrR3F1akJDR1o2bWx3ZWdsOTJPX0JXd3ZCVU45bEVieDU4NWxGeUVwS1BtcXZUbkRNVVU?oc=5
+
+The GEAR Framework: Measuring how renewable energy boosts climate resilience in agriculture &nbsp;&nbsp; IRENA – International Renewable Energy Agency
