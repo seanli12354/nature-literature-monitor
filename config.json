@@ -1,11 +1,20 @@
+
 {
   "journals": [
-    "Nature", "Nature Energy", "Nature Sustainability", "Nature Climate Change",
-    "Nature Communications", "Communications Earth & Environment"
+    "Nature",
+    "Nature Energy",
+    "Nature Sustainability",
+    "Nature Climate Change",
+    "Nature Water",
+    "Nature Communications",
+    "Communications Earth & Environment"
   ],
   "queries": [
     "hydropower renewable integration",
     "hydropower reservoir operation",
+    "hydropower climate change",
+    "water energy nexus",
+    "reservoir management",
     "energy system decarbonization",
     "energy storage flexibility",
     "renewable energy land use",
@@ -14,6 +23,6 @@
   "start_date": "2021-01-01",
   "lookback_days": 30,
   "max_pages_per_query": 5,
-  "max_ai_papers_per_run": 35,
+  "max_ai_papers_per_run": 10,
   "ai_model": "gpt-4.1-mini"
 }
