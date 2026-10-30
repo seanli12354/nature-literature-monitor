@@ -81,22 +81,25 @@ def resolve_journals():
     return ids
 
 
+
 def collect(sources, from_date, to_date):
     results = {}
     source_ids = "|".join(sources.values())
+
     for query in CONFIG["queries"]:
         for page in range(1, CONFIG["max_pages_per_query"] + 1):
+            payload = openalex("works", {
+                "filter": (
+                    f"primary_location.source.id:{source_ids},"
+                    f"from_publication_date:{from_date},"
+                    f"to_publication_date:{to_date},"
+                    f"title_and_abstract.search:{query}"
+                ),
+                "per_page": 100,
+                "page": page,
+            })
 
-payload = openalex("works", {
-    "filter": (
-        f"primary_location.source.id:{source_ids},"
-        f"from_publication_date:{from_date},"
-        f"to_publication_date:{to_date},"
-        f"title_and_abstract.search:{query}"
-    ),
-    "per_page": 100,
-    "page": page,
-})
+
 
             works = payload.get("results", [])
             for w in works:
