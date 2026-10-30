@@ -65,6 +65,38 @@ TOPICS = {
     ],
 }
 
+EXCLUDED_TERMS = [
+            "search -",
+            "events -",
+            "animation",
+            "section 24",
+            "production incentive",
+            "discover hydropower",
+            "session",
+            "shark skin",
+            "job opening",
+            "job vacancy",
+            "phd position",
+            "postdoctoral position",
+            "career opportunity",
+            "how it works",
+            "what is hydropower",
+            "internship",
+            "jobs -",
+            "basics",
+            "types of hydropower",
+            "benefits of hydropower",
+            "how hydropower works",
+            "voices of hydropower",
+            "mythbusters",
+            "hydropower office",
+            "hydrokinetic office",
+            "incentive program",
+            "hydroelectric incentives",
+            "e-library",
+            "training manual"
+        ]
+
 FIELDS = [
     "id", "date", "source", "category",
     "title", "summary", "url",
@@ -87,6 +119,10 @@ def build_rss_url(domain):
             "ceid": "US:en"
         })
     )
+
+
+def title_key(source, title):
+    return (source, re.sub(r"[^a-z0-9]", "", title.lower()))
 
 
 def clean(text):
@@ -137,35 +173,9 @@ def fetch_source(name, domain, cutoff):
         if not title or not url or not published:
             continue
 
-
-        
-        excluded_terms = [
-            "job opening",
-            "job vacancy",
-            "phd position",
-            "postdoctoral position",
-            "career opportunity",
-            "how it works",
-            "what is hydropower",
-            "internship",
-            "jobs -",
-            "basics",
-            "types of hydropower",
-            "benefits of hydropower",
-            "how hydropower works",
-            "voices of hydropower",
-            "mythbusters",
-            "hydropower office",
-            "hydrokinetic office",
-            "incentive program",
-            "hydroelectric incentives",
-            "e-library",
-            "training manual"
-        ]
-
         if any(
             term in title.lower()
-            for term in excluded_terms
+            for term in EXCLUDED_TERMS
         ):
             continue
 
@@ -298,7 +308,14 @@ def main():
         timezone.utc
     ) - timedelta(days=LOOKBACK_DAYS)
 
-    existing = load_existing()
+    existing = {}
+    seen = set()
+    for row in sorted(load_existing().values(), key=lambda x: x["date"]):
+        key = title_key(row["source"], row["title"])
+        if key in seen or any(term in row["title"].lower() for term in EXCLUDED_TERMS):
+            continue  # also clean records stored by earlier versions
+        seen.add(key)
+        existing[row["id"]] = row
     new_rows = []
     errors = []
 
@@ -308,12 +325,12 @@ def main():
 
             count = 0
 
-            seen_titles = {(r["source"], r["title"].casefold()) for r in existing.values()}
+            seen_titles = {title_key(r["source"], r["title"]) for r in existing.values()}
             for row in found:
-                title_key = (row["source"], row["title"].casefold())
-                if title_key in seen_titles:
+                title_key = title_key(row["source"], row["title"])
+                if tkey in seen_titles:
                     continue  # Google News often lists one page under several URLs
-                seen_titles.add(title_key)
+                seen_titles.add(tkey)
                 if row["id"] not in existing:
                     existing[row["id"]] = row
                     new_rows.append(row)

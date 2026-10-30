@@ -149,7 +149,7 @@ def merge(results, rec, field, value):
         results[rec["key"]][field] = "; ".join(x for x in (results[rec["key"]][field], value) if x)
 
 
-def paged(filter_str, label, sources, results, field, value):
+def paged(filter_str, label, sources, results, field, value, any_journal=False):
     journals = {j.casefold() for j in sources}
     cursor, n = "*", 0
     for _ in range(CONFIG["max_pages_per_query"]):
@@ -157,7 +157,7 @@ def paged(filter_str, label, sources, results, field, value):
         works = payload.get("results", [])
         for w in works:
             journal = source_name(w)
-            if journal.casefold() in journals:
+            if any_journal or journal.casefold() in journals:
                 seed_mode = field == "seed"
                 merge(results, record(w, journal, "" if seed_mode else value, value if seed_mode else ""), field, value)
         n += len(works)
@@ -178,8 +178,10 @@ def collect(sources, seeds, from_date, to_date):
         paged(f"{base},title_and_abstract.search:{query}", query, sources, results, "query", query)
     seed_from = CONFIG.get("seed_from_date", from_date)
     for seed_id, title in seeds.items():
-        seed_base = f"primary_location.source.id:{source_ids},from_publication_date:{seed_from},to_publication_date:{to_date}"
-        paged(f"{seed_base},cites:{seed_id}", f"cites {title[:60]}", sources, results, "seed", title[:80])
+        any_journal = bool(CONFIG.get("seed_any_journal", False))
+        seed_base = (f"from_publication_date:{seed_from},to_publication_date:{to_date}" if any_journal else
+                     f"primary_location.source.id:{source_ids},from_publication_date:{seed_from},to_publication_date:{to_date}")
+        paged(f"{seed_base},cites:{seed_id}", f"cites {title[:60]}", sources, results, "seed", title[:80], any_journal)
     return results
 
 
@@ -202,8 +204,7 @@ def analyze(row):
     key = os.environ.get("OPENAI_API_KEY", "")
     if not key:
         raise RuntimeError("Set OPENAI_API_KEY")
-    if not row.get("abstract"):
-        return {"evidence_status": "No abstract; AI analysis skipped"}
+    title_only = not row.get("abstract")
     response = request_json(
         "https://api.openai.com/v1/chat/completions",
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
@@ -213,13 +214,16 @@ def analyze(row):
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT + CONFIG.get("research_interests", "")},
                 {"role": "user", "content": json.dumps(
-                    {k: row[k] for k in ("title", "journal", "type", "abstract", "doi")}, ensure_ascii=False)},
+                    {**{k: row.get(k, "") for k in ("title", "journal", "type", "abstract", "doi")},
+                     **({"note": "No abstract available: judge relevance from the title only and write "
+                                 "'Not established from title' for findings and gaps."} if title_only else {})},
+                    ensure_ascii=False)},
             ],
         },
     )
     parsed = json.loads(response["choices"][0]["message"]["content"])
     return {**{f: str(parsed.get(f, "")) for f in AI_FIELDS},
-            "evidence_status": "Abstract only",
+            "evidence_status": "Title only (no abstract in OpenAlex)" if title_only else "Abstract only",
             "analyzed_at": datetime.now(timezone.utc).date().isoformat()}
 
 
@@ -326,7 +330,7 @@ def main():
         if row.get("prefilter") != "pass" and not row.get("analyzed_at"):
             row["evidence_status"] = f"Skipped by keyword prefilter ({row.get('prefilter')})"
     pending = [r for r in existing.values()
-               if r.get("prefilter") == "pass" and not r.get("analyzed_at") and r.get("abstract")]
+               if r.get("prefilter") == "pass" and not r.get("analyzed_at")]
     pending.sort(key=lambda r: (float(r.get("citations_per_year") or 0), r.get("published", "")), reverse=True)
     budget = int(CONFIG["max_ai_papers_per_run"])
     failures = []

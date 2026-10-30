@@ -36,7 +36,11 @@
   "seed_dois": [
     "10.1038/s44221-023-00126-0",
     "10.1038/s41467-019-12810-5",
-    "10.1038/s41893-025-01626-5"
+    "10.1038/s41893-025-01626-5",
+    "10.1038/s44221-026-00617-w",
+    "10.1038/s44221-025-00408-9",
+    "10.1038/s41893-024-01367-x",
+    "10.1029/2025wr042832"
   ],
   "seed_from_date": "2019-01-01",
   "must_include_any": [
@@ -76,7 +80,7 @@
   "start_date": "2021-01-01",
   "lookback_days": 180,
   "max_pages_per_query": 5,
-  "max_ai_papers_per_run": 60,
+  "max_ai_papers_per_run": 150,
   "ai_model": "gpt-4.1-mini",
   "must_also_include_any": [
     "electricity",
@@ -88,5 +92,6 @@
     "wind",
     "photovoltaic",
     "generation"
-  ]
+  ],
+  "seed_any_journal": true
 }
