@@ -138,6 +138,26 @@ def fetch_source(name, domain, cutoff):
         if not title or not url or not published:
             continue
 
+
+        
+        excluded_terms = [
+            "job opening",
+            "job vacancy",
+            "phd position",
+            "postdoctoral position",
+            "career opportunity",
+            "how it works",
+            "what is hydropower",
+            "internship"
+        ]
+
+        if any(
+            term in title.lower()
+            for term in excluded_terms
+        ):
+            continue
+
+        
         if published < cutoff:
             continue
 
