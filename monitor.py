@@ -96,15 +96,48 @@ def resolve_journals():
 
 
 def resolve_preprints():
+    """Find preprint repositories, tolerating OpenAlex source naming differences."""
     ids = {}
-    for name in CONFIG.get("preprint_platforms", []):
-        data = openalex("sources", {"search": name, "per_page": 50})
-        for source in data.get("results", []):
-            if source.get("display_name", "").casefold() == name.casefold() and source.get("type") == "repository":
-                ids[source["id"].split("/")[-1]] = name
-        if name not in ids.values():
-            print(f"WARNING: Preprint platform unavailable in OpenAlex: {name}", file=sys.stderr)
+    aliases = {
+        "arXiv": ("arxiv", "arxiv.org"),
+        "EarthArXiv": ("eartharxiv", "eartharxiv.org"),
+        "ESS Open Archive": ("ess open archive", "essopenarchive", "essopenarchive.org"),
+    }
+    for platform in CONFIG.get("preprint_platforms", []):
+        for term in aliases.get(platform, (platform.casefold(),)):
+            data = openalex("sources", {"search": term, "per_page": 100})
+            for source in data.get("results", []):
+                name = (source.get("display_name") or "").casefold()
+                homepage = (source.get("homepage_url") or "").casefold()
+                if any(a in name or a in homepage for a in aliases.get(platform, ())):
+                    ids[source["id"].split("/")[-1]] = platform
+        if platform not in ids.values():
+            print(f"WARNING: No repository source resolved for {platform}; checking preprint metadata", file=sys.stderr)
+    print(f"Preprint repository IDs: {ids}", flush=True)
     return ids
+
+
+def preprint_platform(work, preprints):
+    """Classify using all locations and known DOI/URL identifiers."""
+    locations = [work.get("primary_location") or {}, *(work.get("locations") or [])]
+    for loc in locations:
+        source = loc.get("source") or {}
+        sid = (source.get("id") or "").split("/")[-1]
+        if sid in preprints:
+            return preprints[sid]
+        label = " ".join(str(v or "") for v in (
+            source.get("display_name"), source.get("homepage_url"),
+            loc.get("landing_page_url"), loc.get("pdf_url"))).casefold()
+        if "eartharxiv" in label:
+            return "EarthArXiv"
+        if "essopenarchive" in label or "ess open archive" in label:
+            return "ESS Open Archive"
+        if "arxiv.org" in label or "arxiv" in (source.get("display_name") or "").casefold():
+            return "arXiv"
+    doi = normalize_doi(work.get("doi"))
+    if doi.startswith("10.48550/arxiv."):
+        return "arXiv"
+    return ""
 
 
 def history_start(today):
@@ -122,7 +155,7 @@ def resolve_seeds():
 
 def contains_term(text, term):
     """Match a term as words, not arbitrary substrings such as 'dam' in 'damage'."""
-    escaped = re.escape(term.casefold()).replace(r"\\ ", r"\\s+")
+    escaped = re.escape(term.casefold()).replace(r"\ ", r"\s+")
     return bool(re.search(r"(?<![a-z0-9])" + escaped + r"(?![a-z0-9])", text))
 
 
@@ -189,8 +222,11 @@ def paged(filter_str, label, sources, preprints, results, field, value, limit):
             source = (work.get("primary_location") or {}).get("source") or {}
             name = (source.get("display_name") or "").strip()
             sid = (source.get("id") or "").split("/")[-1]
-            if sid in preprints:
-                status, journal = "Preprint", preprints[sid]
+            platform = preprint_platform(work, preprints)
+            if platform and (work.get("type") in ("preprint", "posted-content") or
+                             (source.get("type") == "repository") or
+                             normalize_doi(work.get("doi")).startswith("10.48550/arxiv.")):
+                status, journal = "Preprint", platform
             elif name.casefold() in journals and sid in sources.values():
                 status, journal = "Published", name
             else:
@@ -231,6 +267,13 @@ def collect(sources, preprints, seeds, from_date, to_date):
                  f"from_publication_date:{from_date},to_publication_date:{to_date},"
                  f"title_and_abstract.search:{query}")
             paged(f, f"{label}: {query}", sources, preprints, results, "query", query, limit)
+    # A second discovery path is essential: many preprints are not primary_location
+    # records of their repository, and some OpenAlex repository names differ.
+    for query in CONFIG["queries"]:
+        generic = (f"type:preprint,from_publication_date:{from_date},"
+                   f"to_publication_date:{to_date},title_and_abstract.search:{query}")
+        paged(generic, f"Preprint type: {query}", sources, preprints, results,
+              "query", query, int(CONFIG.get("preprint_max_pages_per_query", 10)))
     all_ids = "|".join(x for x in (journal_ids, preprint_ids) if x)
     for seed_id, title in seeds.items():
         f = (f"primary_location.source.id:{all_ids},"
@@ -294,6 +337,10 @@ def load_rows():
             row["evidence_status"] = f"Skipped by keyword prefilter ({row['prefilter']})"
         for f in ("query", "seed", "type", "citations_per_year", "publication_status", "source_platform"):
             row.setdefault(f, "")
+        if not row.get("publication_status"):
+            row["publication_status"] = "Published"
+        if not row.get("source_platform"):
+            row["source_platform"] = row.get("journal", "")
         if not row.get("citations_per_year"):
             row["citations_per_year"] = citations_per_year(float(row.get("citations") or 0), row.get("published", ""))
     return rows
@@ -381,7 +428,7 @@ def main():
              and row.get("publication_status", "Published") != "Preprint")
             or (row.get("publication_status") == "Preprint"
                 and row.get("source_platform", "").casefold()
-                in {name.casefold() for name in preprints.values()})
+                in {name.casefold() for name in CONFIG.get("preprint_platforms", [])})
         )
     }
     print(f"Removed {old_count - len(existing)} old/off-list records")
