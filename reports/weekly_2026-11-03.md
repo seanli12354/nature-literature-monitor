@@ -1,6 +1,6 @@
 # Literature monitor — 2026-11-03
 
-**Window:** 2026-05-07 to 2026-11-03  |  **New this run:** 36  |  **High/Medium relevance in database:** 327
+**Window:** 2026-05-07 to 2026-11-03  |  **New this run:** 56  |  **High/Medium relevance in database:** 271
 
 Based on OpenAlex metadata and abstracts only, not full-text review.
 
@@ -412,7 +412,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Balancing energy, water, and ecology through renewable energy transitions in the Yellow River Basin
 - **Journal/date/type:** Nature Communications / 2026-07-27 / article
 - **DOI:** https://doi.org/10.1038/s41467-026-76078-2  |  **Citations/yr:** 2.0
-- **Found via:** ("pumped storage" OR "pumped hydro"); ("water-energy" OR "water energy nexus" OR "energy-water"); (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Solar and wind energy enhances drought resilience and groundwater sustainability
+- **Found via:** ("pumped storage" OR "pumped hydro"); ("water-energy" OR "water energy nexus" OR "energy-water"); (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar OR wind) AND ("water saving" OR "water conservation" OR "stored water" OR "water balance" OR "water level" OR "carryover storage"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Solar and wind energy enhances drought resilience and groundwater sustainability
 - **Relevance:** High  |  **Scope:** Regional
 - **Stated gap / future work:** None stated explicitly in the abstract; however, the study implies the need for holistic strategies and basin-wide cooperation to implement such integrated renewable energy systems.
 - **Real-world hook:** The study is tied to the renewable energy transition and sustainable development goals in the Yellow River Basin, a region facing significant sustainability pressures.
@@ -421,7 +421,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Balancing equity and efficiency in transboundary water systems with Atkinson’s welfare function
 - **Journal/date/type:** Nature Water / 2026-06-24 / article
 - **DOI:** https://doi.org/10.1038/s44221-026-00671-4  |  **Citations/yr:** 2.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** High  |  **Scope:** Transferable mechanism
 - **Stated gap / future work:** None stated explicitly, but the framework's adaptability to changing objectives suggests further exploration in diverse contexts and dynamic conditions.
 - **Real-world hook:** Application to hydropower operations and floating photovoltaic expansion in the Zambezi Watercourse, a transboundary water system.
@@ -454,15 +454,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Application of a Forecast-Informed Scheduler for Hydropower (FIScH) to 242 hydropower facilities representing 86% of conventional capacity in the Western Interconnection over a 20-year period.
 - **Direction hint:** Investigate which hydrologic events most critically affect hydropower scheduling and revenue under forecast uncertainty to improve operational flexibility for integrating variable renewables.
 
-## Water Resources Planning Under Deep Uncertainty and Multiple Criteria–An Example in the Senegal River Basin
-- **Journal/date/type:** Water Resources Research / 2025-12-01 / article
-- **DOI:** https://doi.org/10.1029/2025wr041058  |  **Citations/yr:** 1.1
-- **Found via:** ("deep uncertainty" OR "robust decision" OR satisficing) AND (water OR hydropower OR energy)
-- **Relevance:** High  |  **Scope:** Regional with transferable mechanisms
-- **Stated gap / future work:** None stated explicitly, but the approach implies further application to other basins and exploration of additional flexibility options could be valuable.
-- **Real-world hook:** Application to the Senegal River Basin and the sequential construction plan of the Koukoutamba, Boureya, and Gourbassi dams (KBG development pathway).
-- **Direction hint:** Investigate how flexible reservoir operation strategies incorporating delay and cancellation options can enhance hydropower system robustness under climate and demand uncertainties in other hydropower-dependent basins.
-
 ## An Integer Programming Model for the Selection of Pumped‐Hydro Storage Projects
 - **Journal/date/type:** Water Resources Research / 2021-12-27 / article
 - **DOI:** https://doi.org/10.1029/2020wr028625  |  **Citations/yr:** 0.8
@@ -475,7 +466,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Seasonal hydropower forecast framework using a combination of deep learning and physics-based methods
 - **Journal/date/type:** EarthArXiv / 2026-10-29 / preprint
 - **DOI:** https://doi.org/10.31223/x50b98  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Found via:** (hydropower OR hydroelectric) AND ("hydraulic head" OR "turbine efficiency" OR "unit commitment" OR "turbine discharge") AND (photovoltaic OR solar OR wind); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** High  |  **Scope:** Regional
 - **Stated gap / future work:** The framework is not a plant-operations model and does not explicitly represent plant-specific submonthly constraints, flood-control optimization, turbine release versus spill, dynamic hydraulic head, market dispatch, or changing operating priorities.
 - **Real-world hook:** Provides probabilistic hydropower indicators for regional resource-adequacy planning in North America using seasonal forecasts.
@@ -484,11 +475,20 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Water as a Battery: Using Hydropower Flexibility to Support the Grid
 - **Journal/date/type:** arXiv / 2026-10-25 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2610.34089  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** High  |  **Scope:** Regional
 - **Stated gap / future work:** None stated
 - **Real-world hook:** Meeting 99.9% availability targets for rapidly increasing data center loads on the grid using sustainable energy resources.
 - **Direction hint:** Investigate how hydropower flexibility can be integrated with variable renewables and storage in diverse geographic and operational contexts to optimize grid support for new high-demand loads.
+
+## Complementary operation rules of hydropower-photovoltaic systems to prevent power curtailment
+- **Journal/date/type:** Applied Energy / 2026-09-25 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128872  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar OR wind) AND ("water saving" OR "water conservation" OR "stored water" OR "water balance" OR "water level" OR "carryover storage"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Evaluation of the risk and benefit of the complementary operation of the large w
+- **Relevance:** High  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate specific operational strategies that coordinate hydropower and PV generation to minimize curtailment and optimize reservoir use.
 
 ## Stochastic inflows and seasonal water value at Manantali
 - **Journal/date/type:** arXiv / 2026-09-23 / preprint
@@ -508,10 +508,19 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** None stated
 - **Direction hint:** How can the InFlow framework be adapted and calibrated for operational reservoir systems to improve hydropower flexibility and risk management under climate-induced inflow uncertainties?
 
+## Unlocking the potential of existing dams: A multi-mode comparison of pumped storage for hydro-wind-solar integration
+- **Journal/date/type:** Renewable Energy / 2026-08-21 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126347  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Balancing-oriented hydropower operation makes the clean energy transition more a; Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Relevance:** High  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how pumped storage at existing dams can optimize complementary operation of hydro and solar PV to reduce spill and improve water accounting.
+
 ## Adaptive Turbine Replacement Improves Hydropower Flexibility in a Changing Climate
 - **Journal/date/type:** Water Resources Research / 2026-08-01 / article
 - **DOI:** https://doi.org/10.1029/2026wr043639  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); reservoir AND ("operating rule" OR "operating rules" OR "rule curve" OR "flood limited water level" OR "flood control level" OR refill OR impoundment) AND (hydropower OR hydroelectric) | cites Complementary operation with wind and photovoltaic power induces the decrease in
 - **Relevance:** High  |  **Scope:** Transferable mechanism
 - **Stated gap / future work:** Determining optimal timing signals for turbine replacement and identifying configurations that deliver robust gains under diverse hydrologic futures remain central challenges.
 - **Real-world hook:** Application to the Hoover Hydropower Plant demonstrates practical relevance for hydropower modernization and adaptation to future uncertainty and demand growth.
@@ -535,6 +544,24 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The framework is designed to comply with competitive electricity market rules and produce market-consistent energy and reserve offers.
 - **Direction hint:** How can stochastic scheduling frameworks for VS-PSH be integrated with broader power system models to assess their flexibility benefits for wind and solar integration under climate and drought uncertainties?
 
+## Medium- and long-term contract energy decision-making for hydro–wind–solar complementary systems under multivariate uncertainty
+- **Journal/date/type:** Energy Conversion and Management / 2026-07-16 / article
+- **DOI:** https://doi.org/10.1016/j.enconman.2026.121910  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Evaluation of the risk and benefit of the complementary operation of the large w
+- **Relevance:** High  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** How can contract energy decision-making frameworks incorporate the timing and uncertainty of hydro-solar complementary operations to optimize reservoir storage and turbine releases?
+
+## Power shortages in hydro-wind-photovoltaic complementary systems: occurring conditions, temporal patterns, and planning implications
+- **Journal/date/type:** Applied Energy / 2026-07-13 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128427  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Economic operation of a wind-solar-hydro complementary system considering risks ; Robust hydroelectric unit commitment considering integration of large-scale phot; Evaluation of the risk and benefit of the complementary operation of the large w; Short-term risk-management for hydro-wind-solar hybrid energy system considering
+- **Relevance:** High  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how integrating solar PV with hydropower and wind affects reservoir operations and power shortages, focusing on timing and storage management.
+
 ## Degradation-Aware Pumping Control of Variable-Speed Pumped Storage via Residual Reinforcement Learning
 - **Journal/date/type:** arXiv / 2026-07-08 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2607.06911  |  **Citations/yr:** 0.0
@@ -547,7 +574,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Stress Testing Hydropower Operation Under Variable Renewable Energy Integration: Potential Impacts and Dynamically Adaptive Strategies
 - **Journal/date/type:** Water Resources Research / 2026-07-01 / article
 - **DOI:** https://doi.org/10.1029/2025wr042832  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar OR wind) AND ("water saving" OR "water conservation" OR "stored water" OR "water balance" OR "water level" OR "carryover storage"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
 - **Relevance:** High  |  **Scope:** Regional with transferable mechanism (the ST-SDDP framework can be adapted to other systems).
 - **Stated gap / future work:** None stated explicitly, but the abstract implies further exploration of adaptive operational paradigms under evolving external environments and multisectoral water management demands.
 - **Real-world hook:** Implementation on a hydro-wind-solar clean energy base in Southwest China, reflecting real regional energy system challenges.
@@ -571,10 +598,19 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study supports planning and assessment of Forecast-Informed Reservoir Operations (FIRO), a strategy enabled by recent advances in weather forecast skill to manage reservoirs more flexibly.
 - **Direction hint:** How can FIRO strategies be integrated with additional adaptation measures to enhance reservoir operational flexibility in snow-dominated basins under climate warming?
 
+## From linear to nonlinear: Deriving long-term operating rules for hydro-wind-photovoltaic complementary systems with deep reinforcement learning
+- **Journal/date/type:** Energy / 2026-06-14 / article
+- **DOI:** https://doi.org/10.1016/j.energy.2026.141672  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Relevance:** High  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how deep reinforcement learning can optimize reservoir operating rules to manage turbine releases and spill under variable solar and wind generation.
+
 ## GSDD, A Catchment-Scale Global Streamflow Drought Database based on Observed Daily Discharge
 - **Journal/date/type:** EarthArXiv / 2026-06-13 / preprint
 - **DOI:** https://doi.org/10.31223/x5wv2v  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout); (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
+- **Found via:** (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout); (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
 - **Relevance:** High  |  **Scope:** Global or transferable mechanism
 - **Stated gap / future work:** Current global drought datasets lack fine temporal resolution streamflow drought data; GSDD-v1 addresses this gap but further applications for reservoir planning and drought risk assessment are implied next steps.
 - **Real-world hook:** The dataset supports climate-resilient water management and reservoir planning relevant to hydropower production and agricultural operations under drought conditions.
@@ -588,6 +624,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** The necessity of improving future reservoir operation policies to better reconcile drought mitigation and hydropower benefits is underscored, implying further research on optimal operation strategies.
 - **Real-world hook:** Application to the upper Hanjiang River basin in China and operation of the Ankang reservoir under CMIP6 climate scenarios.
 - **Direction hint:** Investigate how optimal reservoir operation policies can be designed and adapted under deep uncertainty to balance hydropower flexibility and drought risk mitigation in climate-impacted hydropower-dependent grids.
+
+## Study on control strategies of year-end drawdown level in multi-year regulation reservoir under hydro-photovoltaic bundled operation condition
+- **Journal/date/type:** Applied Energy / 2026-06-06 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128157  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Short-term risk-management for hydro-wind-solar hybrid energy system considering
+- **Relevance:** High  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how integrating solar PV with multi-year regulated reservoirs affects year-end drawdown strategies and subsequent reservoir operations.
 
 ## Minimizing Cost and Overdraft in California's Multi‐Reservoir Conjunctive Use System With Limited Hydrologic Foresight
 - **Journal/date/type:** Water Resources Research / 2026-06-01 / article
@@ -787,15 +832,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study addresses the transboundary management challenges in the Lancang–Mekong River basin, where national water–energy policies and limited data sharing create controversy over dam operations.
 - **Direction hint:** How can satellite-based monitoring methods be further developed and generalized to improve understanding and cooperative management of hydropower reservoir operations under data scarcity in transboundary basins?
 
-## Climate change will accelerate the high-end risk of compound drought and heatwave events
-- **Journal/date/type:** Proceedings of the National Academy of Sciences / 2023-07-03 / article
-- **DOI:** https://doi.org/10.1073/pnas.2219825120  |  **Citations/yr:** 121.1
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly; however, implications for adaptation and mitigation policies suggest a need for further work on minimizing impacts on water, energy, and food sectors.
-- **Real-world hook:** The study informs adaptation and mitigation policies to cope with increased risks to water, energy, and food sectors due to extreme events under climate change.
-- **Direction hint:** Investigate how increased frequency and severity of compound drought and heatwave events under climate change could impact hydropower operation flexibility and water-energy trade-offs in power grids reliant on hydropower.
-
 ## Hydropower impacts on riverine biodiversity
 - **Journal/date/type:** Nature Reviews Earth & Environment / 2024-10-14 / review
 - **DOI:** https://doi.org/10.1038/s43017-024-00596-0  |  **Citations/yr:** 104.3
@@ -814,51 +850,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Analysis of LDES impacts under different generation mixes, storage mandates, and transmission expansion in the Western Interconnect grid.
 - **Direction hint:** How can LDES deployment strategies be optimized alongside hydropower flexibility to enhance grid reliability and cost-effectiveness under deep uncertainty?
 
-## Diverse carbon dioxide removal approaches could reduce impacts on the energy–water–land system
-- **Journal/date/type:** Nature Climate Change / 2023-03-09 / article
-- **DOI:** https://doi.org/10.1038/s41558-023-01604-9  |  **Citations/yr:** 55.4
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Investigate how different carbon dioxide removal strategies affect water and energy resources, particularly hydropower operations and their flexibility under climate risks.
-
-## Global land surface evapotranspiration monitoring by ETMonitor model driven by multi-source satellite earth observations
-- **Journal/date/type:** Journal of Hydrology / 2022-09-13 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2022.128444  |  **Citations/yr:** 48.9
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly in the abstract.
-- **Real-world hook:** The ETMonitor global ET dataset can support studies of global terrestrial water and energy cycles, climate change research, and water resources management at global and regional scales.
-- **Direction hint:** How can high-resolution, satellite-driven ET datasets like ETMonitor be integrated with hydropower reservoir operation models to improve water-energy trade-off assessments under climate variability?
-
-## Analysis of energy, water, land and cost implications of zero and minimal liquid discharge desalination technologies
-- **Journal/date/type:** Nature Water / 2024-11-18 / article
-- **DOI:** https://doi.org/10.1038/s44221-024-00327-1  |  **Citations/yr:** 44.2
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly; however, the complexity of trade-offs suggests further optimization and integration with clean energy sources is needed.
-- **Real-world hook:** Growing global push for adoption of ZLD/MLD desalination technologies to address brine disposal challenges amid climate change and population growth stressing freshwater supplies.
-- **Direction hint:** How can integration of clean energy sources and advanced ion-specific separation techniques optimize the energy-water trade-offs in desalination to support sustainable water supply under climate stress?
-
-## Gradient engineering in interfacial evaporation for water, energy, and mineral harvesting
-- **Journal/date/type:** Energy & Environmental Science / 2024-12-12 / article
-- **DOI:** https://doi.org/10.1039/d4ee05239k  |  **Citations/yr:** 36.2
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how gradient engineering principles in evaporation systems could be adapted to optimize water-energy trade-offs in hydropower reservoir operations.
-
-## Climate change exacerbates snow-water-energy challenges for European ski tourism
-- **Journal/date/type:** Nature Climate Change / 2023-08-28 / article
-- **DOI:** https://doi.org/10.1038/s41558-023-01759-5  |  **Citations/yr:** 35.3
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** European ski tourism sector facing climate change impacts
-- **Direction hint:** Investigate how climate change impacts on snow and water resources affect energy demands and hydropower flexibility in mountainous regions.
-
 ## Ecological restoration in the Yellow River Basin enhances hydropower potential
 - **Journal/date/type:** Nature Communications / 2025-03-15 / article
 - **DOI:** https://doi.org/10.1038/s41467-025-57891-7  |  **Citations/yr:** 33.8
@@ -867,15 +858,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly in the abstract.
 - **Real-world hook:** China’s Yellow River Basin ecological restoration efforts and their impact on the Xiaolangdi Reservoir hydropower potential.
 - **Direction hint:** How can reservoir operation strategies be adapted to balance reduced runoff and sedimentation changes from ecological restoration to optimize hydropower flexibility and efficiency under climate variability?
-
-## How climate change and deforestation interact in the transformation of the Amazon rainforest
-- **Journal/date/type:** Nature Communications / 2025-09-02 / article
-- **DOI:** https://doi.org/10.1038/s41467-025-63156-0  |  **Citations/yr:** 32.8
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Understanding the interplay between global climate change and deforestation is essential for developing effective mitigation and adaptation strategies to preserve the Amazon ecosystem.
-- **Real-world hook:** The study quantifies impacts over 1985-2020 in the Brazilian Legal Amazon, a region undergoing significant deforestation and climate change.
-- **Direction hint:** How might changes in Amazonian climate parameters due to deforestation and climate change affect hydropower operation and water-energy trade-offs in hydropower-dependent power grids within the region?
 
 ## Shifted sediment-transport regimes by climate change and amplified hydrological variability in cryosphere-fed rivers
 - **Journal/date/type:** Science Advances / 2023-11-08 / article
@@ -913,33 +895,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** India's power sector transition by 2050 aiming for affordability, accessibility, sustainability, and economic growth
 - **Direction hint:** How can hydropower operation be optimized to provide flexibility alongside solar and wind in India's renewable power transition under climate variability?
 
-## Remotely Sensed High‐Resolution Soil Moisture and Evapotranspiration: Bridging the Gap Between Science and Society
-- **Journal/date/type:** Water Resources Research / 2025-05-01 / article
-- **DOI:** https://doi.org/10.1029/2024wr037929  |  **Citations/yr:** 22.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Development of open-access, high-resolution (3–30 m), sub-daily soil moisture and evapotranspiration products is needed to better evaluate hydrological processes at finer scales and enhance applications in data-limited regions, especially in the Global South.
-- **Real-world hook:** The potential to revolutionize societal applications such as drought assessment, food security, precision agriculture, and ecosystem management in data-limited regions, particularly in the Global South.
-- **Direction hint:** How can high-resolution, sub-daily remotely sensed soil moisture and evapotranspiration data be integrated into reservoir operation models to improve hydropower flexibility and drought risk management under climate uncertainty?
-
-## Which Potential Evapotranspiration Formula to Use in Hydrological Modeling World‐Wide?
-- **Journal/date/type:** Water Resources Research / 2023-05-01 / article
-- **DOI:** https://doi.org/10.1029/2022wr033447  |  **Citations/yr:** 21.1
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly, but the study implies further refinement of PET formula selection by climate region could improve hydrological modeling accuracy.
-- **Real-world hook:** Use of global hydrological model (World-wide HYPE) with 15 years of observational data from 5,338 streamflow gauges and MOD16 evapotranspiration data to improve global water balance modeling.
-- **Direction hint:** How can the climate-driven selection of PET formulas be integrated into reservoir operation models to improve hydropower planning under varying climatic conditions?
-
-## Combined impacts of climate and land-use change on future water resources in Africa
-- **Journal/date/type:** Hydrology and earth system sciences / 2024-01-08 / article
-- **DOI:** https://doi.org/10.5194/hess-28-117-2024  |  **Citations/yr:** 21.0
-- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The impact of combined land-use and land cover change alongside climate change on African water resources is underexplored, indicating a need for further integrated assessments.
-- **Real-world hook:** The study is tied to policy needs to halt global greenhouse gas emissions and combat deforestation to mitigate combined impacts on water resources affecting agriculture and energy sectors in Africa.
-- **Direction hint:** How can reservoir operation and hydropower planning in African basins incorporate combined climate and land-use change impacts to enhance flexibility and resilience under deep uncertainty?
-
 ## Nonlinear sensitivity of glacier mass balance to future climate change unveiled by deep learning
 - **Journal/date/type:** Nature Communications / 2022-01-20 / article
 - **DOI:** https://doi.org/10.1038/s41467-022-28033-0  |  **Citations/yr:** 20.9
@@ -948,33 +903,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Mass balance models with linear sensitivities likely bias projections under low-emission scenarios and for flatter glaciers and ice caps, suggesting a need for improved modeling approaches in these contexts.
 - **Real-world hook:** Implications for water availability and hydropower generation in glacier-fed regions, particularly in the French Alps, under future climate change.
 - **Direction hint:** Investigate how nonlinear glacier mass balance models can be integrated into hydropower operation planning to better anticipate water availability under climate change.
-
-## Reverse Tesla valve modulated efficient water evaporation and cooling
-- **Journal/date/type:** Nature Communications / 2026-06-29 / article
-- **DOI:** https://doi.org/10.1038/s41467-026-75062-0  |  **Citations/yr:** 20.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** The system enables all-day freshwater harvesting and efficient evaporative cooling with substantial energy savings, addressing the water-energy nexus.
-- **Direction hint:** Investigate how vortex airflow mechanisms similar to the reverse Tesla valve can be integrated into hydropower reservoir evaporation management to optimize water-energy trade-offs.
-
-## Future drought propagation through the water-energy-food-ecosystem nexus – A Nordic perspective
-- **Journal/date/type:** Journal of Hydrology / 2022-12-15 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2022.128963  |  **Citations/yr:** 18.8
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Future drought projections can be improved by developing and using standardized drought indices tailored to specific nexus sectors to better inform decision makers.
-- **Real-world hook:** Application to 50 catchments in Sweden under past and future climate model simulations, relevant for Nordic water and energy resource management.
-- **Direction hint:** How can sector-specific drought indices be integrated into reservoir operation models to enhance hydropower flexibility and resilience under climate-induced drought conditions?
-
-## Causal Loop Diagrams for bridging the gap between Water-Energy-Food-Ecosystem Nexus thinking and Nexus doing: Evidence from two case studies
-- **Journal/date/type:** Journal of Hydrology / 2024-12-20 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2024.132571  |  **Citations/yr:** 18.3
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The abstract implies that despite the conceptual success of Nexus approaches, actual implementation is hampered by barriers; the proposed methodology aims to overcome these but further application and refinement may be needed.
-- **Real-world hook:** Implementation of the methodology in two European case studies demonstrates practical applicability and stakeholder involvement.
-- **Direction hint:** How can the leverage analysis of causal loop diagrams be adapted to identify flexible hydropower operation strategies that optimize water-energy trade-offs under climate and drought uncertainties?
 
 ## Optimization of short-term hydropower scheduling with dynamic reservoir capacity based on improved genetic algorithm and parallel computing
 - **Journal/date/type:** Journal of Hydrology / 2024-04-23 / article
@@ -1030,42 +958,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate multi-objective optimization approaches for cascade hydropower operation to enhance flexibility and performance under varying conditions.
 
-## Deployment expectations of multi-gigatonne scale carbon removal could have adverse impacts on Asia’s energy-water-land nexus
-- **Journal/date/type:** Nature Communications / 2024-07-27 / article
-- **DOI:** https://doi.org/10.1038/s41467-024-50594-5  |  **Citations/yr:** 14.2
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Limited understanding of how individual Asian countries and regions will respond to varying and uncertain scales of future CDR concerning their energy-land-water systems.
-- **Real-world hook:** The study is tied to future global carbon dioxide removal deployment expectations and climate change ambitions in Asia.
-- **Direction hint:** How can emission reduction strategies be optimized alongside carbon removal deployment to minimize adverse impacts on energy-water-land systems in hydropower-dependent regions?
-
-## Riverine heat waves on the rise, outpacing air heat waves
-- **Journal/date/type:** Proceedings of the National Academy of Sciences / 2025-09-22 / article
-- **DOI:** https://doi.org/10.1073/pnas.2503160122  |  **Citations/yr:** 13.6
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The need for global characterization and risk assessment of riverine heat waves is highlighted, implying further research beyond the US and on their impacts on aquatic ecosystems and water-energy-food security.
-- **Real-world hook:** The study links riverine heat wave trends to climate change impacts and human activities such as dam construction and agriculture, which are relevant for water-energy-food security planning.
-- **Direction hint:** Investigate how riverine heat wave dynamics influenced by reservoir operations and climate change affect hydropower flexibility and water-energy trade-offs under deep uncertainty.
-
-## An integrative analytical framework of water-energy-food security for sustainable development at the country scale: A case study of five Central Asian countries
-- **Journal/date/type:** Journal of Hydrology / 2022-01-29 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2022.127530  |  **Citations/yr:** 12.8
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Focus on five Central Asian countries, relevant to regional sustainable development policies
-- **Direction hint:** How can integrative frameworks developed for Central Asia be adapted to improve hydropower operation flexibility and water-energy trade-offs under climate risks in other regions?
-
-## Unveiling the Nexus Profile of Embodied Water–Energy–Carbon–Value Flows of the Yellow River Basin in China
-- **Journal/date/type:** Environmental Science & Technology / 2023-05-30 / article
-- **DOI:** https://doi.org/10.1021/acs.est.3c00418  |  **Citations/yr:** 12.6
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Minimal prior research explores the comprehensive water-energy-carbon and value-added nexus efficiency in the Yellow River Basin; the framework proposed can be generalized to other regions for extended nexus analysis.
-- **Real-world hook:** The study focuses on the Yellow River Basin in China, a critical region for coordinated regional development and multiresource-integrated management.
-- **Direction hint:** How can the integrated nexus framework be adapted to assess hydropower operation flexibility and water-energy trade-offs under climate risks in other hydropower-dependent basins?
-
 ## A system dynamic model to quantify the impacts of water resources allocation on water–energy–food–society (WEFS) nexus
 - **Journal/date/type:** Hydrology and earth system sciences / 2022-08-02 / article
 - **DOI:** https://doi.org/10.5194/hess-26-3965-2022  |  **Citations/yr:** 12.3
@@ -1092,15 +984,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly, but the complexity of multi-level decision-making and uncertainties implies ongoing challenges in decentralized planning and preference integration.
 - **Real-world hook:** Application to Central Asia involving five countries, 43 states, six water sources, and eight water users over 2021–2050 planning horizon.
 - **Direction hint:** Investigate how multi-level optimization methods like MCFP can be adapted to incorporate hydropower operation flexibility and drought risk management in transboundary water-energy systems under uncertainty.
-
-## Drought intensity–duration–frequency curves based on deficit in precipitation and streamflow for water resources management
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-09-27 / article
-- **DOI:** https://doi.org/10.5194/hess-27-3427-2023  |  **Citations/yr:** 12.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (tested in two climatically and hydrologically different catchments in Turkey and Germany)
-- **Stated gap / future work:** None stated explicitly, but the study implies further application of IDF curves in various sectors and potentially other regions for drought management.
-- **Real-world hook:** The study provides a tool (IDF curves) for end-users and decision-makers in agriculture, ecology, industry, energy, and water supply to respond quickly and precisely to drought events.
-- **Direction hint:** How can deficit-based IDF curves be integrated into reservoir operation models to enhance hydropower flexibility and drought risk management under climate variability?
 
 ## Projection of climate change impacts on hydropower in the source region of the Yangtze River based on CMIP6
 - **Journal/date/type:** Journal of Hydrology / 2022-01-13 / article
@@ -1129,24 +1012,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study is tied to the broader climate change mitigation efforts and the push for clean hydrogen production via renewable and nuclear electricity in the United States.
 - **Direction hint:** How can reservoir operation and hydropower flexibility be optimized to minimize embodied and operational emissions in hydrogen production under varying climate and irradiance conditions?
 
-## Development of a method to assess synergy and competition for water use among water-energy-food nexus in the Yellow River basin: Water quantity-quality dimensions
-- **Journal/date/type:** Journal of Hydrology / 2024-07-04 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2024.131607  |  **Citations/yr:** 11.2
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Assessment focused on the Yellow River basin, a significant regional water system
-- **Direction hint:** Develop or adapt integrated assessment methods for water-energy-food nexus interactions that incorporate both water quantity and quality in hydropower-relevant basins.
-
-## Electrostatic field-enabled ultra-efficient evaporative cooling
-- **Journal/date/type:** Nature Communications / 2025-08-28 / article
-- **DOI:** https://doi.org/10.1038/s41467-025-63264-x  |  **Citations/yr:** 11.1
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** The study expands understanding of cooling enhancement mechanisms but does not address integration with energy systems or large-scale deployment challenges.
-- **Real-world hook:** Potential for widescale adoption of passive evaporative cooling solutions using electrostatic fields as a catalyst.
-- **Direction hint:** Investigate how electrostatic field-enhanced evaporative cooling could be integrated into hydropower or energy systems to improve water-energy efficiency and cooling in power infrastructure.
-
 ## U.S. West Coast droughts and heat waves exacerbate pollution inequality and can evade emission control policies
 - **Journal/date/type:** Nature Communications / 2023-03-23 / article
 - **DOI:** https://doi.org/10.1038/s41467-023-37080-0  |  **Citations/yr:** 11.1
@@ -1164,15 +1029,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly; however, the study implies further application and validation in other basins and integration with water resource management could be future steps.
 - **Real-world hook:** Application to the Upper Yellow River basin, a region where hydrological drought impacts water resources, agriculture, hydropower generation, and ecosystem services.
 - **Direction hint:** Investigate how the BMAViC model or similar ensemble copula approaches can be integrated into reservoir operation planning to improve hydropower reliability under drought conditions.
-
-## Contrasting changes in hydrological processes of the Volta River basin under global warming
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-03-18 / article
-- **DOI:** https://doi.org/10.5194/hess-26-1481-2022  |  **Citations/yr:** 11.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Uncertainties remain due to variability between climate models and the need to better represent complex climate features in regional models.
-- **Real-world hook:** The study informs adaptation and mitigation strategies for regional socioeconomic development in the Volta River basin under climate change.
-- **Direction hint:** How can reservoir operation and hydropower planning in the Volta River basin be optimized to manage increased flood risks and recurrent droughts under deep uncertainty from climate model variability?
 
 ## Delivering equity in low-carbon multisector infrastructure planning
 - **Journal/date/type:** Nature Communications / 2025-06-19 / article
@@ -1210,42 +1066,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study is tied to reservoir operations and water security in western North America under climate warming scenarios.
 - **Direction hint:** Investigate how increased winter warm spells and associated snow ablation changes can be integrated into reservoir operation models to improve hydropower flexibility and drought risk management under climate change.
 
-## The spatial extent of heat waves has changed over the past four decades
-- **Journal/date/type:** Communications Earth & Environment / 2025-08-14 / article
-- **DOI:** https://doi.org/10.1038/s43247-025-02661-y  |  **Citations/yr:** 9.9
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** The increased spatial extent of heat waves strains water, energy, and emergency management resources.
-- **Direction hint:** How might the increasing spatial extent of heat waves impact hydropower operation flexibility and water-energy trade-offs under climate change?
-
-## Agriculture’s impact on water–energy balance varies across climates
-- **Journal/date/type:** Proceedings of the National Academy of Sciences / 2025-03-17 / article
-- **DOI:** https://doi.org/10.1073/pnas.2410521122  |  **Citations/yr:** 9.9
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (across multiple catchments in different climate classes)
-- **Stated gap / future work:** The findings underscore the need to include agricultural activities in assessments of changing water-energy balance to secure future water supplies, implying further integration of agriculture impacts in water-energy studies.
-- **Real-world hook:** Global population growth driving increased water demand for agriculture, impacting regional water-energy balances.
-- **Direction hint:** Investigate how agricultural water use interacts with hydropower reservoir operations and water-energy trade-offs under varying climate conditions to improve integrated resource management.
-
-## Leveraging multi-variable observations to reduce and quantify the output uncertainty of a global hydrological model: evaluation of three ensemble-based approaches for the Mississippi River basin
-- **Journal/date/type:** Hydrology and earth system sciences / 2024-05-30 / article
-- **DOI:** https://doi.org/10.5194/hess-28-2259-2024  |  **Citations/yr:** 9.9
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Adding additional remotely-sensed observations for multi-variable calibration and considering parameter uncertainty in multi-model ensemble studies; model structure uncertainties remain a key limitation, particularly regarding reservoir operations and small wetlands representation.
-- **Real-world hook:** Application to the Mississippi River basin, a major hydrological system with significant water management and energy implications.
-- **Direction hint:** How can reservoir operation processes be better represented and integrated into global hydrological models to reduce structural uncertainties and improve calibration for hydropower-relevant variables?
-
-## Limitations to sustainable renewable jet fuels production attributed to cost than energy-water-food resource availability
-- **Journal/date/type:** Nature Communications / 2023-12-09 / article
-- **DOI:** https://doi.org/10.1038/s41467-023-44049-6  |  **Citations/yr:** 9.7
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** Alignment with Sustainable Development Goals and the goal of carbon neutrality in the aviation sector
-- **Direction hint:** How can integrated sustainability indices be adapted or extended to evaluate water-energy trade-offs and resource constraints in hydropower operation and planning under climate uncertainty?
-
 ## Asymmetric and Symmetric Redox Flow Batteries for Energy-Efficient, High-Recovery Water Desalination
 - **Journal/date/type:** Environmental Science & Technology / 2022-03-17 / article
 - **DOI:** https://doi.org/10.1021/acs.est.1c08609  |  **Citations/yr:** 9.7
@@ -1254,15 +1074,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated
 - **Real-world hook:** Potential development of modular desalination systems powered by renewables, including solar energy, addressing environmental and economic challenges of brine disposal.
 - **Direction hint:** Investigate how integrating redox flow battery-based desalination with renewable energy sources could complement hydropower operation and flexibility in water-energy systems.
-
-## Spatially Compounding Drought Events in Brazil
-- **Journal/date/type:** Water Resources Research / 2024-11-01 / article
-- **DOI:** https://doi.org/10.1029/2023wr036629  |  **Citations/yr:** 9.5
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The framework developed can be adapted for global applications; the study implies the need for incorporating spatially compounding drought interactions into risk assessments and adaptation strategies, including development of risk pool networks.
-- **Real-world hook:** The work is tied to the need for effective adaptation measures in Brazil to manage hydrological compound extremes and guide future adaptation plans at catchment and regional scales.
-- **Direction hint:** Investigate how spatially compounding drought patterns influence hydropower reservoir operation and planning under climate uncertainty, particularly for hydropower-dependent grids in drought-prone regions.
 
 ## Exploring the feasible net-zero transition pathway in China considering energy system flexibility
 - **Journal/date/type:** Nature Communications / 2026-04-11 / article
@@ -1282,15 +1093,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Yellow River basin hydropower and sediment management
 - **Direction hint:** Investigate how cooperative game theory frameworks can enhance hydropower operation flexibility while managing sediment transport in large river basins.
 
-## Water accounting under climate change in the transboundary Volta River Basin with a spatially calibrated hydrological model
-- **Journal/date/type:** Journal of Hydrology / 2023-08-26 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2023.130092  |  **Citations/yr:** 8.8
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Need for adaptation strategies to manage higher inter-model and inter-annual variabilities in water availability under climate change.
-- **Real-world hook:** Application to the transboundary Volta River Basin involving six riparian countries, supporting evidence-based decisions and policy-making for sustainable water management.
-- **Direction hint:** How can reservoir operation and hydropower planning in the Volta River Basin be optimized under projected climate variability and increased evaporation to enhance water-energy trade-offs?
-
 ## Potential hydropower contribution to mitigate climate risk and build resilience in Africa
 - **Journal/date/type:** Nature Climate Change / 2022-07-14 / article
 - **DOI:** https://doi.org/10.1038/s41558-022-01413-6  |  **Citations/yr:** 8.4
@@ -1300,15 +1102,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Focus on climate risk mitigation and resilience building in Africa
 - **Direction hint:** How can hydropower operations in Africa be optimized to enhance climate resilience and mitigate climate risks under uncertainty?
 
-## Critical soil moisture detection and water–energy limit shift attribution using satellite-based water and carbon fluxes over China
-- **Journal/date/type:** Hydrology and earth system sciences / 2025-03-06 / article
-- **DOI:** https://doi.org/10.5194/hess-29-1241-2025  |  **Citations/yr:** 7.9
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Challenges remain in detecting CSM and attributing water-energy limit shifts due to sparse in-situ observations; further work could improve understanding of these shifts under climate change.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how satellite-derived critical soil moisture metrics can inform reservoir operation strategies under drought and climate variability to optimize hydropower flexibility.
-
 ## Hydrogen storage with gravel and pipes in lakes and reservoirs
 - **Journal/date/type:** Nature Communications / 2024-09-04 / article
 - **DOI:** https://doi.org/10.1038/s41467-024-52237-1  |  **Citations/yr:** 7.9
@@ -1317,15 +1110,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly in the abstract.
 - **Real-world hook:** Proposes a novel hydrogen storage method that could support the development of a hydrogen economy by expanding storage options beyond limited geological formations.
 - **Direction hint:** Investigate how integrating hydrogen storage in hydropower reservoirs affects reservoir operation flexibility and water-energy trade-offs under climate variability and energy transition scenarios.
-
-## Estimates of Irrigation Water Volume by Assimilation of Satellite Land Surface Temperature or Soil Moisture Into a Water‐Energy Balance Model in Morocco
-- **Journal/date/type:** Water Resources Research / 2025-07-01 / article
-- **DOI:** https://doi.org/10.1029/2024wr038926  |  **Citations/yr:** 7.5
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Limitations due to coarse pixel resolution and low revisit time affected soil moisture assimilation performance; further improvements in satellite data resolution and frequency could enhance irrigation estimates.
-- **Real-world hook:** The study addresses irrigation water use estimation in Morocco's Doukkala district, a region impacted by climate change and drought, with implications for water resource management.
-- **Direction hint:** Investigate how satellite-based irrigation water use estimation methods can be integrated with hydropower reservoir operation models to improve water-energy management under drought conditions.
 
 ## Rethinking energy planning to mitigate the impacts of African hydropower
 - **Journal/date/type:** Nature Sustainability / 2024-06-04 / article
@@ -1345,24 +1129,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study is tied to the hydropower reservoir operated by VERBUND Hydro Power GmbH in the Malta Valley, Austria, highlighting operational relevance for hydropower inflow forecasting.
 - **Direction hint:** How can dual precipitation correction methods be adapted and validated across diverse high-alpine hydropower catchments to improve reservoir inflow forecasting under varying climatic conditions?
 
-## A new approach to net solar radiation in a spatially distributed snow energy balance model to improve snowmelt timing
-- **Journal/date/type:** Journal of Hydrology / 2024-06-13 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2024.131490  |  **Citations/yr:** 7.1
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly, but implies potential for adaptation of these improved models into local water supply forecast operations.
-- **Real-world hook:** Use of open-access gridded products (HRRR and MODIS) over the continental US to improve runoff predictions in snow-dominated watersheds.
-- **Direction hint:** How can improved snowmelt timing predictions from enhanced solar radiation and albedo data be integrated into reservoir operation models to better manage hydropower flexibility under variable snowmelt conditions?
-
-## Integrated Agricultural Practices and Engineering Technologies Enhance Synergies of Food-Energy-Water Systems in Corn Belt Watersheds
-- **Journal/date/type:** Environmental Science & Technology / 2023-05-31 / article
-- **DOI:** https://doi.org/10.1021/acs.est.3c02055  |  **Citations/yr:** 6.7
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly; however, the study is a pilot in a representative watershed, implying further validation and scaling could be future steps.
-- **Real-world hook:** Addresses nutrient reduction goals and phosphorus recovery in Corn Belt watersheds, relevant to agricultural and environmental management policies in this key US agricultural region.
-- **Direction hint:** Investigate how integrated management strategies combining BMPs and technological phosphorus recovery can be adapted or extended to hydropower reservoir watersheds to optimize water quality and resource recovery under climate variability.
-
 ## Spatially explicit life cycle assessments reveal hotspots of environmental impacts from renewable electricity generation
 - **Journal/date/type:** Communications Earth & Environment / 2022-08-30 / article
 - **DOI:** https://doi.org/10.1038/s43247-022-00521-7  |  **Citations/yr:** 6.7
@@ -1381,15 +1147,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Addresses sustainable green hydrogen production amid fossil fuel reliance and global freshwater scarcity; offers a method to convert surplus renewable electricity into storable hydrogen.
 - **Direction hint:** How can integrated renewable energy and water treatment systems like SMDE be optimized or adapted to support flexible hydropower operation and water-energy trade-offs in power grids?
 
-## Understanding the Food‐Energy‐Water Nexus in Mixed Irrigation Regimes Using a Regional Hydroeconomic Optimization Modeling Framework
-- **Journal/date/type:** Water Resources Research / 2023-06-01 / article
-- **DOI:** https://doi.org/10.1029/2022wr033691  |  **Citations/yr:** 6.4
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The RHEO framework could be further employed to analyze the FEW nexus under potential climate change and future regional development scenarios.
-- **Real-world hook:** Application to the South Flint River Basin, Georgia, a groundwater-dominated basin facing agricultural water use challenges.
-- **Direction hint:** How can hydroeconomic optimization frameworks be adapted to incorporate hydropower operation flexibility and reservoir management under deep uncertainty to address water-energy trade-offs in FEW systems?
-
 ## Flood control storage substitution from multiple to single-reservoir and storage reservation strategy for hydropower optimization in cascade reservoir systems
 - **Journal/date/type:** Journal of Hydrology / 2025-07-16 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2025.133926  |  **Citations/yr:** 6.2
@@ -1399,15 +1156,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate how storage substitution and reservation strategies in cascade reservoirs can enhance hydropower flexibility and flood control under variable inflows.
 
-## Water-energy-food planning and operations framework for river basins with a case study on the Blue Nile
-- **Journal/date/type:** Journal of Hydrology / 2024-01-28 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2024.130801  |  **Citations/yr:** 6.2
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy); ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly, but the framework implies further application to multi-national priorities and potentially other basins.
-- **Real-world hook:** The study focuses on the Grand Ethiopian Renaissance Dam and transboundary water management in the Blue Nile basin amid pressures from population growth, economic development, and climate change.
-- **Direction hint:** How can AI-linked daily simulation frameworks for dam operation be adapted to enhance hydropower flexibility and drought resilience in other transboundary river basins under climate uncertainty?
-
 ## Altitudinal variation in impacts of snow cover, reservoirs and precipitation seasonality on monthly runoff in Tibetan Plateau catchments
 - **Journal/date/type:** Hydrology and earth system sciences / 2025-11-03 / article
 - **DOI:** https://doi.org/10.5194/hess-29-5913-2025  |  **Citations/yr:** 6.1
@@ -1416,6 +1164,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Further quantification of altitudinal heterogeneity in runoff drivers in other regions at high spatio-temporal resolution; understanding future impacts of snow thinning on runoff seasonality trends influenced by reservoirs and precipitation seasonality.
 - **Real-world hook:** Hydropower reservoir construction impacts on runoff seasonality and variability in the Yalong River basin, a tributary of the Yangtze River, with implications for water resource allocation under climate change.
 - **Direction hint:** Investigate how reservoir operation strategies can be optimized to manage runoff variability and seasonality under changing snow cover and precipitation patterns in hydropower-dependent basins.
+
+## Optimization of wind-PV-storage aggregated inertia coefficient using physics-informed neural network to suppress frequency oscillations in hydropower-dominated power systems
+- **Journal/date/type:** Renewable Energy / 2026-07-17 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126199  |  **Citations/yr:** 6.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** How might integrating solar PV with large storage reservoirs affect frequency stability and turbine release patterns in hydropower-dominated grids?
 
 ## Regulation of river water temperature and dissolved oxygen under cascade reservoir systems: Hydropower-ecological synergy based on a simulation–optimization-causal explanation framework
 - **Journal/date/type:** Journal of Hydrology / 2026-05-02 / article
@@ -1498,15 +1255,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Management of hydropower plants in Alpine catchments and their influence on groundwater and surface water interactions under varying hydrological conditions.
 - **Direction hint:** Investigate how hydropower operational flexibility under drought conditions can be optimized to mitigate adverse groundwater fluctuations and associated ecological impacts.
 
-## Water-Energy-Food integrated management model under Uncertainty-A case study of Yulin City
-- **Journal/date/type:** Journal of Hydrology / 2023-08-10 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2023.130059  |  **Citations/yr:** 5.3
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Local case
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Case study of Yulin City
-- **Direction hint:** Explore integrated water-energy-food management models under uncertainty applicable to hydropower operation and planning.
-
 ## Shrinking Pareto Fronts to Guide Reservoir Operations by Quantifying Competition Among Multiple Objectives
 - **Journal/date/type:** Water Resources Research / 2022-02-01 / article
 - **DOI:** https://doi.org/10.1029/2021wr029702  |  **Citations/yr:** 5.3
@@ -1525,15 +1273,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Not established from title
 
-## A risk-based stochastic model for supporting resources allocation of agricultural water-energy-food system under uncertainty
-- **Journal/date/type:** Journal of Hydrology / 2022-04-23 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2022.127864  |  **Citations/yr:** 4.9
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Explore how stochastic risk-based models can be adapted to optimize hydropower reservoir operations under uncertainty for integrated water-energy-food systems.
-
 ## A Method for Assessment of Sub‐Daily Flow Alterations Using Wavelet Analysis for Regulated Rivers
 - **Journal/date/type:** Water Resources Research / 2021-12-20 / article
 - **DOI:** https://doi.org/10.1029/2021wr030421  |  **Citations/yr:** 4.9
@@ -1543,24 +1282,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Increasing use of hydropower to balance energy load deficits caused by less flexible renewable sources, leading to changes in sub-daily flow conditions in regulated rivers.
 - **Direction hint:** How can this wavelet-based framework be integrated into reservoir operation planning to optimize hydropower flexibility while minimizing ecological impacts of sub-daily flow variability?
 
-## A water-energy complementary model for monthly runoff simulation
-- **Journal/date/type:** Journal of Hydrology / 2024-07-05 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2024.131624  |  **Citations/yr:** 4.7
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** None stated
-- **Direction hint:** Explore how integrated water-energy models can enhance runoff predictions to support hydropower operation under variable climate conditions.
-
-## Latitudinal divergence in runoff responses to global forestation due to forest-atmosphere feedbacks
-- **Journal/date/type:** Nature Communications / 2026-02-09 / article
-- **DOI:** https://doi.org/10.1038/s41467-026-68945-9  |  **Citations/yr:** 4.2
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** The study highlights the need to incorporate hydrological considerations into afforestation planning, especially cautioning against afforestation at high latitudes where water scarcity may worsen.
-- **Real-world hook:** Global afforestation as a nature-based solution for climate mitigation and its hydrological impacts across latitudes.
-- **Direction hint:** How can reservoir operation and hydropower planning integrate latitudinally varying hydrological impacts of forestation to manage water-energy trade-offs under climate change?
-
 ## Freshwater biodiversity impacts of global hydropower dams
 - **Journal/date/type:** Communications Earth & Environment / 2026-02-09 / article
 - **DOI:** https://doi.org/10.1038/s43247-026-03263-y  |  **Citations/yr:** 4.1
@@ -1569,6 +1290,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Need for sustainable planning that balances energy development with freshwater conservation; implies further research on mitigation strategies and biodiversity impacts of future dams.
 - **Real-world hook:** Planned future hydropower dams concentrated in Global South countries and their potential to elevate extinction risk.
 - **Direction hint:** Investigate operational strategies or planning frameworks for hydropower that minimize biodiversity impacts while supporting renewable energy goals, especially in regions with high conservation value.
+
+## Multi-objective optimization of water–sediment-ecology coordinated operation for cascade reservoirs in the Yellow River Basin
+- **Journal/date/type:** Journal of Hydrology / 2026-07-22 / article
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136069  |  **Citations/yr:** 4.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Cascade reservoir operations in the Yellow River Basin
+- **Direction hint:** Investigate how multi-objective optimization approaches could be adapted to include solar PV integration impacts on reservoir operations and water accounting.
 
 ## Discussion on the monotonicity principle of the two-stage problem in joint optimal operation of cascade hydropower stations
 - **Journal/date/type:** Journal of Hydrology / 2023-06-15 / article
@@ -1597,15 +1327,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** None stated
 - **Direction hint:** Investigate methods for optimizing hydropower development that incorporate climate uncertainty to enhance flexibility and resilience.
 
-## JAX‐CanVeg: A Differentiable Land Surface Model
-- **Journal/date/type:** Water Resources Research / 2025-03-01 / article
-- **DOI:** https://doi.org/10.1029/2024wr038116  |  **Citations/yr:** 3.6
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (demonstrated at four flux tower sites with varying aridity)
-- **Stated gap / future work:** None stated explicitly, but the study implies further exploration of hybrid modeling in multi-layer canopy setups and broader applications could be future directions.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how differentiable hybrid land surface models like JAX-CanVeg can be integrated with hydropower reservoir operation models to better capture land-atmosphere interactions affecting water availability and energy fluxes.
-
 ## Unwrapping the triptych of climatic, social and energy-market uncertainties in the operation of multipurpose hydropower reservoirs
 - **Journal/date/type:** Journal of Hydrology / 2024-11-26 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2024.132416  |  **Citations/yr:** 3.6
@@ -1614,15 +1335,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** None stated
 - **Direction hint:** How can multipurpose hydropower reservoir operations be optimized under combined climatic, social, and energy-market uncertainties to enhance flexibility for renewable integration?
-
-## Impacts of Subgrid Temperature Distribution Along Elevation Bands in Snowpack Modeling: Insights From a Suite of Andean Catchments
-- **Journal/date/type:** Water Resources Research / 2022-12-01 / article
-- **DOI:** https://doi.org/10.1029/2022wr032113  |  **Citations/yr:** 3.6
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly; however, variability among catchments and sensitivity to vertical discretization suggest further exploration of model structure and parameterization is needed.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how improved representation of subgrid temperature variability in mountainous catchments can enhance hydropower reservoir inflow predictions under climate variability and drought conditions.
 
 ## Real-time predictive control assessment of low-water head hydropower station considering power generation and flood discharge
 - **Journal/date/type:** Journal of Hydrology / 2024-10-22 / article
@@ -1651,15 +1363,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study focuses on the Three Gorges Reservoir, the world's largest hydropower project, with implications for large dam planning to mitigate warming-related climate threats.
 - **Direction hint:** How can the biophysical climate effects of large reservoirs like the Three Gorges be incorporated into reservoir operation strategies to optimize hydropower flexibility while mitigating regional climate impacts?
 
-## Water-energy characteristics of the warming and drying trends in the eastern China
-- **Journal/date/type:** Journal of Hydrology / 2025-05-16 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2025.133515  |  **Citations/yr:** 3.4
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Investigate how warming and drying trends in eastern China affect water-energy interactions, particularly hydropower operations under climate stress.
-
 ## Framework for short-term hydropower cascade–station–unit integrated multi-objective scheduling: Considering unit safety and economic efficiency
 - **Journal/date/type:** Journal of Hydrology / 2025-01-29 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2025.132756  |  **Citations/yr:** 3.4
@@ -1668,33 +1371,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate integrated scheduling approaches that balance hydropower unit safety with economic efficiency in cascade systems to enhance operational flexibility.
-
-## Exploring the food-energy-water nexus in coupled natural-human systems under climate change with a fully integrated agent-based modeling framework
-- **Journal/date/type:** Journal of Hydrology / 2024-03-11 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2024.131048  |  **Citations/yr:** 3.4
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Not established from title
-
-## An Optimal Transport Framework for Water‐Energy Coupling in Soil‐Vegetation‐Atmosphere Continuum
-- **Journal/date/type:** Water Resources Research / 2025-12-01 / article
-- **DOI:** https://doi.org/10.1029/2025wr041794  |  **Citations/yr:** 3.3
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how the optimal transport framework for soil moisture-evapotranspiration coupling could inform reservoir operation strategies by improving understanding of land-atmosphere water-energy flux dynamics under varying hydroclimatic conditions.
-
-## The Food-Energy-Water Nexus: Clarifying Misconceptions and Assessing impacts on the Yangtze economic Belt
-- **Journal/date/type:** Journal of Hydrology / 2025-05-02 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2025.133409  |  **Citations/yr:** 3.3
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Yangtze Economic Belt regional development
-- **Direction hint:** Investigate how integrated food-energy-water nexus approaches can inform hydropower operation and planning under climate and drought risks in large river basins.
 
 ## Optimal advanced release scheme based on effective forecast horizon to minimize flood at downstream of a hydroelectric project
 - **Journal/date/type:** Journal of Hydrology / 2024-02-04 / article
@@ -1723,15 +1399,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Application to the Hanjiang River Basin (HRB) in China, a real-world case with existing inter-basin water diversion projects.
 - **Direction hint:** Investigate how reservoir operation strategies can be optimized to manage altered feedback loops caused by IWDPs to enhance hydropower flexibility and environmental conservation under variable water supply conditions.
 
-## Robust Stackelberg Equilibrium Water Allocation Patterns in Shallow Groundwater Areas
-- **Journal/date/type:** Water Resources Research / 2024-08-01 / article
-- **DOI:** https://doi.org/10.1029/2023wr035373  |  **Citations/yr:** 3.1
-- **Found via:** ("deep uncertainty" OR "robust decision" OR satisficing) AND (water OR hydropower OR energy)
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly; however, the approach implies further application and validation in other water resource systems and integration with policy design under uncertainty.
-- **Real-world hook:** Application to a shallow groundwater area with three decision levels aiming at high food production, fair water allocation, and increased economic benefit.
-- **Direction hint:** Investigate how multi-level robust optimization frameworks like Stackelberg games can be adapted for reservoir operation planning under deep uncertainty to balance competing objectives in hydropower and water allocation.
-
 ## From Stream Flows to Cash Flows: Leveraging Evolutionary Multi‐Objective Direct Policy Search to Manage Hydrologic Financial Risks
 - **Journal/date/type:** Water Resources Research / 2021-12-27 / article
 - **DOI:** https://doi.org/10.1029/2021wr029747  |  **Citations/yr:** 3.1
@@ -1750,15 +1417,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Co-designed with end users in water management, hydropower production, and mountain ski tourism to meet their operational needs for seasonal snow forecasts.
 - **Direction hint:** How can seasonal snow forecasts be integrated into reservoir operation planning to enhance hydropower flexibility under climate variability and drought risk?
 
-## Long‐Term Prediction Model for Erosion‐Deposition Topographic Evolution in the Sanmenxia‐To‐Xiaolangdi Reach of the Yellow River Based on Deep Learning
-- **Journal/date/type:** Water Resources Research / 2025-10-01 / article
-- **DOI:** https://doi.org/10.1029/2025wr040669  |  **Citations/yr:** 2.8
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Uncertainties remain in scaling the model to larger regions, improving data resolution, and enhancing coordination across regions.
-- **Real-world hook:** The study focuses on the Sanmenxia to Xiaolangdi reach of the Yellow River and considers the impact of the Guxian Reservoir operation starting in 2036 on sedimentation patterns.
-- **Direction hint:** How can deep learning sediment prediction models be integrated with reservoir operation planning to optimize hydropower flexibility and manage sediment-related risks under climate variability?
-
 ## Dynamic interactions in energy-water nexus: risk-based framework for balancing electricity expansion and water resource sustainability
 - **Journal/date/type:** Journal of Hydrology / 2025-05-21 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2025.133563  |  **Citations/yr:** 2.8
@@ -1767,15 +1425,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
 - **Direction hint:** Explore risk-based frameworks that integrate dynamic interactions between energy expansion and water sustainability to inform hydropower operation under uncertainty.
-
-## Projecting end-of-century climate extremes and their impacts on the hydrology of a representative California watershed
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-07-13 / article
-- **DOI:** https://doi.org/10.5194/hess-26-3589-2022  |  **Citations/yr:** 2.8
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Few studies have investigated the impacts of end-of-century extremes on watershed hydrology; the abstract implies a need for further research on these impacts and their implications.
-- **Real-world hook:** California's need to understand evolving water resources to sustain its economy, agriculture, and build resilient communities under climate change.
-- **Direction hint:** How can reservoir operation and hydropower planning in California adapt to earlier runoff timing, reduced snowpack, and increased summer water deficits under projected climate extremes?
 
 ## An ecohydrological framework for balancing hydropower and aquatic health using machine learning and multi-objective optimization
 - **Journal/date/type:** Journal of Hydrology / 2025-09-23 / article
@@ -1803,15 +1452,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly, but the complexity of integrating numerous operational rules and competing users suggests further refinement and testing in other systems could be beneficial.
 - **Real-world hook:** Application to the Campine Canals in the Scheldt-Meuse-Rhine delta, addressing water scarcity risks exacerbated by climate change and informing local decision makers on adaptation and real-time forecasting strategies.
 - **Direction hint:** Investigate how integrated, computationally efficient water quantity-quality models can be adapted for reservoir operation and hydropower flexibility under drought and climate uncertainty in other multi-use water systems.
-
-## Time continuous two-source energy-water balance modelling of heterogeneous crops: FEST-2-EWB
-- **Journal/date/type:** Journal of Hydrology / 2023-02-15 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2023.129265  |  **Citations/yr:** 2.7
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly; however, the work implies further application and validation in diverse field conditions could be beneficial.
-- **Real-world hook:** The model supports optimizing irrigation water resources by providing more accurate crop water consumption estimates, which is critical for agricultural water management.
-- **Direction hint:** Investigate how two-source energy-water balance models could be integrated with reservoir operation planning to improve water allocation under agricultural and hydropower competing demands.
 
 ## Model Inputs and Data Requirements for Process‐Based Stream Temperature Modeling in Regulated Peri‐Alpine Rivers
 - **Journal/date/type:** Water Resources Research / 2025-09-01 / article
@@ -1867,15 +1507,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The Columbia River Treaty between the US and Canada and its future cooperation challenges under changing social and environmental conditions.
 - **Direction hint:** How can reservoir operation strategies under transboundary treaties be adapted to maintain cooperation and optimize hydropower and flood control benefits amid evolving social preferences and environmental uncertainties?
 
-## Coherence of global hydroclimate classification systems
-- **Journal/date/type:** Hydrology and earth system sciences / 2021-12-06 / article
-- **DOI:** https://doi.org/10.5194/hess-25-6173-2021  |  **Citations/yr:** 2.2
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly, but the study implies further application of the proposed Water-Energy Clustering classification system for investigations involving regions with differing hydrologic dynamics.
-- **Real-world hook:** None stated
-- **Direction hint:** How can the Water-Energy Clustering classification system be integrated into hydropower operation and planning models to better capture hydroclimate variability and improve reservoir management under climate uncertainty?
-
 ## Incorporating reliability into the optimal design of multi-hydropower systems: A cellular automata-based approach
 - **Journal/date/type:** Journal of Hydrology / 2021-11-23 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2021.127227  |  **Citations/yr:** 2.2
@@ -1894,24 +1525,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate methods to incorporate streamflow forecast uncertainty into operational optimization models for cascade hydropower systems to enhance flexibility and reliability.
 
-## Propagating shocks and transitions across networked food systems: Insights from multiplayer microeconomic modeling
-- **Journal/date/type:** Proceedings of the National Academy of Sciences / 2026-10-26 / 
-- **DOI:** https://doi.org/10.1073/pnas.2321155123  |  **Citations/yr:** 2.0
-- **Found via:** reservoir management; energy storage flexibility; renewable energy land use
-- **Relevance:** Medium  |  **Scope:** 
-- **Stated gap / future work:** 
-- **Real-world hook:** 
-- **Direction hint:** 
-
-## Basin-scale evaluation of the Noah-MP land surface model for runoff and snow generation in the Missouri River Basin: insights and recommendations for parameterization scheme selection
-- **Journal/date/type:** Hydrology and earth system sciences / 2026-10-19 / 
-- **DOI:** https://doi.org/10.5194/hess-30-6359-2026  |  **Citations/yr:** 2.0
-- **Found via:** reservoir management; energy storage flexibility
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Limited guidance exists on choosing appropriate parameterization configurations for diverse land-cover and snow conditions; the study implies a need for basin-specific parameterization schemes to improve hydrological predictions.
-- **Real-world hook:** Evaluation across 50 Hydro-Climate Data Networks in the Missouri River Basin using USGS streamflow and snow water equivalent data from 2014 to 2023.
-- **Direction hint:** How can basin-specific parameterization schemes in land surface models be optimized to enhance hydrological predictions for reservoir operation and hydropower planning under varying climate and snow regimes?
-
 ## Direct air capture enables sustainable methanol production in water-scarce regions
 - **Journal/date/type:** Nature Communications / 2026-08-24 / article
 - **DOI:** https://doi.org/10.1038/s41467-026-76865-x  |  **Citations/yr:** 2.0
@@ -1924,11 +1537,20 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Artificial intelligence-based response surface stochastic dynamic programming for long-term operation rule derivation of cascade hydropower reservoirs
 - **Journal/date/type:** Journal of Hydrology / 2026-08-10 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136216  |  **Citations/yr:** 2.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
+- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy) | cites Hydropower curtailment in Yunnan Province, southwestern China: Constraint analys
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
 - **Direction hint:** Explore how AI-enhanced stochastic dynamic programming can improve flexible operation of cascade hydropower systems under uncertainty.
+
+## A smart energy systems planning framework for high-renewable transitions in emerging energy systems: Application to Ghana
+- **Journal/date/type:** Renewable Energy / 2026-08-02 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126215  |  **Citations/yr:** 2.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly in the abstract.
+- **Real-world hook:** Application to Ghana's national energy system as a representative Sub-Saharan African case study for high-renewable transitions.
+- **Direction hint:** Investigate how integrating large-scale solar PV with hydropower reservoirs and storage affects reservoir operations, turbine releases, and spill under realistic operating constraints in emerging energy systems similar to Ghana.
 
 ## The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South
 - **Journal/date/type:** arXiv / 2026-07-15 / preprint
@@ -1939,14 +1561,23 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Over $200 billion in state-led sovereign AI commitments announced between 2024 and 2026 in Global South countries such as UAE, Bangladesh, India, and Kenya.
 - **Direction hint:** How can reservoir operation and hydropower planning incorporate the increasing water and energy demands of emerging digital infrastructures like sovereign AI to balance water-energy trade-offs under climate risks?
 
-## Critical misalignments in climate pledges reveal imbalanced sustainable development pathways
-- **Journal/date/type:** Nature Communications / 2026-05-26 / review
-- **DOI:** https://doi.org/10.1038/s41467-026-73564-5  |  **Citations/yr:** 2.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly; however, implications for global inequality, sustainable finance flows, and multilateral governance suggest areas needing further exploration.
-- **Real-world hook:** Analysis of the first two submissions of nationally determined contributions (NDCs) under the Paris Agreement.
-- **Direction hint:** Investigate how differing national priorities in water-energy-food nexus management affect integrated climate and sustainable development strategies, especially for hydropower-dependent regions.
+## Lost flexibility: Hydropower capabilities in large-scale, Pan-European Energy system models
+- **Journal/date/type:** Applied Energy / 2026-07-03 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128324  |  **Citations/yr:** 2.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Need for better representation of hydropower operational behavior in large-scale, aggregated energy system models to improve accuracy, especially under high renewable penetration scenarios.
+- **Real-world hook:** Application to the North European Backbone pan-European energy system model and implications for the pan-European transmission network development.
+- **Direction hint:** How can hydropower operational constraints be integrated with solar PV-induced turbine release changes to improve water-energy accounting and reservoir management under renewable integration?
+
+## Short-term net load smoothing via stochastic scheduling of runoff-contained cascade hydropower under wind-photovoltaic uncertainty
+- **Journal/date/type:** Renewable Energy / 2026-06-10 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126061  |  **Citations/yr:** 2.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how stochastic scheduling approaches can optimize hydropower operations to complement variable renewable generation and reduce net load variability.
 
 ## Total Social Costs and Benefits of Long-Distance Hydropower Transmission
 - **Journal/date/type:** Environmental Science & Technology / 2022-11-29 / editorial
@@ -2002,15 +1633,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Not established from title
 
-## A generalized water-energy complementary model for hydrological partitioning
-- **Journal/date/type:** Journal of Hydrology / 2025-09-10 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2025.134230  |  **Citations/yr:** 1.8
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** None stated
-- **Direction hint:** Not established from title
-
 ## Trading rivers for hydropower
 - **Journal/date/type:** Nature Sustainability / 2024-01-22 / article
 - **DOI:** https://doi.org/10.1038/s41893-023-01261-y  |  **Citations/yr:** 1.8
@@ -2019,42 +1641,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
 - **Direction hint:** Not established from title
-
-## The dual impact of trade on the water–energy–food nexus globally
-- **Journal/date/type:** Nature Sustainability / 2026-04-02 / article
-- **DOI:** https://doi.org/10.1038/s41893-026-01796-w  |  **Citations/yr:** 1.7
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Not established from title
-
-## Climate change, dams, and irrigation expansion reshape water–energy trade-offs in the Lancang–Mekong River Basin
-- **Journal/date/type:** Journal of Hydrology / 2026-03-23 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135371  |  **Citations/yr:** 1.7
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy); ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** The study focuses on the Lancang–Mekong River Basin, a critical transboundary river system with significant hydropower and irrigation infrastructure.
-- **Direction hint:** Investigate how combined impacts of climate change, dam operations, and irrigation expansion influence hydropower flexibility and water-energy trade-offs under uncertainty in large river basins.
-
-## An integrated model of water–sediment-energy simulation and its application in the Xiaolangdi reservoir
-- **Journal/date/type:** Journal of Hydrology / 2025-09-04 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2025.134131  |  **Citations/yr:** 1.7
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Local case
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Application in the Xiaolangdi reservoir
-- **Direction hint:** Investigate how integrated water-sediment-energy models can inform reservoir operation strategies under climate variability.
-
-## Hidden gems: Highlighting underrepresented but valuable knowledge in the water-energy-food nexus
-- **Journal/date/type:** Journal of Hydrology / 2023-04-29 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2023.129597  |  **Citations/yr:** 1.4
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Implications for improving scholarly visibility and search engine structures to promote inclusivity and advance sustainable management in WEF systems.
-- **Real-world hook:** None stated
-- **Direction hint:** How can insights from undercited, geographically diverse WEF nexus research be integrated to improve hydropower operation and planning under uncertainty?
 
 ## Application of a coupled mechanistic and data-driven model for water level prediction considering the temporal and spatial effects of runoff evolution in cascade hydropower stations
 - **Journal/date/type:** Journal of Hydrology / 2026-01-30 / article
@@ -2119,23 +1705,41 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study focuses on the Columbia River Basin, a heavily regulated basin with over 250 dams and significant groundwater withdrawals, relevant for water management decisions.
 - **Direction hint:** Investigate integrated modeling approaches that capture groundwater-surface water interactions and reservoir operations to enhance hydropower operation planning under variable water availability.
 
-## The Invisible Depletion: Compound Drought, Groundwater Collapse, and Maladaptation in the Middle East and Southwest Asia
-- **Journal/date/type:** EarthArXiv / 2026-10-27 / preprint
-- **DOI:** https://doi.org/10.31223/x52b8h  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
+## Distributed small-reservoir pumped-storage hydropower in Europe: a GIS screening under drawdown and karst constraints
+- **Journal/date/type:** Applied Energy / 2026-10-30 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.129193  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
 - **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Operational Early Warning Systems need to expand beyond precipitation-centric forecasts to include tracking of systemic limits using Terrestrial Water Storage and evaporative stress indices.
-- **Real-world hook:** The ongoing water crisis in MESWA driven by structural water bankruptcy, groundwater over-extraction, and failure of cryospheric buffers, threatening food systems and causing land subsidence and salinization.
-- **Direction hint:** Investigate how hydropower reservoir operations in MESWA can adapt to compound drought and groundwater depletion under non-stationary climate conditions to enhance water-energy system resilience.
+- **Stated gap / future work:** This is an exploratory first screening and not a deployable capacity estimate; national feasibility studies with more detailed constraints are needed to refine these estimates.
+- **Real-world hook:** The study provides a continental-scale ranking to guide national feasibility studies for distributed small-reservoir PSH development in Europe.
+- **Direction hint:** How can detailed national-level constraints and operating rules be integrated with this GIS screening to assess the feasibility and operational impacts of small-reservoir PSH on hydropower flexibility and reservoir management under renewable integration?
+
+## A scenario-based risk control framework for medium-term dispatch of hydro-wind-solar hybrid systems under consecutive multi-day extreme events
+- **Journal/date/type:** Applied Energy / 2026-10-28 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.129163  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid) | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew; Complementary operation with wind and photovoltaic power induces the decrease in
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** How can scenario-based risk control frameworks be adapted to optimize reservoir operating rules and turbine releases in hydro-solar hybrid systems during prolonged extreme events?
 
 ## The role of small hydropower in achieving Sustainable Development Goals
 - **Journal/date/type:** Nature Reviews Earth & Environment / 2026-10-26 / review
 - **DOI:** https://doi.org/10.1038/s43017-026-00843-6  |  **Citations/yr:** 0.0
-- **Found via:** ("pumped storage" OR "pumped hydro"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); energy system decarbonization; hydropower renewable integration
+- **Found via:** ("pumped storage" OR "pumped hydro"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); energy system decarbonization; hydropower renewable integration | cites Hydropower curtailment in Yunnan Province, southwestern China: Constraint analys
 - **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Sustainable Development Goals (SDGs)
 - **Direction hint:** Investigate how small hydropower can contribute to sustainable energy goals while balancing environmental and social impacts.
+
+## Enhancing the flexibility of hydropower regulation under variable operating conditions and control modes by control optimization with balanced tracking performance and resilience
+- **Journal/date/type:** Energy / 2026-10-26 / article
+- **DOI:** https://doi.org/10.1016/j.energy.2026.142924  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate how optimized control strategies can improve hydropower flexibility and resilience under variable conditions, potentially informing hydro-solar complementary operation.
 
 ## Reconciling flood control and hydropower objectives through optimized spatially-explicit capacity equivalency of cascade reservoirs
 - **Journal/date/type:** Journal of Hydrology / 2026-10-23 / article
@@ -2155,6 +1759,24 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Use of recent climate and socioeconomic projections (2040–2070) to estimate future water demands and inform water management policies in the US.
 - **Direction hint:** Investigate how adaptive reservoir operation strategies can be designed to manage seasonal and regional water stress, particularly balancing thermoelectric cooling water needs with agricultural and public water demands under climate uncertainty.
 
+## Coopetition and coordination mechanisms between energy and peak-shaving benefits in giant cascade hydropower systems: From mechanism identification to operational application
+- **Journal/date/type:** Applied Energy / 2026-10-22 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.129126  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how coordination between energy generation and peak-shaving in cascade hydropower systems can inform reservoir operating rules under renewable integration.
+
+## Scenario-based multi-objective optimization for hydro–wind–solar–storage integrated systems
+- **Journal/date/type:** Renewable Energy / 2026-10-20 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126595  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Evaluating effects of battery storage on day-ahead generation scheduling of larg
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Not established from title
+
 ## Life-Cycle Burden Shifting in Solvent-Based Regeneration of PFOS-Laden Granular Activated Carbon
 - **Journal/date/type:** Environmental Science & Technology / 2026-10-16 / article
 - **DOI:** https://doi.org/10.1021/acs.est.6c06818  |  **Citations/yr:** 0.0
@@ -2164,23 +1786,32 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Use of hydropower-based electricity in solvent-based regeneration processes and its environmental trade-offs in global warming potential and water consumption.
 - **Direction hint:** Investigate how hydropower's water consumption trade-offs affect broader water-energy-environment nexus decisions in energy and water treatment systems under varying operational scenarios.
 
-## Beyond Hydrological Closure: A Coupled Water-Energy Theory for Open Hydrological Systems
-- **Journal/date/type:** ESS Open Archive / 2026-10-15 / preprint
-- **DOI:** https://doi.org/10.22541/essoar.15010546/v1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Dynamic formulations, routing-corrected models, and validation with in-basin eddy-covariance data remain unattempted and deferred to future work.
-- **Real-world hook:** None stated
-- **Direction hint:** How can this coupled water-energy Budyko framework be integrated into reservoir operation models to better capture energy-water trade-offs under hydrologically open conditions?
-
-## Technical note: A physically based correction of WRF temperature using atmospheric lapse rates for high-resolution hydrological simulations in a glacierized catchment
-- **Journal/date/type:** Hydrology and earth system sciences / 2026-10-13 / 
-- **DOI:** https://doi.org/10.5194/hess-30-6265-2026  |  **Citations/yr:** 0.0
-- **Found via:** hydropower climate change; reservoir management
+## Scenario-adaptive scheduling of cascade hydro-wind-solar-pumped storage systems driven by hydrological variability
+- **Journal/date/type:** Journal of Hydrology / 2026-10-11 / article
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136585  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew; Economic operation of a wind-solar-hydro complementary system considering risks ; Evaluation of the risk and benefit of the complementary operation of the large w
 - **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The study addresses limitations and potential solutions in applying standard RCM-HM modeling chains for climate sensitivity studies in high-elevation alpine regions, implying further refinement and evaluation of these methods is needed.
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how adaptive scheduling methods can manage reservoir operations and renewable integration under variable hydrology to reduce spill and optimize turbine releases.
+
+## A scenario-based evaluation framework for renewable capacity scale and photovoltaic capacity ratio in a hydro–wind–photovoltaic–pumped-storage hybrid energy system
+- **Journal/date/type:** Energy Conversion and Management / 2026-10-05 / article
+- **DOI:** https://doi.org/10.1016/j.enconman.2026.122214  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
 - **Real-world hook:** None stated
-- **Direction hint:** Investigate how physically based temperature lapse rate corrections can be integrated into hydropower reservoir operation models to improve climate sensitivity assessments in alpine regions.
+- **Direction hint:** Investigate how varying photovoltaic capacity ratios influence reservoir operations and water accounting in hybrid hydro-solar systems.
+
+## Variable-Condition Feedforward Control Strategy for Primary Frequency Regulation of Hydropower Units under Wide Operating Conditions
+- **Journal/date/type:** Energy / 2026-10-01 / article
+- **DOI:** https://doi.org/10.1016/j.energy.2026.142679  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how advanced control strategies for hydropower units might interact with reservoir operating rules and turbine discharge constraints under variable renewable integration.
 
 ## From Hazard to Resource: A Screening‐Level Assessment of Glacial Lake Hydropower Potential and Development Suitability in the Poiqu River Basin, Central Himalaya
 - **Journal/date/type:** Water Resources Research / 2026-10-01 / 
@@ -2190,15 +1821,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Assessments of hydropower potential and development suitability in glacial lakes remain limited; the study provides a screening-level framework but does not detail site-specific operational strategies or long-term socio-economic impacts.
 - **Real-world hook:** Climate warming-driven glacier retreat and glacial lake expansion in the central Himalaya create both hydropower opportunities and flood hazards; the study addresses climate-adaptive hazard governance and clean energy development in this region.
 - **Direction hint:** How can integrated reservoir operation strategies be developed to optimize hydropower generation from glacial lakes while minimizing flood risks under deep climate uncertainty?
-
-## Evolution of Institutional Dynamics in Water Resource Governance in the Yellow River Basin
-- **Journal/date/type:** Water Resources Research / 2026-10-01 / 
-- **DOI:** https://doi.org/10.1029/2025wr043277  |  **Citations/yr:** 0.0
-- **Found via:** hydropower reservoir operation; hydropower climate change; reservoir management
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The paper addresses a previously poorly understood area of how legislative variation structurally transforms institutional dynamics and governance performance; no explicit future work stated but implies need for applying the approach to other basins.
-- **Real-world hook:** Analysis of five national-level legislative documents that have fundamentally transformed the Yellow River Basin's water governance over recent decades.
-- **Direction hint:** Investigate how institutional governance transformations in large river basins influence reservoir operation and hydropower flexibility under climate and drought risks.
 
 ## Cross-border electricity tariffs undermine power system efficiency, decarbonization and reliability in North America
 - **Journal/date/type:** Nature Communications / 2026-10-01 / article
@@ -2218,6 +1840,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate the potential of advanced optimization algorithms like the adaptive symmetric projection lemmings algorithm for improving cascade reservoir operations to enhance hydropower flexibility.
 
+## Reconstructing transient states in hydropower plants during small-disturbance events using physics-informed neural networks
+- **Journal/date/type:** Energy Conversion and Management / 2026-09-30 / article
+- **DOI:** https://doi.org/10.1016/j.enconman.2026.122187  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Short-term risk-management for hydro-wind-solar hybrid energy system considering
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Performance under model–data mismatches was examined, but further work could explore broader disturbance types, larger-scale systems, or integration with operational decision-making.
+- **Real-world hook:** The study addresses challenges in monitoring and modeling hydropower plant transient states during primary frequency regulation, relevant for grid stability and hydropower operation.
+- **Direction hint:** Investigate how PINN-based state reconstruction could support improved reservoir operating rules or turbine release decisions under variable renewable integration scenarios.
+
 ## Effects of Reduced Precipitation and Water Level Variability on Phytoplankton Dynamics and Thermal Structure in a Large Tropical Reservoir
 - **Journal/date/type:** Water Resources Research / 2026-09-29 / article
 - **DOI:** https://doi.org/10.1029/2026wr043749  |  **Citations/yr:** 0.0
@@ -2227,14 +1858,14 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Lake Kariba experienced historically low water levels and power shortages from reduced hydropower generation due to multiple severe droughts linked to El Niño events over the last 25 years.
 - **Direction hint:** Investigate how reservoir operation strategies can be adapted to manage ecological impacts and hydropower reliability under drought-induced water level variability in tropical reservoirs.
 
-## Perceptions of Drought Risk Management in Zambia: Reflections from the Historic 2023/2024 Drought
-- **Journal/date/type:** EarthArXiv / 2026-09-21 / preprint
-- **DOI:** https://doi.org/10.31223/x5980z  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
+## Price makers in 100 % renewable power systems: shadow price formation through flexibility options, hydropower, and congestion in a multi-zonal model
+- **Journal/date/type:** Energy Conversion and Management / 2026-09-21 / article
+- **DOI:** https://doi.org/10.1016/j.enconman.2026.122181  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
 - **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The study highlights the need to integrate scientific drought indicators with local and sector-specific knowledge and suggests strengthening participatory monitoring, climate communication, vulnerability assessment, and locally grounded preparedness for proactive drought risk management.
-- **Real-world hook:** The study is tied to the historic severe 2023/2024 drought in Zambia.
-- **Direction hint:** How can integrated drought risk management frameworks be designed to incorporate diverse perceptions and knowledge across governance levels to improve hydropower operation resilience under drought conditions?
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how hydropower flexibility and reservoir operating constraints affect price formation and water accounting in renewable-integrated power systems.
 
 ## Data center cooling choices shift water impacts across the grid: An integrated water-energy model for sustainable data center development
 - **Journal/date/type:** arXiv / 2026-09-21 / preprint
@@ -2245,6 +1876,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Rapid development of data centers in Michigan and their cooling technology choices impacting regional water resources.
 - **Direction hint:** How can integrated water-energy models be adapted to evaluate water-energy trade-offs of flexible hydropower operation under varying electricity demands from emerging loads like data centers?
 
+## Coordinated dispatch of hydro-wind-photovoltaic systems based on a differentiated peak-shaving method for cascaded hydropower stations
+- **Journal/date/type:** Renewable Energy / 2026-09-18 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126476  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Economic operation of a wind-solar-hydro complementary system considering risks 
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how differentiated peak-shaving methods can improve coordinated operation of hydro-solar-wind systems in cascaded hydropower contexts, focusing on reservoir storage and turbine release dynamics.
+
 ## Mixed-Integer Nonlinear Differentiable Predictive Control for Underground Pumped Hydro Energy Storage Systems
 - **Journal/date/type:** arXiv / 2026-09-16 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2609.17964  |  **Citations/yr:** 0.0
@@ -2254,37 +1894,37 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Application to day-ahead scheduling of Underground Pumped Hydro Energy Storage Systems, relevant for energy storage integration in power systems.
 - **Direction hint:** Investigate how MI-DPC can be adapted for reservoir operation and hydropower scheduling under deep uncertainty and integrated with variable renewable generation forecasts.
 
+## Physics-constrained large language model-assisted optimal scheduling approach for hydro-wind-solar systems considering multi-level backwater effects
+- **Journal/date/type:** Applied Energy / 2026-09-12 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128819  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar OR wind) AND ("water saving" OR "water conservation" OR "stored water" OR "water balance" OR "water level" OR "carryover storage")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Explore how integrating physics-informed AI models can improve scheduling and operational decisions in hydro-solar-wind hybrid systems, especially accounting for hydrodynamic effects like backwater.
+
+## Renewable energy droughts under high variable renewables penetration: meteorological drivers, system impacts, and planning uses
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2026-09-11 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2026.117463  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid) | cites Balancing-oriented hydropower operation makes the clean energy transition more a
+- **Relevance:** Medium  |  **Scope:** Regional (with strong regional concentration of research scope noted)
+- **Stated gap / future work:** Research priorities include improving climate projections, hydropower operations modeling, forecasting methods, and characterization of extreme renewable energy droughts.
+- **Real-world hook:** Increasing penetration of variable renewable energy sources in power systems leading to exposure to meteorologically driven renewable energy droughts.
+- **Direction hint:** Investigate how hydropower operations and reservoir management can be optimized to mitigate renewable energy drought impacts under variable renewable penetration.
+
 ## Time-of-Use Pricing Enhances Vehicle-to-Grid Benefits for Power Systems and Vehicle Owners but May Undermine Decarbonization
 - **Journal/date/type:** Environmental Science & Technology / 2026-09-03 / article
 - **DOI:** https://doi.org/10.1021/acs.est.6c03971  |  **Citations/yr:** 0.0
-- **Found via:** ("pumped storage" OR "pumped hydro"); (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Found via:** ("pumped storage" OR "pumped hydro"); (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND ("hydraulic head" OR "turbine efficiency" OR "unit commitment" OR "turbine discharge") AND (photovoltaic OR solar OR wind); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** A shift toward dynamic, carbon-aware pricing mechanisms is essential to ensure V2G deployment supports decarbonization goals.
 - **Real-world hook:** Application to the 2030 Jing-Jin-Tang power grid and current static time-of-use tariffs.
 - **Direction hint:** Investigate how dynamic, carbon-aware electricity pricing can be designed to optimize V2G benefits while minimizing negative impacts on hydropower operation and emissions.
 
-## Snow What? Strengths and Limitations of Different Snow Products in Western U.S. Mountains
-- **Journal/date/type:** Water Resources Research / 2026-08-31 / article
-- **DOI:** https://doi.org/10.1029/2026wr043728  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing)
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Guidelines are crucial for selecting accurate SWE products for scientific analysis; many energy balance models overestimate melt due to excessive incoming radiation, indicating a need for improved model calibration.
-- **Real-world hook:** The study relates to water storage estimates critical for managing reservoirs like Lake Mead in the western U.S., which is vital for water and hydropower resource planning.
-- **Direction hint:** How can improved SWE product accuracy and spatial resolution enhance reservoir operation and hydropower planning under climate variability and drought conditions in hydropower-dependent regions?
-
-## Hidden carbon fluxes from groundwater use in Mexico using satellite storage change and bicarbonate degassing
-- **Journal/date/type:** Communications Earth & Environment / 2026-08-29 / article
-- **DOI:** https://doi.org/10.1038/s43247-026-03940-y  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Highlights the need for low-carbon pumping technologies and improved water management to mitigate emissions; specific future work not detailed in abstract.
-- **Real-world hook:** Analysis based on satellite groundwater storage changes and pumping energy data for Mexico in 2012, 2017, and 2021, reflecting ongoing groundwater depletion trends.
-- **Direction hint:** Investigate how groundwater depletion-induced carbon emissions interact with energy use in hydropower systems and explore integrated water-energy management strategies under climate stress.
-
 ## Optimization of Closed-Loop Pumped-Storage Hydropower Siting
 - **Journal/date/type:** arXiv / 2026-08-25 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2608.25175  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); ("pumped storage" OR "pumped hydro")
+- **Found via:** ("pumped storage" OR "pumped hydro"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional (framework designed for regional-scale PSH site prospecting but potentially transferable to other regions).
 - **Stated gap / future work:** None stated explicitly; however, the abstract implies further application and validation of the framework in diverse regions and integration with operational planning could be next steps.
 - **Real-world hook:** The framework is developed to address operational challenges from increasing variable renewable energy integration and socio-environmental constraints limiting conventional hydropower, with a case study in Rio de Janeiro, Brazil.
@@ -2308,6 +1948,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Repurposing idle oil wells for geothermal energy extraction to diversify renewable energy sources and support net-zero targets by 2050.
 - **Direction hint:** How can physics-informed neural networks be adapted to model reservoir and wellbore dynamics for hydropower reservoir operation under deep uncertainty?
 
+## Multi-timescale coordination of hydro–wind–PV systems with pumped storage for enhanced operational flexibility
+- **Journal/date/type:** Energy Conversion and Management / 2026-08-15 / article
+- **DOI:** https://doi.org/10.1016/j.enconman.2026.122051  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Economic operation of a wind-solar-hydro complementary system considering risks ; Complementary scheduling of hydro-wind-PV-storage systems: Addressing flexibilit
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Not established from title
+
 ## Safeguarding Cost-Effective and Risk-Mitigated Chemical Decarbonization by Diversified Energy Supply
 - **Journal/date/type:** Environmental Science & Technology / 2026-08-13 / article
 - **DOI:** https://doi.org/10.1021/acs.est.6c03614  |  **Citations/yr:** 0.0
@@ -2316,6 +1965,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated
 - **Real-world hook:** China's chemical sector decarbonization by 2060 with regionally tailored energy transitions
 - **Direction hint:** Investigate how integrating locally available hydropower into diversified energy portfolios can enhance flexibility and reduce risks in decarbonizing industrial sectors under spatial and technological constraints.
+
+## Evaluating pumped hydro storage system impacts through life cycle assessment
+- **Journal/date/type:** Applied Energy / 2026-08-11 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128604  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Need to enhance Life Cycle Inventory data quality through primary industry sources and incorporate photovoltaic systems into future models for a more holistic evaluation.
+- **Real-world hook:** Analysis based on an existing European Alpine PHS facility and realistic energy mix scenarios including wind, grid, hydroelectric plants, and PHS.
+- **Direction hint:** How does integrating photovoltaic systems with pumped hydro storage affect reservoir operations, turbine releases, and water balance accounting under renewable integration?
 
 ## Socio-economic characterization and Natural Resource appraisal for watershed development around Pumped Storage Hydroelectric Project sites in Andhra Pradesh, India
 - **Journal/date/type:** EarthArXiv / 2026-08-06 / preprint
@@ -2335,15 +1993,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** China's carbon neutrality goal by 2060 and associated energy transition policies including coal phase-out, renewable scale-up, and carbon capture deployment.
 - **Direction hint:** Investigate how probabilistic integrated frameworks can be adapted to assess hydropower operation flexibility and water-energy trade-offs under deep uncertainty in other regions or systems.
 
-## Threefold increase in atmospheric–riverine compound heatwaves under climate change
-- **Journal/date/type:** Nature Geoscience / 2026-07-30 / article
-- **DOI:** https://doi.org/10.1038/s41561-026-02040-y  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (USA and Central Europe) with transferable mechanisms related to compound heatwave dynamics.
-- **Stated gap / future work:** The need to incorporate compound heatwave dynamics into future water risk assessments is highlighted, implying further research on their impacts and integration into risk models.
-- **Real-world hook:** The study relates to ongoing climate change impacts and projects that under a high-emissions scenario, nearly all riverine heatwaves will coincide with atmospheric heatwaves by 2100.
-- **Direction hint:** Investigate how increasing compound heatwaves affect hydropower operations and reservoir management, particularly regarding thermal stress and water-energy trade-offs under climate change.
-
 ## Machine Learning-Based Sedigraph Reconstruction for Enhanced Sediment Yield Estimation in the Upper Blue Nile Basin
 - **Journal/date/type:** EarthArXiv / 2026-07-30 / preprint
 - **DOI:** https://doi.org/10.31223/x5bv38  |  **Citations/yr:** 0.0
@@ -2353,14 +2002,23 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study is tied to sedimentation threats to Lake Tana's ecology and the operational efficiency of the Grand Ethiopian Renaissance Dam (GERD), a critical hydropower infrastructure in Ethiopia.
 - **Direction hint:** How can machine learning-based sediment yield estimation methods be integrated with reservoir operation models to optimize hydropower generation and sediment management under climate variability and data scarcity?
 
-## Diagnosis of model evaporation–soil moisture regimes: What environmental conditions lead to disagreement with observations?
-- **Journal/date/type:** ESS Open Archive / 2026-07-30 / preprint
-- **DOI:** https://doi.org/10.22541/essoar.15006824/v1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated explicitly; however, the study implies the need for targeted model development to address identified systematic biases in land surface physics and atmospheric parameterizations.
-- **Real-world hook:** None stated
-- **Direction hint:** How can insights from environmental drivers of soil moisture regime mismatches be integrated into hydropower reservoir operation models to improve predictions of water availability under climate variability?
+## An adaptive situation awareness model for short-term scheduling of cascade hydropower serving grids system under inflow and renewable energy uncertainties
+- **Journal/date/type:** Applied Energy / 2026-07-30 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128560  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how adaptive scheduling models can optimize turbine releases and reservoir operations in cascade hydropower systems facing variable renewable inputs and inflow uncertainties.
+
+## The impact of solar photovoltaics on the energy-industry transition in the Nordic and Baltic countries
+- **Journal/date/type:** Applied Energy / 2026-07-29 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128475  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Energy transition scenarios for Nordic and Baltic countries aiming for net-zero emissions by 2050, considering electricity exchange with Europe and technology cost sensitivities.
+- **Direction hint:** Investigate how integrating solar PV with large hydropower reservoirs in Nordic/Baltic contexts affects reservoir operations, turbine releases, and spill under varying operating rules and refill dynamics.
 
 ## Decomposing a Multi-Scale Optimization Framework for Grid-Integrated Electrolysis using Aggregate-Informed Benders
 - **Journal/date/type:** arXiv / 2026-07-23 / preprint
@@ -2371,6 +2029,24 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Participation of electrolysis devices in day-ahead and real-time electricity markets to capitalize on volatile electricity prices.
 - **Direction hint:** How can similar decomposition and optimization methods be adapted to model flexible hydropower operation for integrating variable renewables under market and climate uncertainties?
 
+## Energy-industry system transition options for the Eastern Africa power pool
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2026-07-17 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2026.117265  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** The study addresses critical gaps in African energy transition literature but does not explicitly state limitations or future work in the abstract.
+- **Real-world hook:** Eastern Africa Power Pool's energy transition planning and policy roadmaps aiming for sustainable development, energy security, and climate goals.
+- **Direction hint:** How can integration of solar PV and wind with hydropower in Eastern Africa be optimized to manage reservoir operations, turbine releases, and spill under climate variability and operating constraints?
+
+## Resilience-oriented stochastic short-term scheduling of basin-scale hydro-wind-solar systems under compound uncertainties
+- **Journal/date/type:** Applied Energy / 2026-07-13 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.128432  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** How do compound uncertainties in hydro-wind-solar systems affect short-term scheduling and reservoir operations under resilience-oriented frameworks?
+
 ## A multi-model framework for identifying affordable low-carbon electricity pathways for India under uncertainty
 - **Journal/date/type:** arXiv / 2026-07-12 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2607.10581  |  **Citations/yr:** 0.0
@@ -2380,6 +2056,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** India's electricity system planning under ambitious carbon emission reduction targets (up to 90% below current levels by 2050)
 - **Direction hint:** How can flexible hydropower operation be integrated into India's low-carbon pathways to complement solar and battery storage under uncertainty?
 
+## Operational and market impacts of residential solar photovoltaics using a system operator-derived dispatch framework
+- **Journal/date/type:** Energy / 2026-07-10 / article
+- **DOI:** https://doi.org/10.1016/j.energy.2026.141862  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Analysis based on New Zealand's electricity market and system operator's market clearing engine
+- **Direction hint:** How do the timing and magnitude of solar PV-induced reductions in hydro turbine dispatch affect reservoir storage dynamics, spill, and operating rule constraints in hydro-solar complementary systems?
+
 ## A Multi-Scale Optimization Framework for Grid-Integrated Electrolysis
 - **Journal/date/type:** arXiv / 2026-07-10 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2607.09512  |  **Citations/yr:** 0.0
@@ -2388,6 +2073,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Challenges remain in achieving the standard $1/kg levelized cost of hydrogen solely through market arbitrage; next-generation device design goals and parameter tradeoffs need further exploration.
 - **Real-world hook:** Participation of a 2.2 MW alkaline water electrolyzer in active day-ahead electricity markets over a 22-year horizon.
 - **Direction hint:** How can multi-scale optimization frameworks be adapted to integrate flexible hydropower operation alongside electrolysis to enhance grid flexibility and support renewable integration?
+
+## Low-Carbon Operation Mode of the wind-photovoltaic-thermal-hydro-pumped storage hydropower combined generation system
+- **Journal/date/type:** Renewable Energy / 2026-07-09 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126176  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Not established from title
 
 ## Understanding changes in Iceland's streamflow dynamics in response to climate change
 - **Journal/date/type:** Hydrology and earth system sciences / 2026-06-29 / article
@@ -2407,19 +2101,10 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate how hybrid modeling approaches combining physical and data-driven methods can enhance hydropower forecasting accuracy under changing system dynamics.
 
-## Genetic programming for modeling water-energy-environment coupled systems: taking the upper Yangtze River basin as an example
-- **Journal/date/type:** Journal of Hydrology / 2026-06-18 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135885  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Application to the upper Yangtze River basin, a significant regional water-energy-environment system
-- **Direction hint:** Explore the potential of genetic programming to develop transferable models for integrated water-energy-environment systems under varying conditions.
-
 ## Intelligent mining of generation operation rules for cascade hydropower reservoirs driven by large language models and knowledge graphs
 - **Journal/date/type:** Journal of Hydrology / 2026-06-17 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135896  |  **Citations/yr:** 0.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
+- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy) | cites Complementary operation with wind and photovoltaic power induces the decrease in
 - **Relevance:** Medium  |  **Scope:** Not established from title
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -2428,7 +2113,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Assessment of Sentinel-1 C-band SAR snow depth assimilation in operational hydrological modeling of high-alpine catchments
 - **Journal/date/type:** Journal of Hydrology / 2026-06-16 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135888  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout)
+- **Found via:** (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout)
 - **Relevance:** Medium  |  **Scope:** Regional with transferable mechanism (snow depth data assimilation for hydrological modeling applicable to other mountainous or ungauged basins).
 - **Stated gap / future work:** The approach shows promise for modeling remote, ungauged basins globally, implying further testing and application in diverse regions is needed.
 - **Real-world hook:** Operational hydrological modeling used for hydropower and flood forecasting in Austrian high-alpine catchments between 2016 and 2024.
@@ -2437,20 +2122,29 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Pushing the Frontiers for Floating Solar Photovoltaics -- The Case for South America
 - **Journal/date/type:** arXiv / 2026-06-11 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2606.12798  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Deployment of FSPV remains limited despite high potential; the study implies further work is needed to scale and integrate FSPV with existing hydropower infrastructure and to explore socio-economic impacts.
 - **Real-world hook:** Case studies in Nicaragua, Honduras, and Guyana demonstrate practical application; the framework supports energy access expansion in underserved regions and highlights co-location with hydropower facilities.
 - **Direction hint:** Investigate how integrating floating solar with hydropower reservoir operations can enhance grid flexibility and optimize water-energy trade-offs under climate variability in South America and similar regions.
 
-## High-resolution monthly sectoral water demands for the U.S. over 1980-2100
-- **Journal/date/type:** EarthArXiv / 2026-06-11 / preprint
-- **DOI:** https://doi.org/10.31223/x56b7c  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (U.S. focused) with potential for transferable mechanisms in dataset construction and scenario integration.
-- **Stated gap / future work:** None stated explicitly in the abstract, but the dataset enables improved integrated modeling and local-to-regional water scarcity assessments, implying future work in applying this data to such analyses.
-- **Real-world hook:** The dataset supports integrated energy-water-land modeling and water scarcity assessments relevant to planning under varying atmospheric conditions, emissions constraints, and socio-economic scenarios.
-- **Direction hint:** How can this high-resolution, multi-sector water demand dataset be integrated with hydropower operation models to assess water-energy trade-offs and reservoir management under climate and socio-economic uncertainties?
+## Global drought impacts on hydropower integrating physically-based and machine learning modelling
+- **Journal/date/type:** Environmental Research Letters / 2026-06-10 / article
+- **DOI:** https://doi.org/10.1088/1748-9326/ae7b62  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** The framework is an initial step towards tools for monitoring climate extremes' impacts on hydropower, implying further development and refinement are needed.
+- **Real-world hook:** Historical drought events from 1982 to 2022 and their impacts on hydropower generation globally.
+- **Direction hint:** How can hybrid physically-based and machine learning models be adapted or extended to capture the interactions between solar PV integration, reservoir operating rules, and hydropower generation under drought conditions?
+
+## A universal joint dispatch model for hydro-wind-solar systems under complex grid structures
+- **Journal/date/type:** Energy / 2026-06-06 / article
+- **DOI:** https://doi.org/10.1016/j.energy.2026.141378  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Potentially Global or transferable mechanism
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how integrated dispatch models can inform reservoir operating rules and turbine releases when coordinating hydro and solar PV generation.
 
 ## Hydrogen and CO₂ Co-Storage in Mature Reservoirs: A New Frontier for the Energy Transition
 - **Journal/date/type:** EarthArXiv / 2026-05-29 / preprint
@@ -2479,6 +2173,33 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Application to hydroelectric energy storage proportions in Brazil.
 - **Direction hint:** Investigate how quantile-based time series models like QULS-ARMA can improve reservoir operation and hydropower flexibility modeling under uncertainty in proportion data such as storage levels.
 
+## Evaluation of hydropower equivalents in electricity capacity expansion models
+- **Journal/date/type:** Renewable Energy / 2026-05-12 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.125924  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly, but the work implies the need for improved hydropower modeling in capacity expansion frameworks to avoid overestimating flexibility and underestimating investments in other dispatchable technologies.
+- **Real-world hook:** Application to the Swedish hydropower system within a northern European energy system model, relevant to expected increases in European electricity demand and renewable shares.
+- **Direction hint:** How can detailed hydropower physical constraints be integrated with reservoir operating rules and water balance accounting to better quantify water saved or spilled under solar PV integration scenarios?
+
+## Enhancing Reservoir Drought Resilience with High-Granularity Streamflow Forecasts: A Preference-Preserving Framework for Robustness Evaluation
+- **Journal/date/type:** Journal of Water Resources Planning and Management / 2026-05-09 / article
+- **DOI:** https://doi.org/10.1061/jwrmd5.wreng-7165  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Balancing-oriented hydropower operation makes the clean energy transition more a
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** The challenge of translating FIRO insights into actionable policies for multiobjective systems and the underexplored impact of forecast granularity on operations.
+- **Real-world hook:** Application to China’s upper Yellow River basin (UYRB), a complex cascading reservoir system facing drought-induced hydropower generation shortfalls.
+- **Direction hint:** Investigate how integrating high-granularity streamflow forecasts can optimize reservoir operating rules and turbine releases under hydro-solar complementary operation to reduce spill and improve water accounting.
+
+## A hierarchical-zoned capacity planning methodology for hybrid power systems connected via cascade multi-terminals transmission: a case study
+- **Journal/date/type:** Applied Energy / 2026-05-08 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2026.127958  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Integration of cascaded multi-terminal transmission technology to connect geo-dispersed VRE and cascaded hydropower for hybrid power system optimization
+- **Direction hint:** How can the hierarchical-zoned capacity planning approach be adapted to explicitly incorporate reservoir operating rules and water balance accounting to assess impacts on turbine releases, spill, and environmental flows under high solar PV integration?
+
 ## EMERGING-E: A global multi-regional input-output model with renewable electricity disaggregation
 - **Journal/date/type:** One Earth / 2026-04-17 / article
 - **DOI:** https://doi.org/10.1016/j.oneear.2026.101659  |  **Citations/yr:** 0.0
@@ -2496,15 +2217,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Policy, economic, and technological uncertainties affect electricity mixes, especially in the US, where recent policy shifts may weaken defossilization incentives and risk elevated regional water stress; further investigation into these uncertainties is implied.
 - **Real-world hook:** Recent US policy shifts have weakened defossilization incentives, risking elevated regional water stress; the study uses national and subnational electricity mixes in the US, China, and EU+ with projections through 2050.
 - **Direction hint:** How can hydropower operation and planning incorporate regional policy and technological uncertainties to optimize water-energy trade-offs during the green electricity transition?
-
-## Control of Vegetation and Temperature on Topsoil Water Losses
-- **Journal/date/type:** Water Resources Research / 2026-04-01 / article
-- **DOI:** https://doi.org/10.1029/2025wr040632  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global
-- **Stated gap / future work:** None stated explicitly; hypotheses about mechanisms (soil shading, transpiration, root uptake) suggest further mechanistic studies could be valuable.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how vegetation-driven modulation of soil moisture loss interacts with hydropower reservoir inflows and drought risk under climate warming scenarios.
 
 ## Towards cooperation on transboundary rivers: achieving a win–win balance between upstream hydropower generation and downstream water demand under climate change
 - **Journal/date/type:** Journal of Hydrology / 2026-01-01 / article
@@ -2561,141 +2273,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Direction hint:** Investigate how reservoir operation strategies can be optimized to manage altered SHE feedback loops caused by IWDPs, especially under varying inflow and drought conditions.
 
 ## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2024-10-28 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2024-105-ac2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Challenges remain in detecting CSM and attributing water-energy limit shifts due to sparse in-situ observations; further work is implied to improve detection and attribution methods.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how satellite-derived CSM metrics can inform reservoir operation and hydropower management under climate-driven shifts in water-energy limitations to enhance flexibility for renewable integration.
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2024-10-28 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2024-105-ac1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Challenges remain in detecting CSM and attributing water-energy limit shifts due to sparse in-situ observations; further work could improve understanding of these shifts under climate change.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how satellite-derived CSM metrics can inform reservoir operation and hydropower management under changing water-energy limitations and drought conditions.
-
-## Comment on hess-2024-105
-- **Journal/date/type:** Hydrology and earth system sciences / 2024-06-17 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2024-105-rc1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Challenges remain in detecting CSM and attributing water-energy limit shifts due to sparse in-situ observations; further work could improve understanding of these shifts under climate change.
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how satellite-derived soil moisture and evapotranspiration metrics can inform reservoir operation and hydropower management under climate-induced water-energy limitation shifts.
-
-## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-11-28 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-18-ac1  |  **Citations/yr:** 0.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Adding additional remotely-sensed observations for multi-variable calibration and considering parameter uncertainty in multi-model ensemble studies; addressing model structure uncertainties related to reservoir operations and small wetlands; improving representation of losing river conditions.
-- **Real-world hook:** Application to the Mississippi River basin as a pilot region for global hydrological model calibration and uncertainty assessment.
-- **Direction hint:** How can improved representation of reservoir operations and inclusion of diverse observational data reduce model structural uncertainties and enhance hydrological model calibration for better water-energy system assessments?
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-11-28 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-18-ac2  |  **Citations/yr:** 0.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Adding additional remotely-sensed observations in multi-variable calibration and considering parameter uncertainty in multi-model ensemble studies; addressing model structure uncertainties related to reservoir operation, wetlands, and losing river conditions.
-- **Real-world hook:** Application to the Mississippi River basin as a pilot region for global hydrological model calibration and uncertainty assessment.
-- **Direction hint:** How can multi-variable calibration approaches incorporating diverse observational data and addressing model structural uncertainties be optimized to improve hydrological model reliability for reservoir operation and water-energy system planning under uncertainty?
-
-## Comment on hess-2023-18
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-10-23 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-18-rc2  |  **Citations/yr:** 0.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Adding additional remotely-sensed observations for multi-variable calibration and considering parameter uncertainty in multi-model ensemble studies; addressing model structure uncertainties related to reservoir operations and small wetlands.
-- **Real-world hook:** Application to the Mississippi River basin as a pilot region for global hydrological model calibration and uncertainty estimation.
-- **Direction hint:** How can improved representation of reservoir operations and inclusion of diverse observational data reduce model structural uncertainties and improve hydrological model calibration for better water-energy system assessments?
-
-## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-10-04 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-93-ac2  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The impact of LULCC in addition to climate change on African water resources is underexplored, indicating a need for further integrated studies and policy adoption to mitigate combined impacts.
-- **Real-world hook:** The study is tied to policy needs to halt global greenhouse gas emissions and combat deforestation to avoid severe combined impacts on water resources in Africa.
-- **Direction hint:** Investigate how hydropower operations in African basins can adapt reservoir management to combined climate and land use change impacts to maintain flexibility for renewable integration under uncertain future hydrology.
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-10-04 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-93-ac1  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The impact of LULCC in addition to climate change on African water resources is underexplored, indicating a need for further integrated studies.
-- **Real-world hook:** The study is tied to policy needs to halt global greenhouse gas emissions and combat deforestation to mitigate combined impacts on water resources in Africa.
-- **Direction hint:** How can reservoir operation and hydropower planning in African basins incorporate combined climate and land use change impacts to enhance system flexibility and resilience?
-
-## Comment on hess-2023-93
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-07-18 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-93-rc2  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The impact of LULCC in addition to climate change on African water resources is underexplored, indicating a need for further integrated studies.
-- **Real-world hook:** The findings have implications for agriculture and energy sectors in Africa, highlighting the need for policies to reduce greenhouse gas emissions and deforestation.
-- **Direction hint:** Investigate how hydropower operation and reservoir management in African basins can adapt to combined climate and land use changes to maintain energy and water security.
-
-## Comment on hess-2023-93
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-06-14 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-93-rc1  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** The impact of LULCC in addition to climate change on African water resources is underexplored, indicating a need for further integrated studies.
-- **Real-world hook:** The findings have implications for agriculture and energy sectors in Africa, highlighting the need for policies to reduce greenhouse gas emissions and deforestation.
-- **Direction hint:** How can reservoir operation and hydropower planning in African basins incorporate combined climate and land use change impacts to enhance system flexibility and resilience?
-
-## Comment on hess-2023-18
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-06-07 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-18-rc1  |  **Citations/yr:** 0.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy)
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** Adding additional remotely-sensed observations for multi-variable calibration and considering parameter uncertainty in multi-model ensemble studies; addressing model structure uncertainties related to reservoir operation and small wetlands representation.
-- **Real-world hook:** Application to the Mississippi River basin as a pilot region for improving global hydrological model calibration.
-- **Direction hint:** How can multi-variable calibration incorporating diverse observational data and addressing model structural uncertainties enhance hydrological model reliability for reservoir operation and water-energy system assessments?
-
-## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-06-06 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-107-ac2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (tested in two climatically different catchments in Turkey and Germany)
-- **Stated gap / future work:** None stated explicitly, but the study implies further application of deficit-based IDF curves in various sectors and regions could be explored.
-- **Real-world hook:** The developed IDF curves provide a tool for decision-makers and end-users in agriculture, ecology, industry, energy, and water supply to respond quickly and precisely to droughts.
-- **Direction hint:** How can deficit-based IDF curves be integrated into hydropower reservoir operation models to enhance drought risk management and improve flexibility for renewable energy integration under varying climatic conditions?
-
-## Comment on hess-2023-107
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-06-04 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-107-rc2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (two catchments in Turkey and Germany with different hydrological conditions)
-- **Stated gap / future work:** None stated explicitly, but the study implies further application of IDF curves for various sectors and decision-making contexts.
-- **Real-world hook:** Application of IDF curves as a tool for agriculture, ecology, industry, energy, and water supply decision-makers to respond quickly and precisely to droughts.
-- **Direction hint:** Investigate how deficit-based IDF curves can be integrated into reservoir operation models to enhance hydropower flexibility and drought risk management under varying climatic conditions.
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-06-02 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-107-ac1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (two distinct catchments with different climates and hydrology)
-- **Stated gap / future work:** None stated explicitly, but the study implies further application of deficit-based IDF curves in various sectors and regions.
-- **Real-world hook:** The study uses data from two climatically and hydrologically different catchments (Seyhan River in Turkey and Kocher River in Germany) and aims to provide tools for decision-makers in agriculture, ecology, industry, energy, and water supply to respond to droughts more effectively.
-- **Direction hint:** How can deficit-based IDF curves be integrated into reservoir operation and hydropower planning to enhance drought resilience and flexibility under varying climatic conditions?
-
-## Comment on hess-2023-107
-- **Journal/date/type:** Hydrology and earth system sciences / 2023-05-28 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2023-107-rc1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional (two catchments in Turkey and Germany with different hydrological conditions)
-- **Stated gap / future work:** None stated explicitly, but the study implies further application of IDF curves for various sectors and decision-making contexts.
-- **Real-world hook:** Application of IDF curves as a tool for agriculture, ecology, industry, energy, and water supply decision-makers to respond quickly and precisely to droughts.
-- **Direction hint:** How can deficit-based IDF curves be integrated into reservoir operation models to enhance hydropower flexibility and drought risk management under varying climatic conditions?
-
-## Reply on RC2
 - **Journal/date/type:** Hydrology and earth system sciences / 2022-06-13 / peer-review
 - **DOI:** https://doi.org/10.5194/hess-2022-32-ac2  |  **Citations/yr:** 0.0
 - **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout)
@@ -2721,24 +2298,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly; however, the sensitivity of forecast skill to precipitation input treatment suggests further investigation into improving precipitation forecasts could be beneficial.
 - **Real-world hook:** Co-designed prototype with end users in water management, hydropower production, and mountain ski tourism; uses ECMWF and Météo-France seasonal forecasts available via Copernicus Climate Change Service.
 - **Direction hint:** How can seasonal snow and meltwater forecasts be integrated into flexible hydropower reservoir operation to optimize water-energy trade-offs under climate variability and drought risk?
-
-## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-04-11 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-616-ac2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how changes in vapor pressure deficit and precipitation variability under climate change influence hydropower reservoir inflows and operation flexibility across different climate zones.
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-04-11 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-616-ac1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
-- **Stated gap / future work:** None stated
-- **Real-world hook:** None stated
-- **Direction hint:** Investigate how changes in ET drivers like VPD and precipitation variability influence hydropower reservoir inflows and operation flexibility under climate change.
 
 ## Comment on hess-2022-32
 - **Journal/date/type:** Hydrology and earth system sciences / 2022-04-10 / peer-review
@@ -2776,24 +2335,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The Columbia River Treaty between the United States and Canada, a major transboundary water treaty governing reservoir operations and hydropower benefit sharing.
 - **Direction hint:** How can reservoir operation models incorporate evolving social preferences and institutional capacities to enhance cooperation under changing environmental and political conditions?
 
-## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-01-17 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-525-ac2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Uncertainties in climate model projections highlight the need to better represent complex climate features in regional models.
-- **Real-world hook:** The findings provide guidance for decision-makers to develop adaptation and mitigation strategies to address climate change impacts and support regional socioeconomic development in the Volta River basin.
-- **Direction hint:** How can reservoir operation and hydropower planning in the Volta River basin be optimized to manage increased flood risks and recurrent droughts under deep climate uncertainty?
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-01-14 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-525-ac1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Uncertainties in climate model projections highlight the need to better represent complex climate features in regional models.
-- **Real-world hook:** The study informs adaptation and mitigation strategies for water–energy–food security in the Volta River basin under climate change.
-- **Direction hint:** How can reservoir operation and hydropower planning in the Volta River basin be optimized to manage increased flood risks and recurrent droughts under deep uncertainty from climate projections?
-
 ## Comment on hess-2021-578
 - **Journal/date/type:** Hydrology and earth system sciences / 2022-01-05 / peer-review
 - **DOI:** https://doi.org/10.5194/hess-2021-578-rc1  |  **Citations/yr:** 0.0
@@ -2803,15 +2344,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The Columbia River Treaty between the United States and Canada, a major transboundary water treaty governing reservoir operations and hydropower benefit sharing.
 - **Direction hint:** How can institutional capacity and evolving social preferences be incorporated into reservoir operation models to enhance cooperation and flexibility in transboundary hydropower systems under environmental change?
 
-## Comment on hess-2021-525
-- **Journal/date/type:** Hydrology and earth system sciences / 2022-01-04 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-525-rc2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Uncertainties in climate model projections highlight the need to better represent complex climate features in regional models.
-- **Real-world hook:** The study informs adaptation and mitigation strategies for water availability, agriculture, and the water–energy–food security nexus in the Volta River basin region.
-- **Direction hint:** How can reservoir operation and hydropower planning in the Volta River basin be optimized to manage increased flood risks and altered flow seasonality under deep uncertainty from climate projections?
-
 ## 
 - **Journal/date/type:** Water Resources Research / 2021-12-27 / paratext
 - **DOI:** https://doi.org/10.1002/wrcr.v58.1  |  **Citations/yr:** 0.0
@@ -2820,24 +2352,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated
 - **Real-world hook:** Application to selecting PHS projects adjacent to the Sobradinho hydropower plant reservoir in Brazil
 - **Direction hint:** How can integer programming models incorporating cost and operational constraints be generalized to optimize PHS siting for enhancing hydropower flexibility in other regions?
-
-## Reply on RC2
-- **Journal/date/type:** Hydrology and earth system sciences / 2021-12-22 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-472-ac2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Local case
-- **Stated gap / future work:** Few studies have investigated the impacts of EoC extremes on watershed hydrology; this study addresses that gap but does not explicitly state further gaps or future work in the abstract.
-- **Real-world hook:** The study focuses on California's water resources, which are critical for sustaining its economy, agriculture, and resilient communities under climate change.
-- **Direction hint:** How can reservoir operation and hydropower management adapt to earlier and reduced snowmelt-driven inflows and increased evapotranspiration to maintain water-energy balance under intensified hydroclimatic extremes?
-
-## Reply on RC1
-- **Journal/date/type:** Hydrology and earth system sciences / 2021-12-22 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-472-ac1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Few studies have investigated the impacts of EoC extremes on watershed hydrology; this study addresses that gap but does not explicitly state further gaps or future work in the abstract.
-- **Real-world hook:** The study is tied to sustaining California's economy and agriculture and building resilient communities under climate change.
-- **Direction hint:** How can reservoir operation and hydropower management in California adapt to earlier runoff timing, reduced snowpack, and altered seasonal water availability under projected EoC hydroclimatic extremes?
 
 ## Reply on EC1
 - **Journal/date/type:** Hydrology and earth system sciences / 2021-12-18 / peer-review
@@ -2919,24 +2433,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** None stated explicitly, but the approach implies further exploration of feedback mechanisms and their application to other basins or under different scenarios.
 - **Real-world hook:** Application to the mid-lower reaches of the Hanjiang river basin in China as a case study.
 - **Direction hint:** Investigate how integrating community-driven feedback mechanisms with reservoir operation models can enhance hydropower flexibility and resource allocation under climate and demand uncertainties.
-
-## Comment on hess-2021-525
-- **Journal/date/type:** Hydrology and earth system sciences / 2021-11-12 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-525-rc1  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** Uncertainties in climate model projections highlight the need to better represent complex climate features in regional models.
-- **Real-world hook:** The study informs adaptation and mitigation strategies for water–energy–food security nexus and regional socioeconomic development in the Volta River basin under climate change.
-- **Direction hint:** How can reservoir operation and hydropower planning in the Volta River basin be optimized to manage increased flood risks and recurrent droughts under deep uncertainty from climate model variability?
-
-## Comment on hess-2021-472
-- **Journal/date/type:** Hydrology and earth system sciences / 2021-11-09 / peer-review
-- **DOI:** https://doi.org/10.5194/hess-2021-472-rc2  |  **Citations/yr:** 0.0
-- **Found via:** ("water-energy" OR "water energy nexus" OR "energy-water")
-- **Relevance:** Medium  |  **Scope:** Local case
-- **Stated gap / future work:** Few studies have investigated the impacts of EoC extremes on watershed hydrology; this study addresses that gap but does not explicitly state further gaps or future work in the abstract.
-- **Real-world hook:** Climate change impacts on California's water resources critical for sustaining economy, agriculture, and resilient communities.
-- **Direction hint:** How can reservoir operation and hydropower management adapt to earlier and more ephemeral streamflow patterns caused by reduced snowpack and altered hydrology under climate extremes?
 
 ## Comment on hess-2021-521
 - **Journal/date/type:** Hydrology and earth system sciences / 2021-11-04 / peer-review
