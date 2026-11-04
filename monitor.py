@@ -21,11 +21,8 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent
-CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
-DATA = ROOT / "data"
-REPORTS = ROOT / "reports"
-DATA.mkdir(exist_ok=True)
-REPORTS.mkdir(exist_ok=True)
+from topic_config import CONFIG, DATA, REPORTS, TOPIC
+
 CSV_PATH = DATA / "literature.csv"
 AI_FIELDS = ["research_question", "main_finding", "stated_gap_or_future_work", "real_world_hook",
              "generalizability", "direction_hint", "theme", "relevance"]
@@ -100,6 +97,7 @@ def resolve_preprints():
     ids = {}
     aliases = {
         "arXiv": ("arxiv", "arxiv.org"),
+        "ChemRxiv": ("chemrxiv", "chemrxiv.org"),
         "EarthArXiv": ("eartharxiv", "eartharxiv.org"),
         "ESS Open Archive": ("ess open archive", "essopenarchive", "essopenarchive.org"),
     }
@@ -128,6 +126,8 @@ def preprint_platform(work, preprints):
         label = " ".join(str(v or "") for v in (
             source.get("display_name"), source.get("homepage_url"),
             loc.get("landing_page_url"), loc.get("pdf_url"))).casefold()
+        if "chemrxiv" in label:
+            return "ChemRxiv"
         if "eartharxiv" in label:
             return "EarthArXiv"
         if "essopenarchive" in label or "ess open archive" in label:
@@ -135,6 +135,8 @@ def preprint_platform(work, preprints):
         if "arxiv.org" in label or "arxiv" in (source.get("display_name") or "").casefold():
             return "arXiv"
     doi = normalize_doi(work.get("doi"))
+    if doi.startswith("10.26434/chemrxiv"):
+        return "ChemRxiv"
     if doi.startswith("10.48550/arxiv."):
         return "arXiv"
     return ""
@@ -160,21 +162,13 @@ def contains_term(text, term):
 
 
 def prefilter(title, abstract):
-    """Hard domain gate: hydropower OR water-management+energy OR climate+water+energy."""
+    """OR across configured rules; AND across keyword groups within each rule."""
     text = f"{title or ''} {abstract or ''}".casefold()
-    groups = CONFIG["topic_groups"]
-
-    def has(group):
-        return any(contains_term(text, t) for t in groups[group])
-
     if any(contains_term(text, t) for t in CONFIG.get("exclude_if_any", [])):
         return "excluded"
-    if has("direct_hydropower"):
-        return "pass"
-    if has("reservoir_energy") and has("energy_context"):
-        return "pass"
-    if has("climate_power") and has("energy_context") and has("water_context"):
-        return "pass"
+    for rule in CONFIG["prefilter_rules"]:
+        if all(any(contains_term(text, t) for t in CONFIG["topic_groups"][g]) for g in rule):
+            return "pass"
     return "off-topic"
 
 
@@ -478,3 +472,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

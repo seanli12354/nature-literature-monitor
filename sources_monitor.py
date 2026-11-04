@@ -13,89 +13,16 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
-REPORTS = ROOT / "reports"
+from topic_config import CONFIG, DATA, REPORTS, TOPIC
 
-DATA.mkdir(exist_ok=True)
-REPORTS.mkdir(exist_ok=True)
-
+EXT = CONFIG["external"]
 CSV_PATH = DATA / "external_sources.csv"
 XLSX_PATH = DATA / "external_sources.xlsx"
 REPORT_PATH = REPORTS / "external_latest.md"
-
-LOOKBACK_DAYS = 30
-
-# Source-specific searches through Google News RSS.
-# These are discovery searches, not complete official archives.
-SOURCES = {
-    "IEA": "iea.org",
-    "IHA": "hydropower.org",
-    "IRENA": "irena.org",
-    "IPCC": "ipcc.ch",
-    "WMO": "wmo.int",
-    "DOE": "energy.gov",
-    "AGU": "agu.org",
-    "EGU": "egu.eu",
-    "NOAA": "noaa.gov",
-    "EIA": "eia.gov",
-}
-
-TOPICS = {
-    "Hydropower": [
-        "hydropower", "hydroelectric", "hydroelectricity",
-        "hydropower plant", "pumped hydro"
-    ],
-    "Water resources": [
-        "water resources", "water scarcity", "water security",
-        "reservoir", "river basin", "water management"
-    ],
-    "Climate and drought": [
-        "drought", "flood", "heatwave",
-        "climate risk", "climate change", "extreme weather"
-    ],
-    "Energy systems": [
-        "power grid", "electricity", "renewable energy",
-        "energy transition", "energy storage",
-        "power system", "grid reliability"
-    ],
-    "Water-energy nexus": [
-        "water energy", "water-energy", "energy water",
-        "hydro solar", "hydro wind"
-    ],
-}
-
-EXCLUDED_TERMS = [
-            "search -",
-            "events -",
-            "animation",
-            "section 24",
-            "production incentive",
-            "discover hydropower",
-            "session",
-            "shark skin",
-            "job opening",
-            "job vacancy",
-            "phd position",
-            "postdoctoral position",
-            "career opportunity",
-            "how it works",
-            "what is hydropower",
-            "internship",
-            "jobs -",
-            "basics",
-            "types of hydropower",
-            "benefits of hydropower",
-            "how hydropower works",
-            "voices of hydropower",
-            "mythbusters",
-            "hydropower office",
-            "hydrokinetic office",
-            "incentive program",
-            "hydroelectric incentives",
-            "e-library",
-            "training manual"
-        ]
+LOOKBACK_DAYS = int(EXT.get("lookback_days", 30))
+SOURCES = EXT["sources"]
+TOPICS = EXT["topics"]
+EXCLUDED_TERMS = EXT["exclude"]
 
 FIELDS = [
     "id", "date", "source", "category",
@@ -105,11 +32,7 @@ FIELDS = [
 
 
 def build_rss_url(domain):
-    query = (
-        f"site:{domain} "
-        "(hydropower OR hydroelectric OR \"pumped storage\" OR reservoir OR drought) "
-        "(electricity OR power OR grid OR outage OR shortage)"
-    )
+    query = f"site:{domain} {EXT['rss_query']}"
     return (
         "https://news.google.com/rss/search?"
         + urlencode({
@@ -367,3 +290,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
