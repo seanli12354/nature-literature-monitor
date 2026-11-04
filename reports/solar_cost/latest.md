@@ -1,8 +1,80 @@
 # Literature monitor [solar_cost] — 2026-11-04
 
-**Window:** 2026-05-08 to 2026-11-04  |  **New this run:** 59  |  **High/Medium relevance in database:** 51
+**Window:** 2011-11-04 to 2026-11-04  |  **New this run:** 678  |  **High/Medium relevance in database:** 105
 
 Based on OpenAlex metadata and abstracts only, not full-text review.
+
+## High-efficiency crystalline silicon solar cells: status and perspectives
+- **Journal/date/type:** Energy & Environmental Science / 2016-01-01 / article
+- **DOI:** https://doi.org/10.1039/c5ee03380b  |  **Citations/yr:** 109.5
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** High  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate which specific low-level variables in crystalline silicon PV manufacturing and design contribute most to efficiency gains and cost reductions, linking these to observed cost declines.
+
+## Design considerations for multi-terawatt scale manufacturing of existing and future photovoltaic technologies: challenges and opportunities related to silver, indium and bismuth consumption
+- **Journal/date/type:** Energy & Environmental Science / 2021-01-01 / article
+- **DOI:** https://doi.org/10.1039/d1ee01814k  |  **Citations/yr:** 47.4
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** High  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated
+- **Real-world hook:** The photovoltaic industry approaching multi-terawatt scale manufacturing
+- **Direction hint:** Investigate how specific material inputs like silver, indium, and bismuth contribute to cost declines and scalability constraints in PV manufacturing at multi-terawatt scales.
+
+## Are we too pessimistic? Cost projections for solar photovoltaics, wind power, and batteries are over-estimating actual costs globally
+- **Journal/date/type:** Applied Energy / 2025-04-09 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2025.125856  |  **Citations/yr:** 47.1
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast"); (photovoltaic OR solar) AND ("balance of system" OR "soft costs" OR "installation cost" OR "installed price" OR "system price") | cites Empirically grounded technology forecasts and the energy transition
+- **Relevance:** High  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Disparities in cost projections are partly due to outdated data, learning rates, regional soft costs, and arbitrary discount rate assumptions that do not reflect local costs of capital and risks; improving these assumptions is needed.
+- **Real-world hook:** The study reviews over 40 cost projection studies and scenarios for renewable technologies up to 2050, highlighting discrepancies relevant for energy transition planning and investment decisions.
+- **Direction hint:** How can cost-driver decompositions incorporate region-specific financing costs, learning rates, and soft costs to improve the accuracy of solar PV cost projections?
+
+## Evaluating the Causes of Cost Reduction in Photovoltaic Modules
+- **Journal/date/type:** Energy Policy / 2016-01-01 / article
+- **DOI:** https://doi.org/10.1016/j.enpol.2018.08.015  |  **Citations/yr:** 43.4
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction") | cites A review of learning rates for electricity supply technologies; Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Relevance:** High  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate detailed cost-driver decomposition of PV module cost declines, focusing on low-level variables such as material inputs, manufacturing scale, and efficiency improvements.
+
+## Impacts of innovation on renewable energy technology cost reductions
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2020-11-06 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2020.110488  |  **Citations/yr:** 34.2
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction"); (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast"); (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price) | cites Evaluating the causes of cost reduction in photovoltaic modules; A review of learning rates for electricity supply technologies; Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Relevance:** High  |  **Scope:** Regional (focused on onshore wind and solar PV technologies)
+- **Stated gap / future work:** Development of multi-factor learning curve models and bottom-up cost models is still in its infancy; better quantification of drivers such as market dynamics and learning by interacting across stakeholders and regions is needed.
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate and quantify the impact of market dynamics and cross-stakeholder/geographical interactions on solar PV cost reductions to improve multi-factor learning curve models.
+
+## Policy-driven transformation of global solar PV supply chains and resulting impacts
+- **Journal/date/type:** Nature Communications / 2025-07-22 / article
+- **DOI:** https://doi.org/10.1038/s41467-025-61979-5  |  **Citations/yr:** 33.4
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price); (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** High  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated explicitly, but the abstract implies further exploration of balancing regional policy goals with global supply chain efficiency and cost impacts.
+- **Real-world hook:** European regions' economic and job creation goals and their implications for solar PV supply chain development and trade policies through 2030.
+- **Direction hint:** How do specific supply chain policies and trade measures quantitatively affect cost components and value-added distribution in the solar PV value chain?
+
+## TOPCon – Technology options for cost efficient industrial manufacturing
+- **Journal/date/type:** Solar Energy Materials and Solar Cells / 2021-04-26 / article
+- **DOI:** https://doi.org/10.1016/j.solmat.2021.111100  |  **Citations/yr:** 25.3
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price); (photovoltaic OR solar) AND ("input-output" OR "value chain" OR "value added" OR "market structure" OR "market power") AND (cost OR price OR economic)
+- **Relevance:** High  |  **Scope:** Regional (focused on industrial manufacturing processes and cost structures relevant to current PV production environments)
+- **Stated gap / future work:** None stated explicitly; however, the paper implies the need for further optimization of process routes and efficiency improvements to ensure competitiveness.
+- **Real-world hook:** The study addresses the industrial manufacturing transition of TOPCon solar cells and compares their economic viability against the current mainstream bifacial PERC technology.
+- **Direction hint:** Investigate the specific low-level cost drivers within diffusion/annealing and metallization steps and quantify their impact on overall module cost decline and LCOE in TOPCon versus PERC technologies.
+
+## A wafer-based monocrystalline silicon photovoltaics road map: Utilizing known technology improvement opportunities for further reductions in manufacturing costs
+- **Journal/date/type:** Solar Energy Materials and Solar Cells / 2013-04-09 / article
+- **DOI:** https://doi.org/10.1016/j.solmat.2013.01.030  |  **Citations/yr:** 23.9
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price) | cites Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Relevance:** High  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate specific low-level variables in wafer-based monocrystalline silicon PV manufacturing that drive cost reductions and quantify their impact on module and system costs.
 
 ## Sustainable Photovoltaics: Optimising Material Consumption, Cost and Environmental Performance Through Smart Sustainability Approaches for Crystalline Silicon Solar Photovoltaics
 - **Journal/date/type:** Solar RRL / 2026-06-09 / article
@@ -39,6 +111,420 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Efficiency roadmap analysis defines contact selectivity targets needed to close the performance gap with silver-metallised devices, implying further optimization of contact properties is required.
 - **Real-world hook:** Addresses the challenge of high silver consumption in metallisation for terawatt-scale manufacturing of silicon solar cells, relevant for cost reduction and material sustainability.
 - **Direction hint:** Investigate how substituting silver with aluminum in back contact metallisation affects module-level cost drivers such as material inputs, manufacturing yield, and overall LCOE in large-scale PV production.
+
+## Graphene, related two-dimensional crystals, and hybrid systems for energy conversion and storage
+- **Journal/date/type:** Science / 2015-01-01 / article
+- **DOI:** https://doi.org/10.1126/science.1246501  |  **Citations/yr:** 293.0
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price); (photovoltaic OR solar) AND ("input-output" OR "value chain" OR "value added" OR "market structure" OR "market power") AND (cost OR price OR economic)
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Further improvement of high-volume manufacturing and transfer processes for multilayered heterostructures is needed; chemical vapor deposition growth of multicomponent layered materials is less mature and requires development; cost-effective industrial-scale production of graphene-related materials is necessary.
+- **Real-world hook:** Potential applications in flexible electronics, batteries, supercapacitors, solar cells, water splitting, and hydrogen production highlight the relevance to future energy value chains and renewable energy technologies.
+- **Direction hint:** Investigate how scalable production and assembly methods for graphene and 2D materials can be optimized to reduce costs and improve performance in photovoltaic modules and related energy devices.
+
+## Pathways toward commercial perovskite/silicon tandem photovoltaics
+- **Journal/date/type:** Science / 2024-01-11 / article
+- **DOI:** https://doi.org/10.1126/science.adh3849  |  **Citations/yr:** 161.3
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Need for scalable input materials and manufacturing processes; focus on stability, reliability, production throughput, cell-to-module integration, and accurate field-performance prediction and evaluation.
+- **Real-world hook:** The goal of commercializing perovskite/silicon tandem photovoltaics to surpass single-junction silicon solar cell efficiency limits at affordable costs.
+- **Direction hint:** Investigate how specific manufacturing inputs and process variables affect cost and efficiency improvements in perovskite/silicon tandem modules, including their impact on stability and scalability.
+
+## The momentum of the solar energy transition
+- **Journal/date/type:** Nature Communications / 2023-10-17 / article
+- **DOI:** https://doi.org/10.1038/s41467-023-41971-7  |  **Citations/yr:** 135.7
+- **Found via:**  | cites Empirically grounded technology forecasts and the energy transition
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Uncertainties remain regarding grid stability in renewables-dominated systems, availability of sufficient finance in underdeveloped economies, supply chain capacity, and political resistance from regions losing employment; policies addressing these barriers may be more effective than price instruments.
+- **Real-world hook:** Decarbonisation plans targeting zero-carbon energy deployment by 2050 or 2060 and the observed momentum in solar investments influenced by past policies.
+- **Direction hint:** Investigate how specific low-level cost drivers and supply chain factors contribute to the observed irreversible solar tipping point and how policy can address financing and supply chain constraints to sustain cost declines.
+
+## Empirically grounded technology forecasts and the energy transition
+- **Journal/date/type:** Joule / 2022-09-01 / article
+- **DOI:** https://doi.org/10.1016/j.joule.2022.08.009  |  **Citations/yr:** 130.5
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Calls for alternative approaches and more reliable technology forecasting methods indicate a gap in traditional energy-economy models that underestimate renewable deployment and overestimate costs; further work could refine these probabilistic methods and explore uncertainty propagation in different scenarios.
+- **Real-world hook:** The study addresses the global energy transition and the economic implications of shifting from fossil fuels to renewable energy technologies.
+- **Direction hint:** How can probabilistic cost forecasting methods be integrated with detailed cost-driver decompositions to better understand the drivers of solar PV cost declines and their impact on energy system costs?
+
+## A review of hybrid renewable energy systems in mini-grids for off-grid electrification in developing countries
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2021-04-05 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2021.111036  |  **Citations/yr:** 85.6
+- **Found via:** (photovoltaic OR solar) AND ("levelized cost" OR LCOE) AND ("cost of capital" OR WACC OR financing OR "capital cost")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** In-depth research on optimal local design and ownership models to accelerate implementation and reduce costs of sustainable electricity supply in remote areas.
+- **Real-world hook:** The study addresses off-grid electrification in developing countries, highlighting government incentives and policy barriers affecting mini-grid deployment.
+- **Direction hint:** Investigate how specific cost drivers within solar PV components and system design influence LCOE in hybrid mini-grids to inform cost-driver decomposition in off-grid contexts.
+
+## Global potential of green ammonia based on hybrid PV-wind power plants
+- **Journal/date/type:** Applied Energy / 2021-04-30 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2020.116170  |  **Citations/yr:** 84.9
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated explicitly; however, implications about the impact of ammonia shipping costs on intercontinental trade suggest further investigation into logistics and regional production strategies.
+- **Real-world hook:** Decarbonisation of ammonia production to achieve a carbon neutral energy system; cost competitiveness of green ammonia relative to fossil-based ammonia including greenhouse gas emissions costs.
+- **Direction hint:** How do specific low-level cost drivers of solar PV (e.g., module efficiency, manufacturing scale) influence the cost competitiveness of green ammonia production in hybrid PV-wind systems over time?
+
+## The first demonstration of entirely roll-to-roll fabricated perovskite solar cell modules under ambient room conditions
+- **Journal/date/type:** Nature Communications / 2024-03-12 / article
+- **DOI:** https://doi.org/10.1038/s41467-024-46016-1  |  **Citations/yr:** 66.9
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (demonstrated in Australia with industrial-scale manufacturing implications)
+- **Stated gap / future work:** Potential for further significant cost reductions; scaling production to 1,000,000 m² per year is projected but not yet realized.
+- **Real-world hook:** Demonstration of industrially relevant manufacturing method (roll-to-roll printing) under ambient conditions with cost predictions for large-scale production in Australia.
+- **Direction hint:** Investigate how specific manufacturing parameters and material inputs in roll-to-roll printed perovskite modules influence cost components such as materials usage, manufacturing yield, and economies of scale to inform cost-driver decompositions.
+
+## Considering technology characteristics to project future costs of direct air capture
+- **Journal/date/type:** Joule / 2024-03-01 / article
+- **DOI:** https://doi.org/10.1016/j.joule.2024.02.005  |  **Citations/yr:** 66.5
+- **Found via:**  | cites Evaluating the causes of cost reduction in photovoltaic modules; Empirically grounded technology forecasts and the energy transition; A review of learning rates for electricity supply technologies; Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated explicitly, but the method implies further validation and application to other novel technologies could be future work.
+- **Real-world hook:** Meeting Paris climate targets requires deployment of non-mature low-carbon technologies like DAC; cost projections inform policy and investment decisions.
+- **Direction hint:** Can the component-level experience rate assignment method be adapted to decompose cost declines in solar PV by mapping module and balance-of-system components to mature technology analogues?
+
+## A technoeconomic analysis of perovskite solar module manufacturing with low-cost materials and techniques
+- **Journal/date/type:** Energy & Environmental Science / 2017-01-01 / article
+- **DOI:** https://doi.org/10.1039/c7ee00757d  |  **Citations/yr:** 62.4
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate which specific low-cost materials and manufacturing parameters drive cost reductions in perovskite solar modules and how these compare to silicon-based PV cost drivers.
+
+## A high-resolution geospatial assessment of the rooftop solar photovoltaic potential in the European Union
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2019-08-07 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2019.109309  |  **Citations/yr:** 61.4
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly, but the abstract implies challenges remain in policy and electricity system planning to realize this potential, especially in countries with low electricity prices and high investment interest rates.
+- **Real-world hook:** The study is tied to the European Union's energy transition goals and provides country-specific LCOE estimates compared to household electricity prices, highlighting barriers related to investment interest rates and electricity tariffs.
+- **Direction hint:** Investigate how country-specific financial parameters like investment interest rates and electricity tariffs influence the cost-effectiveness and deployment of rooftop PV, and how these factors interact with technical potential in cost-driver decompositions.
+
+## Quantifying the cost savings of global solar photovoltaic supply chains
+- **Journal/date/type:** Nature / 2022-10-26 / article
+- **DOI:** https://doi.org/10.1038/s41586-022-05316-6  |  **Citations/yr:** 59.9
+- **Found via:** (photovoltaic OR solar) AND ("balance of system" OR "soft costs" OR "installation cost" OR "installed price" OR "system price"); (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price) | cites Evaluating the causes of cost reduction in photovoltaic modules; A review of learning rates for electricity supply technologies; Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Not established from title
+
+## Global spatiotemporal optimization of photovoltaic and wind power to achieve the Paris Agreement targets
+- **Journal/date/type:** Nature Communications / 2025-03-03 / article
+- **DOI:** https://doi.org/10.1038/s41467-025-57292-w  |  **Citations/yr:** 58.0
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction") | cites Empirically grounded technology forecasts and the energy transition
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated explicitly in the abstract, though the study emphasizes ongoing physical, financial, and socioeconomic challenges ahead.
+- **Real-world hook:** The study is directly tied to achieving the Paris Agreement targets of limiting global warming below 1.5 or 2 °C and net-zero CO2 emissions by 2040 or 2070.
+- **Direction hint:** Investigate how detailed cost-driver decompositions of PV modules and supply chains can be integrated into global optimization models to better understand cost decline drivers and inform policy and industrial strategies.
+
+## Levelized cost of electricity for solar photovoltaic and electrical energy storage
+- **Journal/date/type:** Applied Energy / 2017-01-06 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2016.12.153  |  **Citations/yr:** 54.2
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Not established from title
+
+## Roll-to-roll gravure-printed flexible perovskite solar cells using eco-friendly antisolvent bathing with wide processing window
+- **Journal/date/type:** Nature Communications / 2020-10-13 / article
+- **DOI:** https://doi.org/10.1038/s41467-020-18940-5  |  **Citations/yr:** 53.5
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (pilot-scale manufacturing demonstrated; methods potentially transferable to other flexible PSC production lines).
+- **Stated gap / future work:** None stated explicitly in the abstract, but implied challenges remain in fully R2R processing of all layers including electrodes and further efficiency improvements.
+- **Real-world hook:** Development of scalable, low-cost, and eco-friendly manufacturing methods for commercialization of perovskite solar cells.
+- **Direction hint:** Investigate how specific manufacturing parameters in R2R processes influence material usage, layer uniformity, and ultimately cost components in perovskite solar cell production.
+
+## High-speed sequential deposition of photoactive layers for organic solar cell manufacturing
+- **Journal/date/type:** Nature Energy / 2022-10-27 / article
+- **DOI:** https://doi.org/10.1038/s41560-022-01140-4  |  **Citations/yr:** 52.2
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Not established from title
+
+## Molecular doping enabled scalable blading of efficient hole-transport-layer-free perovskite solar cells
+- **Journal/date/type:** Nature Communications / 2018-04-18 / article
+- **DOI:** https://doi.org/10.1038/s41467-018-04028-8  |  **Citations/yr:** 51.0
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (specific to perovskite solar cell manufacturing processes)
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Addresses scalable, cost-effective manufacturing challenges for perovskite solar cells by simplifying device architecture and deposition processes.
+- **Direction hint:** How do molecular doping and simplified architectures quantitatively impact cost components and efficiency drivers in perovskite solar cell manufacturing compared to traditional PSCs?
+
+## A comparative life cycle assessment of silicon PV modules: Impact of module design, manufacturing location and inventory
+- **Journal/date/type:** Solar Energy Materials and Solar Cells / 2021-07-09 / article
+- **DOI:** https://doi.org/10.1016/j.solmat.2021.111277  |  **Citations/yr:** 44.5
+- **Found via:** (photovoltaic OR solar) AND ("balance of system" OR "soft costs" OR "installation cost" OR "installed price" OR "system price")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate how specific design and manufacturing factors contribute to cost and environmental performance variations in silicon PV modules.
+
+## From scalable solution fabrication of perovskite films towards commercialization of solar cells
+- **Journal/date/type:** Energy & Environmental Science / 2018-11-30 / article
+- **DOI:** https://doi.org/10.1039/c8ee03025a  |  **Citations/yr:** 44.1
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Challenges remain in improving stability, reducing toxicity, and lowering module costs to achieve commercialization.
+- **Real-world hook:** Commercialization of perovskite solar cells through scalable manufacturing methods.
+- **Direction hint:** Investigate how specific manufacturing parameters and material choices in scalable perovskite film fabrication impact cost components and stability to inform cost-driver decompositions for emerging PV technologies.
+
+## Techno-Economic Assessment of Green Ammonia Production with Different Wind and Solar Potentials
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2022-01-01 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2022.113057  |  **Citations/yr:** 43.4
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Regional (three sites with representative weather profiles tested)
+- **Stated gap / future work:** None stated explicitly, but the comparison with standard literature methods implies further refinement of cost estimation methods and exploration of operational modes.
+- **Real-world hook:** Comparison of green ammonia production costs with grey ammonia prices in 2021 and 2022 highlights economic competitiveness challenges.
+- **Direction hint:** How can detailed modeling of hourly renewable variability and plant flexibility be integrated into cost-driver decompositions for solar PV and electrolyzer components to better understand their impact on green fuel production costs?
+
+## Evolutionary manufacturing approaches for advancing flexible perovskite solar cells
+- **Journal/date/type:** Joule / 2024-03-18 / article
+- **DOI:** https://doi.org/10.1016/j.joule.2024.02.025  |  **Citations/yr:** 42.2
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Not established from title
+
+## Global techno-economic and life cycle greenhouse gas emissions assessment of solar and wind based renewable hydrogen production
+- **Journal/date/type:** Applied Energy / 2025-08-18 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2025.126595  |  **Citations/yr:** 39.6
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Technological advancements and further cost reductions in renewable technologies and PEM electrolyzers, along with O2 co-product utilization, are needed to achieve lower LCOH and negative carbon intensity; specific pathways and detailed cost-driver decompositions are not addressed.
+- **Real-world hook:** Targets for renewable hydrogen cost and emissions reductions by 2030 in regions such as MENA, Chile, Australia, and Central USA.
+- **Direction hint:** How do specific low-level cost drivers in solar PV components and electrolyzer technologies contribute to the projected reductions in LCOH for renewable hydrogen production?
+
+## Capital expenditure and levelized cost of electricity of photovoltaic plants and wind turbines – Development by 2050
+- **Journal/date/type:** Renewable Energy / 2021-12-16 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2021.12.042  |  **Citations/yr:** 39.1
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Investigate detailed cost-driver decompositions for PV and wind capital expenditures and LCOE projections to 2050, focusing on low-level variables and learning effects.
+
+## Off-grid solar PV–wind power–battery–water electrolyzer plant: Simultaneous optimization of component capacities and system control
+- **Journal/date/type:** Applied Energy / 2023-05-29 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2023.121277  |  **Citations/yr:** 38.7
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly; however, the study implies future cost reductions and technology improvements could change the economic viability of integrating solar PV and batteries.
+- **Real-world hook:** The study uses measured power generation data from solar PV and wind farms in southeastern Finland and projects hydrogen cost reductions to 2 €/kg by 2030, relevant for green hydrogen deployment strategies.
+- **Direction hint:** Investigate how component-level cost drivers (e.g., module efficiency, battery costs) and regional climate factors influence the economic trade-offs in hybrid renewable-powered electrolyzer systems.
+
+## Techno-economic analysis of PV-battery systems in Switzerland
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2022-01-20 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2021.112028  |  **Citations/yr:** 34.9
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly; sensitivity analysis highlights the importance of future costs, electricity prices, and tariffs, implying further work could explore these dynamics in more detail.
+- **Real-world hook:** Analysis tied to Swiss residential electricity consumption patterns, rooftop sizes, irradiation, and policy changes affecting costs and tariffs between 2020 and 2050.
+- **Direction hint:** Investigate how specific cost components and policy-driven price changes influence the economic viability and sizing of PV-battery systems across different customer segments.
+
+## True Cost of Solar Hydrogen
+- **Journal/date/type:** Solar RRL / 2021-09-07 / article
+- **DOI:** https://doi.org/10.1002/solr.202100487  |  **Citations/yr:** 33.5
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Projected large-scale deployment of electrolyzers (17 TW el by 2050) and the role of green hydrogen in a 100% sustainable energy system
+- **Direction hint:** Investigate the detailed low-level cost drivers within solar PV contributing to the increasing share of PV electricity cost in hydrogen production LCOH over time.
+
+## Analytical model for solar PV and CSP electricity costs: Present LCOE values and their future evolution
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2012-12-27 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2012.11.082  |  **Citations/yr:** 32.8
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast"); (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price) | cites Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Developing or applying analytical models to decompose LCOE changes into component cost drivers for solar PV and CSP could advance understanding of cost decline mechanisms.
+
+## Techno-economic feasibility of stand-alone hybrid energy systems for a remote Australian community: Optimization and sensitivity analysis
+- **Journal/date/type:** Renewable Energy / 2025-01-02 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2024.122286  |  **Citations/yr:** 32.7
+- **Found via:** (photovoltaic OR solar) AND ("levelized cost" OR LCOE) AND ("cost of capital" OR WACC OR financing OR "capital cost")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly, but implied need for further cost reductions in fuel cells and electrolyzers and financing improvements to achieve competitive LCOE and LCOH.
+- **Real-world hook:** Application to a remote Australian community's energy needs and use of advanced optimization algorithms for system design.
+- **Direction hint:** How do specific component-level cost drivers (e.g., capital costs of fuel cells and electrolyzers) and financing parameters influence the overall cost decline and competitiveness of hybrid PV-based energy systems in remote settings?
+
+## The emergence of cost effective battery storage
+- **Journal/date/type:** Nature Communications / 2019-05-02 / article
+- **DOI:** https://doi.org/10.1038/s41467-019-09988-z  |  **Citations/yr:** 32.1
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Application to residential solar customers in Germany and California, highlighting the impact of retail rates, feed-in tariffs, and state subsidy programs on battery storage economics.
+- **Direction hint:** Investigate how cost-driver decomposition of lithium-ion battery storage components (e.g., materials, manufacturing scale, efficiency) influences the levelized cost of energy storage and its integration with solar PV systems.
+
+## The levelized cost of electricity from perovskite photovoltaics
+- **Journal/date/type:** Energy & Environmental Science / 2022-12-22 / review
+- **DOI:** https://doi.org/10.1039/d2ee03136a  |  **Citations/yr:** 31.8
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (focus on PSCs as an emerging technology with potential market niches)
+- **Stated gap / future work:** Future challenges include refining LCOE calculations by incorporating temperature effects and addressing degradation to improve commercialization prospects.
+- **Real-world hook:** The potential for PSCs to compete with mainstream silicon PV technologies in regions lacking crystalline silicon manufacturing capacity.
+- **Direction hint:** Investigate how low-level variables such as manufacturing costs, degradation rates, and supply chain factors specifically drive the LCOE decline in perovskite PV modules compared to silicon PV.
+
+## Techno-economic analysis of off-grid PV-Diesel power generation system for rural electrification: A case study of Chilubi district in Zambia
+- **Journal/date/type:** Renewable Energy / 2022-12-28 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2022.12.112  |  **Citations/yr:** 29.9
+- **Found via:** (photovoltaic OR solar) AND ("levelized cost" OR LCOE) AND ("cost of capital" OR WACC OR financing OR "capital cost")
+- **Relevance:** Medium  |  **Scope:** Local case
+- **Stated gap / future work:** None stated explicitly, but the study implies ongoing discussions among policymakers and energy planners about favoring renewable energy for rural electrification, suggesting further policy and implementation research.
+- **Real-world hook:** The study is tied to rural electrification efforts in Zambia, specifically the Chilubi district, and ongoing policy discussions about adopting renewable energy solutions for off-grid settlements.
+- **Direction hint:** Investigate how specific cost components (e.g., module efficiency, balance-of-system costs, financing) contribute to the high initial capital costs of PV installations in Zambia and explore strategies to reduce these costs to accelerate rural electrification.
+
+## Thin-film solar photovoltaics: Trends and future directions
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2025-11-16 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2025.116464  |  **Citations/yr:** 29.0
+- **Found via:** (photovoltaic OR solar) AND ("levelized cost" OR LCOE) AND ("cost of capital" OR WACC OR financing OR "capital cost")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Broader deployment of thin-film photovoltaics depends on overcoming challenges related to robust interfaces, encapsulation, and environmental impact; stability over long durations (e.g., 25 years) and reduced weighted average cost of capital are critical for cost competitiveness.
+- **Real-world hook:** System-level cost modeling of thin-film PV technologies with LCOE estimates and the advancement of perovskite/silicon tandem cells toward commercialization.
+- **Direction hint:** How do specific low-level variables such as material usage, manufacturing scale, and stability improvements in thin-film PV technologies quantitatively drive cost declines and LCOE reductions compared to crystalline silicon?
+
+## Optimal battery storage operation for PV systems with tariff incentives
+- **Journal/date/type:** Applied Energy / 2017-06-23 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2017.06.043  |  **Citations/yr:** 28.9
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (typical residential solar PV context with specific tariff structures).
+- **Stated gap / future work:** None stated explicitly; however, the study focuses on specific tariff structures and battery costs, implying further work could explore broader tariff designs or technology cost evolutions.
+- **Real-world hook:** Feed-in tariff (FiT) incentives and time-varying electricity tariffs for residential solar PV owners.
+- **Direction hint:** How do variations in battery storage costs and tariff designs influence the cost-effectiveness and adoption of battery storage in PV systems across different regions?
+
+## Feasibility of green ammonia trading via pipelines and shipping: Cases of Europe, North Africa, and South America
+- **Journal/date/type:** Journal of Cleaner Production / 2023-10-06 / article
+- **DOI:** https://doi.org/10.1016/j.jclepro.2023.139212  |  **Citations/yr:** 28.6
+- **Found via:**  | cites Empirically grounded technology forecasts and the energy transition
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly, but the study implies further consideration of factors like job creation, revenues, and energy security impacts on e-ammonia trade.
+- **Real-world hook:** The study is tied to climate goals requiring defossilisation of ammonia production and the growing demand for green ammonia as a marine fuel and chemical feedstock, with specific focus on trade routes between Europe, North Africa, and South America.
+- **Direction hint:** Investigate how declining solar PV costs and regional renewable resource availability influence the economics of green ammonia production and trade, and how these dynamics interact with supply chain and infrastructure choices like pipelines versus shipping.
+
+## Economics of renewable hydrogen production using wind and solar energy: A case study for Queensland, Australia
+- **Journal/date/type:** Journal of Cleaner Production / 2023-12-30 / article
+- **DOI:** https://doi.org/10.1016/j.jclepro.2023.140476  |  **Citations/yr:** 28.1
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast"); (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** The study highlights that previous literature has mostly overlooked the impact of electrolyser overload capacity, curtailment of ineffective peak power, and power-dependent electrolyser efficiency on LCOH, suggesting these factors need further consideration in future models.
+- **Real-world hook:** The work is tied to the target fam-gate cost of AUD 3/kg for green hydrogen production and aims to incentivise large-scale renewable hydrogen projects in Australia and elsewhere.
+- **Direction hint:** How do detailed operational characteristics of electrolysers, such as power-dependent efficiency and overload capacity, influence cost declines in renewable hydrogen production across different scales and regions?
+
+## Recent progress in organic photovoltaics: device architecture and optical design
+- **Journal/date/type:** Energy & Environmental Science / 2014-01-01 / article
+- **DOI:** https://doi.org/10.1039/c4ee00260a  |  **Citations/yr:** 27.9
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (specific to organic photovoltaics, which differ from silicon-based PV technologies)
+- **Stated gap / future work:** Optical design methods to manage and manipulate light wave propagation in OPV devices remain underexplored and represent an important area for further research.
+- **Real-world hook:** The rapid efficiency improvements in OPV devices have attracted significant commercial interest for further development and manufacturing.
+- **Direction hint:** Investigate how low-level variables such as material properties and device architecture influence cost and efficiency in OPV, and whether similar cost-driver decompositions used for silicon PV can be adapted for organic PV technologies.
+
+## Distributed photovoltaics provides key benefits for a highly renewable European energy system
+- **Journal/date/type:** Applied Energy / 2024-02-05 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2024.122721  |  **Citations/yr:** 26.9
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** Modeling of European power network with high spatial and temporal resolution to inform future energy system planning
+- **Direction hint:** Investigate how distributed PV cost components and deployment scale influence system-level cost reductions and grid integration benefits in Europe.
+
+## Techno-economic analysis of household and community energy storage for residential prosumers with smart appliances
+- **Journal/date/type:** Applied Energy / 2017-11-04 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2017.10.096  |  **Citations/yr:** 26.2
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly; however, the sensitivity analysis implies further exploration of investment cost reductions and optimization under varying tariff schemes could be valuable.
+- **Real-world hook:** Pilot project initiated by the Distribution System Operator (DSO) ’Enexis’ in Breda, the Netherlands, using real demand and PV generation data.
+- **Direction hint:** Investigate how detailed cost-driver decompositions of energy storage components (e.g., battery costs, inverter efficiency) and tariff structures influence the overall cost-effectiveness of PV plus storage systems at the household and community scale.
+
+## Re-assessment of net energy production and greenhouse gas emissions avoidance after 40 years of photovoltaics development
+- **Journal/date/type:** Nature Communications / 2016-12-06 / article
+- **DOI:** https://doi.org/10.1038/ncomms13728  |  **Citations/yr:** 25.6
+- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast")
+- **Relevance:** Medium  |  **Scope:** Global or transferable mechanism
+- **Stated gap / future work:** Not established from abstract
+- **Real-world hook:** The study covers 40 years of global photovoltaic capacity growth up to 2015, highlighting the environmental implications of this rapid expansion.
+- **Direction hint:** Investigate which specific low-level variables (e.g., module efficiency, material inputs, manufacturing scale) drive the observed reductions in energy use and emissions per doubling of PV capacity.
+
+## Policy options for enhancing economic profitability of residential solar photovoltaic with battery energy storage
+- **Journal/date/type:** Applied Energy / 2021-03-19 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2021.116697  |  **Citations/yr:** 24.0
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly; however, the study implies further exploration of optimal storage sizing and dynamic tariff design to maximize profitability.
+- **Real-world hook:** Analysis focused on UK national power system and policy context, addressing current market conditions and regulatory costs.
+- **Direction hint:** Investigate how specific low-level cost drivers and policy mechanisms interact to influence the cost-effectiveness and adoption of residential PV-battery systems, particularly focusing on tariff structures and storage sizing.
+
+## Recent enhancement in photovoltaic cell efficiency performance, stability, and cost reduction: a review
+- **Journal/date/type:** Solar Energy / 2025-08-18 / article
+- **DOI:** https://doi.org/10.1016/j.solener.2025.113853  |  **Citations/yr:** 23.9
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction"); (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** None stated
+- **Direction hint:** Not established from title
+
+## Techno-economics of renewable hydrogen export: A case study for Australia-Japan
+- **Journal/date/type:** Applied Energy / 2024-07-29 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2024.124015  |  **Citations/yr:** 23.8
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional (Australia-Japan case study) with transferable mechanisms related to techno-economic modeling of hydrogen export supply chains.
+- **Stated gap / future work:** None stated explicitly, but the study implies the need for further optimization of supply chains and management of boiloff gas for LH2.
+- **Real-world hook:** The emerging global hydrogen market and the specific scenario of Australia exporting renewable hydrogen to Japan by 2030.
+- **Direction hint:** How do low-level cost drivers such as electrolyser efficiency, scale economies, and financing costs quantitatively contribute to the LCOH decline in renewable hydrogen export supply chains?
+
+## Electrolyzer modeling and real-time control for optimized production of hydrogen gas
+- **Journal/date/type:** Applied Energy / 2020-10-23 / article
+- **DOI:** https://doi.org/10.1016/j.apenergy.2020.116031  |  **Citations/yr:** 23.4
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Regional (specific electrolyzer model and hydrogen refueling station context, but methods may be transferable).
+- **Stated gap / future work:** None stated explicitly in the abstract.
+- **Real-world hook:** Application to hydrogen refueling stations using a Siemens SILYZER 100 electrolyzer and integration with photovoltaic inflow and electricity price variability.
+- **Direction hint:** Investigate how detailed electrolyzer operational characteristics and control strategies influence cost components in hydrogen production, potentially informing cost-driver decompositions analogous to those in solar PV.
+
+## Photovoltaics and wind status in the European Union after the Paris Agreement
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2017-06-30 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2017.06.052  |  **Citations/yr:** 23.4
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly; implied need for continued monitoring and policy support to meet 2030 renewable energy targets.
+- **Real-world hook:** The Paris Agreement entering into force in November 2016 and the EU's legally binding target of 27% renewable energy consumption by 2030.
+- **Direction hint:** How do specific policy measures and market conditions in the EU influence the cost components and deployment rates of solar PV, and can these insights inform cost-driver decompositions of PV cost decline?
+
+## The economic effect of electricity net-metering with solar PV: Consequences for network cost recovery, cross subsidies and policy objectives
+- **Journal/date/type:** Energy Policy / 2014-10-05 / article
+- **DOI:** https://doi.org/10.1016/j.enpol.2014.09.011  |  **Citations/yr:** 23.4
+- **Found via:** (photovoltaic OR solar) AND (tariff OR "trade policy" OR "anti-dumping" OR "Inflation Reduction Act" OR "industrial policy" OR "local content") AND (cost OR price)
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Electricity net-metering policies for solar PV
+- **Direction hint:** How do net-metering policies influence the cost structure and subsidy dynamics within solar PV deployment, and what implications does this have for cost-driver decomposition?
+
+## Strategic deployment of solar photovoltaics for achieving self-sufficiency in Europe throughout the energy transition
+- **Journal/date/type:** Nature Communications / 2025-07-07 / article
+- **DOI:** https://doi.org/10.1038/s41467-025-61492-9  |  **Citations/yr:** 23.3
+- **Found via:**  | cites Empirically grounded technology forecasts and the energy transition
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly; however, the abstract implies further exploration of optimal PV system configurations under self-sufficiency constraints and the feasibility of very high installation rates.
+- **Real-world hook:** European policy decisions emphasizing energy independence and carbon neutrality targets influencing renewable energy deployment strategies.
+- **Direction hint:** Investigate how specific low-level PV system variables (e.g., inverter sizing, tracking technology) contribute to cost and performance changes under self-sufficiency constraints in Europe, and how these insights could inform cost-driver decompositions.
+
+## Hybrid PVT integrated pyramid solar still: 11E, sustainability, and sustainable development goals assessment
+- **Journal/date/type:** Renewable Energy / 2025-03-18 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2025.122914  |  **Citations/yr:** 23.3
+- **Found via:** (photovoltaic OR "solar PV" OR "solar module" OR "solar cell") AND ("cost reduction" OR "cost decline" OR "cost drivers" OR "cost decomposition" OR "sources of cost reduction")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated
+- **Real-world hook:** The work is tied to achieving Sustainable Development Goals (SDG 6, 7, and 13) related to clean water, affordable and clean energy, and climate action.
+- **Direction hint:** Investigate how specific low-level variables in PVT-integrated solar stills, such as nano-material types, fin design, and flow rates, quantitatively influence cost and efficiency improvements to inform cost-driver decompositions in hybrid solar technologies.
 
 ## Green hydrogen in residential districts under electricity price uncertainty
 - **Journal/date/type:** Renewable Energy / 2026-06-01 / article
@@ -313,7 +799,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## The coming photovoltaic glass wave: techno-economic sensitivity, learning effects, and material flow insights
 - **Journal/date/type:** Journal of Industrial Ecology / 2026-07-25 / article
 - **DOI:** https://doi.org/10.1007/s44498-026-00134-9  |  **Citations/yr:** 0.0
-- **Found via:** (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast"); (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price) | cites A review of learning rates for electricity supply technologies; Beyond the learning curve: factors influencing cost reductions in photovoltaics
+- **Found via:** (photovoltaic OR solar OR polysilicon) AND ("supply chain" OR manufacturing OR "economies of scale" OR overcapacity) AND (cost OR price); (photovoltaic OR solar) AND ("learning curve" OR "learning rate" OR "experience curve" OR "Wright's law" OR "technology forecast") | cites A review of learning rates for electricity supply technologies; Beyond the learning curve: factors influencing cost reductions in photovoltaics
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** There is an urgent need for expanded glass recycling infrastructure, policy reforms, and development of recycling startups and PV manufacturing businesses to support recycling and circularity in Europe.
 - **Real-world hook:** Projections of large volumes of recyclable PV glass in Europe and the need to meet Sustainable Development Goal 7 (clean and affordable energy) by enhancing PV recycling and circularity.
