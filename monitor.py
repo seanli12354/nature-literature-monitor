@@ -173,18 +173,30 @@ def contains_term(text, term):
     return bool(re.search(r"(?<![a-z0-9])" + escaped + r"(?![a-z0-9])", text))
 
 
-def prefilter(title, abstract):
-    """Hard domain gate driven by config: prefilter_rules = list of rules, OR across rules,
-    AND across the topic_groups named inside one rule."""
+def journal_groups(journal):
+    j = (journal or "").casefold()
+    return [g for g in CONFIG.get("journal_groups", []) if j in {x.casefold() for x in g["journals"]}]
+
+
+def prefilter(title, abstract, journal=""):
+    """Hard domain gate driven by config.
+    prefilter_rules: list of rules; OR across rules, AND across the topic_groups in a rule.
+    A group written as "!name" must be ABSENT. journal_groups can add looser rules for
+    specific journals (e.g. policy/economics journals, where titles rarely name cost terms)."""
     text = f"{title or ''} {abstract or ''}".casefold()
     groups = CONFIG["topic_groups"]
 
     def has(group):
+        if group.startswith("!"):
+            return not any(contains_term(text, t) for t in groups[group[1:]])
         return any(contains_term(text, t) for t in groups[group])
 
     if any(contains_term(text, t) for t in CONFIG.get("exclude_if_any", [])):
         return "excluded"
-    for rule in CONFIG["prefilter_rules"]:
+    rules = list(CONFIG["prefilter_rules"])
+    for g in journal_groups(journal):
+        rules += g.get("prefilter_rules", [])
+    for rule in rules:
         if all(has(g) for g in rule):
             return "pass"
     return "off-topic"
@@ -211,7 +223,7 @@ def record(work, journal, label, seed="", status="Published", platform=""):
         "authors": "; ".join(a.get("author", {}).get("display_name", "") for a in work.get("authorships", [])[:15]),
         "citations": cited, "citations_per_year": citations_per_year(cited, published),
         "abstract": abstract, "url": "https://doi.org/" + doi if doi else work["id"],
-        "query": label, "seed": seed, "prefilter": prefilter(work.get("display_name", "") or "", abstract),
+        "query": label, "seed": seed, "prefilter": prefilter(work.get("display_name", "") or "", abstract, journal),
     }
 
 
@@ -279,6 +291,20 @@ def collect(sources, preprints, seeds, from_date, to_date):
                  f"from_publication_date:{from_date},to_publication_date:{to_date},"
                  f"title_and_abstract.search:{query}")
             paged(f, f"{label}: {query}", sources, preprints, results, "query", query, limit)
+    # Journal-specific query sets (journal_groups in config): broader queries for journals
+    # whose relevant papers would be missed by the generic, three-term queries.
+    for g in CONFIG.get("journal_groups", []):
+        gids = "|".join(sources[j] for j in g["journals"] if j in sources)
+        if not gids:
+            continue
+        for query in g.get("queries", []):
+            if "," in query:
+                raise ValueError(f"Comma in search filter: {query}")
+            f = (f"primary_location.source.id:{gids},"
+                 f"from_publication_date:{from_date},to_publication_date:{to_date},"
+                 f"title_and_abstract.search:{query}")
+            paged(f, f"Journal[{g['name']}]: {query}", sources, preprints, results, "query", query,
+                  int(g.get("max_pages_per_query", CONFIG["max_pages_per_query"])))
     # A second discovery path is essential: many preprints are not primary_location
     # records of their repository, and some OpenAlex repository names differ.
     for query in CONFIG["queries"]:
@@ -344,7 +370,7 @@ def load_rows():
         rows = {row["key"]: row for row in csv.DictReader(f)}
     for row in rows.values():
         # Re-screen every stored record so rule changes also apply to old rows.
-        row["prefilter"] = prefilter(row.get("title", ""), row.get("abstract", ""))
+        row["prefilter"] = prefilter(row.get("title", ""), row.get("abstract", ""), row.get("journal", ""))
         if row["prefilter"] != "pass" and not row.get("analyzed_at"):
             row["evidence_status"] = f"Skipped by keyword prefilter ({row['prefilter']})"
         for f in ("query", "seed", "type", "citations_per_year", "publication_status", "source_platform"):
@@ -420,6 +446,13 @@ def write_report(rows, from_date, to_date, failures, n_new):
 def main():
     today = date.today()
     backfill = os.environ.get("BACKFILL", "false").lower() == "true"
+    # A new topic (no database yet) or a config whose history window was widened gets a full
+    # backfill automatically, so the first run is never limited to lookback_days.
+    marker = DATA / ".history_years"
+    if not CSV_PATH.exists() or not marker.exists() or marker.read_text().strip() != str(CONFIG.get("history_years", 5)):
+        if not backfill:
+            print("No database yet or history_years changed -> automatic BACKFILL", flush=True)
+        backfill = True
     earliest = history_start(today)
     from_date = earliest if backfill else max(
         earliest, (today - timedelta(days=int(CONFIG["lookback_days"]))).isoformat()
@@ -484,6 +517,7 @@ def main():
     write_report(all_rows, from_date, to_date, failures, n_new)
     passed = sum(r.get("prefilter") == "pass" for r in all_rows)
     print(f"Done: {len(all_rows)} total ({passed} pass prefilter), {n_new} new, {len(failures)} AI failures")
+    (DATA / ".history_years").write_text(str(CONFIG.get("history_years", 5)))
     if failures:
         print("Warning: some AI analyses failed; metadata was retained", file=sys.stderr)
 
