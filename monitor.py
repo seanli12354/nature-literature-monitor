@@ -21,19 +21,25 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent
-CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
-DATA = ROOT / "data"
-REPORTS = ROOT / "reports"
-DATA.mkdir(exist_ok=True)
-REPORTS.mkdir(exist_ok=True)
+# Multi-topic: TOPIC=<name> reads topics/<name>/config.json and writes data/<name>/, reports/<name>/
+TOPIC = os.environ.get("TOPIC", "solar_cost")
+_CFG = ROOT / "topics" / TOPIC / "config.json"
+if not _CFG.exists():
+    sys.exit(f"ERROR: missing {_CFG}")
+CONFIG = json.loads(_CFG.read_text(encoding="utf-8"))
+DATA = ROOT / "data" / TOPIC
+REPORTS = ROOT / "reports" / TOPIC
+DATA.mkdir(parents=True, exist_ok=True)
+REPORTS.mkdir(parents=True, exist_ok=True)
 CSV_PATH = DATA / "literature.csv"
+
 AI_FIELDS = ["research_question", "main_finding", "stated_gap_or_future_work", "real_world_hook",
              "generalizability", "direction_hint", "theme", "relevance"]
 FIELDS = ["key", "doi", "openalex_id", "title", "journal", "publication_status", "source_platform", "published", "type", "authors", "citations",
           "citations_per_year", "abstract", "url", "query", "seed", "prefilter",
           *AI_FIELDS, "evidence_status", "analyzed_at"]
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": "NatureLiteratureMonitor/1.1 (academic metadata research)"})
+SESSION.headers.update({"User-Agent": "LiteratureMonitor/2.0 (academic metadata research)"})
 
 
 def request_json(url, params=None, headers=None, payload=None):
@@ -87,7 +93,8 @@ def resolve_journals():
         data = openalex("sources", {"search": journal, "per_page": 25})
         matches = [s for s in data.get("results", []) if s.get("display_name", "").casefold() == journal.casefold()]
         if not matches:
-            print(f"WARNING: no OpenAlex source named exactly {journal!r}; skipped", file=sys.stderr)
+            near = [s.get("display_name", "") for s in data.get("results", [])[:3]]
+            print(f"WARNING: no OpenAlex source named exactly {journal!r}; skipped. Closest: {near}", file=sys.stderr)
             continue
         # Several sources can share a name (e.g. "Science"); keep the most cited one.
         best = max(matches, key=lambda s: s.get("cited_by_count", 0))
@@ -102,6 +109,9 @@ def resolve_preprints():
         "arXiv": ("arxiv", "arxiv.org"),
         "EarthArXiv": ("eartharxiv", "eartharxiv.org"),
         "ESS Open Archive": ("ess open archive", "essopenarchive", "essopenarchive.org"),
+        "ChemRxiv": ("chemrxiv", "chemrxiv.org"),
+        "SSRN": ("ssrn", "ssrn electronic journal", "ssrn.com"),
+        "Research Square": ("research square", "researchsquare.com"),
     }
     for platform in CONFIG.get("preprint_platforms", []):
         for term in aliases.get(platform, (platform.casefold(),)):
@@ -148,7 +158,11 @@ def history_start(today):
 def resolve_seeds():
     seeds = {}
     for doi in CONFIG.get("seed_dois", []):
-        work = openalex(f"works/https://doi.org/{normalize_doi(doi)}", {})
+        try:
+            work = openalex(f"works/https://doi.org/{normalize_doi(doi)}", {})
+        except Exception as exc:  # a mistyped DOI should not stop the whole run
+            print(f"WARNING: seed DOI {doi} not resolved ({str(exc)[:80]}); skipped", file=sys.stderr)
+            continue
         seeds[work["id"].split("/")[-1]] = work.get("display_name", doi)
     return seeds
 
@@ -160,7 +174,8 @@ def contains_term(text, term):
 
 
 def prefilter(title, abstract):
-    """Hard domain gate: hydropower OR water-management+energy OR climate+water+energy."""
+    """Hard domain gate driven by config: prefilter_rules = list of rules, OR across rules,
+    AND across the topic_groups named inside one rule."""
     text = f"{title or ''} {abstract or ''}".casefold()
     groups = CONFIG["topic_groups"]
 
@@ -169,12 +184,9 @@ def prefilter(title, abstract):
 
     if any(contains_term(text, t) for t in CONFIG.get("exclude_if_any", [])):
         return "excluded"
-    if has("direct_hydropower"):
-        return "pass"
-    if has("reservoir_energy") and has("energy_context"):
-        return "pass"
-    if has("climate_power") and has("energy_context") and has("water_context"):
-        return "pass"
+    for rule in CONFIG["prefilter_rules"]:
+        if all(has(g) for g in rule):
+            return "pass"
     return "off-topic"
 
 
@@ -385,7 +397,7 @@ def write_report(rows, from_date, to_date, failures, n_new):
     rank = {"High": 0, "Medium": 1, "Low": 2}
     shown = [r for r in rows if r.get("prefilter") == "pass" and r.get("relevance") in ("High", "Medium")]
     shown.sort(key=lambda r: (rank.get(r.get("relevance"), 3), -float(r.get("citations_per_year") or 0)))
-    lines = [f"# Literature monitor — {today}", "",
+    lines = [f"# Literature monitor [{TOPIC}] — {today}", "",
              f"**Window:** {from_date} to {to_date}  |  **New this run:** {n_new}  |  "
              f"**High/Medium relevance in database:** {len(shown)}", "",
              "Based on OpenAlex metadata and abstracts only, not full-text review.", ""]

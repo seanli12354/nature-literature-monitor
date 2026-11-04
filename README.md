@@ -1,43 +1,20 @@
-# Nature Literature Monitor
+# Solar cost drivers literature monitor
 
-A weekly, DOI-deduplicated Nature-family literature database, using OpenAlex metadata and OpenAI abstract analysis.
+每周一自动运行：从 OpenAlex 抓取光伏成本驱动因素分解、学习曲线、BOS/软成本、LCOE/WACC、供应链与贸易/产业政策、投入产出/产业组织相关文献，并抓取 BNEF、Reuters、PV Magazine、NREL、LBNL 等信息源的新闻和报告。
 
-## Setup (GitHub website)
+## 上传
+- 推荐新建一个 GitHub 仓库，上传本文件夹全部内容。
+- Settings → Secrets 添加 `OPENAI_API_KEY`（必需）和 `OPENALEX_API_KEY`（推荐）。
+- Actions → Run workflow，第一次 `backfill=true`。
 
-1. Create a **private** GitHub repository named `nature-literature-monitor`.
-2. Upload all files and folders from this project (including `.github/workflows/weekly.yml`). If uploading through GitHub web, ensure the `.github` folder is retained.
-3. Create an OpenAlex API key using the current OpenAlex account/developer instructions: https://docs.openalex.org/ .
-4. Create an OpenAI API key at https://platform.openai.com/api-keys and enable API billing. ChatGPT subscriptions do not include API usage.
-5. Repository → Settings → Secrets and variables → Actions → New repository secret. Add `OPENALEX_API_KEY` and `OPENAI_API_KEY`. Never commit keys.
-6. Repository → Actions → **Weekly Nature literature monitor** → Run workflow. For the first run, use `backfill=false` (last 30 days). If successful, optionally run `backfill=true` (from 2021; potentially expensive and incomplete due to per-query page cap).
-7. Review `data/literature.csv`, `data/literature.xlsx`, `reports/latest.md`.
-8. Every Monday at **09:00 Asia/Singapore** (01:00 UTC), GitHub Actions runs automatically. Scheduled jobs can occasionally be delayed.
+## 改设置
+- 只需改 `topics/solar_cost/config.json`：journals、queries、seed_dois、topic_groups、prefilter_rules、external.sources。
+- 输出：`data/solar_cost/literature.xlsx`、`data/solar_cost/external_sources.xlsx`、`reports/solar_cost/latest.md`。
 
-## Configuration
+## 第一次运行后
+- 日志 `WARNING: no OpenAlex source named exactly ... Closest: [...]` → 按 Closest 改期刊名。
 
-Edit `config.json` to change journals, queries, start date, lookback days, OpenAI model, and per-run AI cap. The current source filter uses **primary publication source**, so articles whose primary venue is not one of the configured journals are excluded. OpenAlex search relevance is not the same as nature.com search.
-
-`max_pages_per_query=5` means **at most 500 results per query**. If you backfill a large period, increase this or split historical periods; otherwise results can be incomplete. `max_ai_papers_per_run=35` caps AI costs; additional new articles remain marked pending, and the current script does **not** automatically analyze pending items in later runs. Increase cap or extend script if needed.
-
-## Important limitations
-
-- AI only reads **abstracts**, not paywalled full texts. A missing abstract is marked.
-- DOI is the primary deduplication key; OpenAlex ID is the fallback. If a record initially lacks a DOI and later gains one, manual merging may be required.
-- Journal IDs are resolved by exact journal names from OpenAlex. If a source name cannot be resolved uniquely, the run stops rather than silently using the wrong journal.
-- GitHub Actions writes updates by committing to the default branch; allow Actions to write to the repository under Settings → Actions → General → Workflow permissions. Branch protection can prevent this; if so, adjust permissions or use a PR-based workflow.
-- OpenAlex API terms, quotas, pricing, and required credentials can change. OpenAI API usage has separate charges.
-- The report lists newly discovered papers; it is **not** a statistical synthesis of the entire database. Citations are database-supplied metadata, not independent verification.
-- If OpenAlex returns more than 500 records for a query in the chosen window, results will be truncated; see page cap.
-
-## Local run
-
-```bash
-python -m pip install -r requirements.txt
-export OPENALEX_API_KEY='your_key'
-export OPENAI_API_KEY='your_key'
-python monitor.py
-```
-
-Windows PowerShell: `$env:OPENALEX_API_KEY="..."` and `$env:OPENAI_API_KEY="..."`.
-
-For historical backfill: `BACKFILL=true python monitor.py` (PowerShell: `$env:BACKFILL="true"; python monitor.py`).
+## 本地 PDF
+- `pdf_sync/` 三个文件放进同一个文件夹，双击 `START_PDF_SYNC_solar_cost.bat`。
+- PDF 存到 `manu_12_TIM_APEN\literature_solar_cost`。
+- 如果新仓库名不是 `seanli12354/nature-literature-monitor`，改 `download_github_pdfs.py` 里的 `REPO`。

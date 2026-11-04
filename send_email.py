@@ -1,4 +1,5 @@
 
+import json
 import os
 import smtplib
 from datetime import datetime
@@ -15,24 +16,34 @@ SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
 SMTP_USER = os.environ["SMTP_USER"]
 SMTP_PASSWORD = os.environ["SMTP_PASSWORD"]
 
-FILES = [
-    ROOT / "reports" / "latest.md",
-    ROOT / "reports" / "external_latest.md",
-    ROOT / "data" / "literature.xlsx",
-    ROOT / "data" / "external_sources.xlsx",
-]
+# Every enabled topic under topics/ is included; set TOPICS="solar_cost" to restrict.
+def _enabled(d):
+    try:
+        return json.loads((d / "config.json").read_text(encoding="utf-8")).get("enabled", True)
+    except Exception:
+        return False
+
+
+TOPICS = [t.strip() for t in os.environ.get("TOPICS", "").split(",") if t.strip()] or sorted(
+    d.name for d in (ROOT / "topics").iterdir() if d.is_dir() and _enabled(d))
+
+REPORT_FILES, DATA_FILES = [], []
+for t in TOPICS:
+    REPORT_FILES += [(t, ROOT / "reports" / t / "latest.md"), (t, ROOT / "reports" / t / "external_latest.md")]
+    DATA_FILES += [(t, ROOT / "data" / t / "literature.xlsx"), (t, ROOT / "data" / t / "external_sources.xlsx")]
+FILES = REPORT_FILES + DATA_FILES
 
 date_str = datetime.now(
     ZoneInfo("Asia/Singapore")
 ).strftime("%Y-%m-%d")
 
 msg = EmailMessage()
-msg["Subject"] = f"Weekly Water-Energy Literature Monitor | {date_str}"
+msg["Subject"] = f"Weekly Solar Cost Literature Monitor ({' + '.join(TOPICS)}) | {date_str}"
 msg["From"] = SMTP_USER
 msg["To"] = TO_EMAIL
 
 body = [
-    "Weekly Water-Energy Literature Monitor",
+    f"Weekly Literature Monitor: {', '.join(TOPICS)}",
     "",
     f"Report date: {date_str}",
     "",
@@ -43,19 +54,20 @@ body = [
     "",
 ]
 
-for path in FILES[:2]:
+PER_REPORT = 30000 // max(1, len(REPORT_FILES) // 2)
+for topic, path in REPORT_FILES:
     if path.exists():
         body.extend([
             "=" * 50,
-            path.name,
+            f"[{topic}] {path.name}",
             "=" * 50,
-            path.read_text(encoding="utf-8")[:30000],
+            path.read_text(encoding="utf-8")[:PER_REPORT],
             "",
         ])
 
 msg.set_content("\n".join(body))
 
-for path in FILES:
+for topic, path in FILES:
     if not path.exists():
         print(f"WARNING: Missing attachment: {path}")
         continue
@@ -71,7 +83,7 @@ for path in FILES:
         path.read_bytes(),
         maintype=maintype,
         subtype=subtype,
-        filename=path.name,
+        filename=f"{topic}_{path.name}",
     )
 
 if SMTP_PORT == 465:

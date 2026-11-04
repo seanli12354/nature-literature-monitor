@@ -1,5 +1,7 @@
 
 import csv
+import json
+import os
 import hashlib
 import re
 from datetime import datetime, timedelta, timezone
@@ -14,88 +16,28 @@ from openpyxl.styles import Font, PatternFill, Alignment
 
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
-REPORTS = ROOT / "reports"
+TOPIC = os.environ.get("TOPIC", "solar_cost")
+_CFG = ROOT / "topics" / TOPIC / "config.json"
+EXT = json.loads(_CFG.read_text(encoding="utf-8"))["external"]
+DATA = ROOT / "data" / TOPIC
+REPORTS = ROOT / "reports" / TOPIC
 
-DATA.mkdir(exist_ok=True)
-REPORTS.mkdir(exist_ok=True)
+DATA.mkdir(parents=True, exist_ok=True)
+REPORTS.mkdir(parents=True, exist_ok=True)
 
 CSV_PATH = DATA / "external_sources.csv"
 XLSX_PATH = DATA / "external_sources.xlsx"
 REPORT_PATH = REPORTS / "external_latest.md"
 
-LOOKBACK_DAYS = 30
+LOOKBACK_DAYS = int(EXT.get("lookback_days", 30))
 
-# Source-specific searches through Google News RSS.
-# These are discovery searches, not complete official archives.
-SOURCES = {
-    "IEA": "iea.org",
-    "IHA": "hydropower.org",
-    "IRENA": "irena.org",
-    "IPCC": "ipcc.ch",
-    "WMO": "wmo.int",
-    "DOE": "energy.gov",
-    "AGU": "agu.org",
-    "EGU": "egu.eu",
-    "NOAA": "noaa.gov",
-    "EIA": "eia.gov",
-}
-
-TOPICS = {
-    "Hydropower": [
-        "hydropower", "hydroelectric", "hydroelectricity",
-        "hydropower plant", "pumped hydro"
-    ],
-    "Water resources": [
-        "water resources", "water scarcity", "water security",
-        "reservoir", "river basin", "water management"
-    ],
-    "Climate and drought": [
-        "drought", "flood", "heatwave",
-        "climate risk", "climate change", "extreme weather"
-    ],
-    "Energy systems": [
-        "power grid", "electricity", "renewable energy",
-        "energy transition", "energy storage",
-        "power system", "grid reliability"
-    ],
-    "Water-energy nexus": [
-        "water energy", "water-energy", "energy water",
-        "hydro solar", "hydro wind"
-    ],
-}
-
-EXCLUDED_TERMS = [
-            "search -",
-            "events -",
-            "animation",
-            "section 24",
-            "production incentive",
-            "discover hydropower",
-            "session",
-            "shark skin",
-            "job opening",
-            "job vacancy",
-            "phd position",
-            "postdoctoral position",
-            "career opportunity",
-            "how it works",
-            "what is hydropower",
-            "internship",
-            "jobs -",
-            "basics",
-            "types of hydropower",
-            "benefits of hydropower",
-            "how hydropower works",
-            "voices of hydropower",
-            "mythbusters",
-            "hydropower office",
-            "hydrokinetic office",
-            "incentive program",
-            "hydroelectric incentives",
-            "e-library",
-            "training manual"
-        ]
+# Source-specific searches through Google News RSS (discovery, not complete archives).
+# A source is either "domain.org" (site:domain + rss_query) or {"query": "..."} (free query,
+# e.g. news articles that quote BloombergNEF figures, since bnef.com itself is mostly paywalled).
+SOURCES = EXT["sources"]
+TOPICS = EXT["topics"]
+EXCLUDED_TERMS = [t.lower() for t in EXT.get("exclude", [])]
+REQUIRE_ANY = [t.lower() for t in EXT.get("require_any", [])]
 
 FIELDS = [
     "id", "date", "source", "category",
@@ -104,20 +46,22 @@ FIELDS = [
 ]
 
 
+LANG = {"en": ("en-US", "US", "US:en"), "zh": ("zh-CN", "CN", "CN:zh-Hans")}
+
+
 def build_rss_url(domain):
-    query = (
-        f"site:{domain} "
-        "(hydropower OR hydroelectric OR \"pumped storage\" OR reservoir OR drought) "
-        "(electricity OR power OR grid OR outage OR shortage)"
-    )
+    """domain: "site.com" | {"domain": "site.com", "lang": "zh"} | {"domain": "site.com", "title_only": true}
+    | {"query": "free text", "lang": "en"}. title_only suits general newspapers, whose headlines rarely
+    name the technology unless the story is about it."""
+    spec = domain if isinstance(domain, dict) else {"domain": domain}
+    lang = spec.get("lang", "en")
+    key = "rss_query_title" if spec.get("title_only") else ("rss_query_zh" if lang == "zh" else "rss_query")
+    base = EXT.get(key, EXT["rss_query"])
+    query = spec.get("query") or f"site:{spec['domain']} {base}"
+    hl, gl, ceid = LANG.get(lang, LANG["en"])
     return (
         "https://news.google.com/rss/search?"
-        + urlencode({
-            "q": query,
-            "hl": "en-US",
-            "gl": "US",
-            "ceid": "US:en"
-        })
+        + urlencode({"q": query, "hl": hl, "gl": gl, "ceid": ceid})
     )
 
 
@@ -156,7 +100,7 @@ def fetch_source(name, domain, cutoff):
         build_rss_url(domain),
         timeout=30,
         headers={
-            "User-Agent": "NatureLiteratureMonitor/1.0"
+            "User-Agent": "LiteratureMonitor/2.0"
         }
     )
     response.raise_for_status()
@@ -180,6 +124,9 @@ def fetch_source(name, domain, cutoff):
             continue
 
         
+        if REQUIRE_ANY and not any(t in f"{title} {summary}".lower() for t in REQUIRE_ANY):
+            continue  # Google News matches loosely; keep only items that mention the topic
+
         if published < cutoff:
             continue
 
