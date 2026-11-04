@@ -1,0 +1,157 @@
+# Weekly external information monitor
+
+Run date: 2026-11-04
+New records: 17
+
+## Upcycling Strategy for Mixed Spent Batteries to Enable NMC622 & Graphite Full Batteries - Argonne National Laboratory (.gov)
+
+- Date: 2026-10-31
+- Source: Argonne
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMib0FVX3lxTE1FejFJa3ltT0IyVXlLNHpDZXBGNnFnOUNnd0tNWlZDeDh6UURGSm9wQlBhbzJCZ2k4emxBZjhYWDVFSlhkcjNpZHZBOWQ4cy1BbmNiQWJxaDNNZ2ZKc3AxTW50a20xTmd6aDFid0F6UQ?oc=5
+
+Upcycling Strategy for Mixed Spent Batteries to Enable NMC622 & Graphite Full Batteries &nbsp;&nbsp; Argonne National Laboratory (.gov)
+
+## What Are Critical Minerals and Materials? - Department of Energy (.gov)
+
+- Date: 2026-10-30
+- Source: DOE
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMidkFVX3lxTE5NSDNBQ1ZNcUdtNXFmMUdCUHlSNzBPeE9HTFMyLUE5Nzk5dW9EZjJFbHVPZXp3QjBUalpPbDBjOUxDYzVfa1dPM0I1SkhJVFRxdngwa3l2M000X2NTN25MVjNtbm5yZE1PTDFoV0czb2F2bnBCMHc?oc=5
+
+What Are Critical Minerals and Materials? &nbsp;&nbsp; Department of Energy (.gov)
+
+## Critical Minerals and Materials - Department of Energy (.gov)
+
+- Date: 2026-10-30
+- Source: DOE
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMic0FVX3lxTE5mcmt0SWVOZnBfWUFycnAtaWRlS3ZTdW11Yl91dFJKc3RxUlZOWUk1anZvTnViQUpjM25JNkcxZnZ4VGVzMWtYQmcyaXc1ODNhTzNrWVVDNEE2M3RjcXg0bmNncFVSN1B2S09GNVpPNTNxdTA?oc=5
+
+Critical Minerals and Materials &nbsp;&nbsp; Department of Energy (.gov)
+
+## Office of Geothermal Project Spotlight: Characterization of Lithium and Other Critical Minerals of Smackover Formation, Louisiana - Department of Energy (.gov)
+
+- Date: 2026-10-30
+- Source: DOE
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGVscDNGUmE0X1dHaW9LaDVicGtqOFc2SWpQR0VYaTQwMFpIQkMyODhIQWZCVHdHUlg3Zml2cnljbVlVV1Zwa1VXYUE4RFBZYVdiZ0VGUlNybzlVcW1ZWDhQQUw3SWF1X3VPaG5TdFdHenI1VXV2cG8zVl9pSXRFaGhLdHpocHV0d3pkZ1o2dTQtLU9Fd1JuSmdhX3MzVmhoR0MzU3VTdWpaMlk2UnRvdTdnOGc3VkppZWc?oc=5
+
+Office of Geothermal Project Spotlight: Characterization of Lithium and Other Critical Minerals of Smackover Formation, Louisiana &nbsp;&nbsp; Department of Energy (.gov)
+
+## Electric Drive Vehicle Battery Recycling And 2nd Life Apps - Department of Energy (.gov)
+
+- Date: 2026-10-30
+- Source: DOE
+- Topics: Recycling
+- Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2IxS3NHUHl6UWhHdEc3V042U1FRUkptNHlteFkxOTlsdzFuaWt3MjJkOVoxRVVfdUpjM3ZiWndOUEN1M25GcVlzZ010WTNnRnJ0M0NfaHY4a2JIZy1vaENYdG84TnFOby1pNzhOWGJIaE82T0czQzREQllZWDJDUFF3UGdpOWdna2I1WEN3bm96bWYydktVYkxFR0I?oc=5
+
+Electric Drive Vehicle Battery Recycling And 2nd Life Apps &nbsp;&nbsp; Department of Energy (.gov)
+
+## Critical Minerals and Materials Accelerator - Department of Energy (.gov)
+
+- Date: 2026-10-29
+- Source: DOE
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMihgFBVV95cUxPaXZ3UEVTVkVWUmNrdjI3ZE5YU3lxN3R1ZkpENE9tMUoxejhrQ2I2b0RfeHpPRzJmVGk2XzFrS0ZXMk1rSkRlUWVNUkFtXzlTMTYxVDNXUU1UTUVrNzh6bmhfS3djN182X3RsbXM2YXptc0NBTXNfUjVtTUhTakpMU2lrLWh5Zw?oc=5
+
+Critical Minerals and Materials Accelerator &nbsp;&nbsp; Department of Energy (.gov)
+
+## Department of Energy Battery Recycling Prize – Phase II Winners - Department of Energy (.gov)
+
+- Date: 2026-10-29
+- Source: DOE
+- Topics: Recycling
+- Link: https://news.google.com/rss/articles/CBMilwFBVV95cUxNQXpQMUFwSkUtQ21PWGJ5QkFIMjg5dTlOZ1Jra3d2Zld5NnRGd0NFMlh1cU1mVjk2SkhWUUtFUUx6SkkyVU5PZDJYWTNDNEZUVllHWXhFLTQ5RUZEcnNNNkRheGp5UkFxSEZjamJZdWl1WnBaV2lWODZ0RGxtbldqemF1bzlObTFNTl9RaXNqUS1hOXU3ZWFV?oc=5
+
+Department of Energy Battery Recycling Prize – Phase II Winners &nbsp;&nbsp; Department of Energy (.gov)
+
+## EERE’s Vehicle Technologies Office Releases the Research Plan to Reduce, Recycle, and Recover Critical Materials in Lithium-Ion Batteries - Department of Energy (.gov)
+
+- Date: 2026-10-29
+- Source: DOE
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMivgFBVV95cUxNQW5XaWxoazI1NWNlMFJCbDlzSzIydHQwMW41M3VSRDVhSEUzbElVeFFBZF9Jd0V3WmJCMU0wdFB3aGg2NzAtVWRGanhXWU5HTWhIbzlfTWtDbG5GekRPVk1pdUFLZmVmQlBwbVM2Z2c2WGdrS2ZXdnRxbFlJYTZFOFdlZTJISEtRQzN2ZTVVdEF5OUZHVzBzb3FIVlJfTkFwWHBNYjFJR0ZyTUxFT1Ewbnc5RUlrcmlCNzMyQW5n?oc=5
+
+EERE’s Vehicle Technologies Office Releases the Research Plan to Reduce, Recycle, and Recover Critical Materials in Lithium-Ion Batteries &nbsp;&nbsp; Department of Energy (.gov)
+
+## Funding Selections: FY23 AMMTO Recycling-Remanufacturing Lab Call - Department of Energy (.gov)
+
+- Date: 2026-10-29
+- Source: DOE
+- Topics: Recycling
+- Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxNendyRThGcV85N25GY2ZRTFNMbGlxSlRDSzdfakdGYWR5MjRXaFdxU2ZtTEY3SjcwNTA5VE9tOEhqQnNHd1ZYemVZOVl1SzJCYXVqSEVaemN2aW5LUGdaWWM4RmJlRHdPdTRzZEZpZ3BpaW1vWmRUNjQteDVmQVlMc1RMc2paWXAxTWFHSHNvenU0M0x1cEtsLUUtdmphWWc?oc=5
+
+Funding Selections: FY23 AMMTO Recycling-Remanufacturing Lab Call &nbsp;&nbsp; Department of Energy (.gov)
+
+## Critical minerals in Central Asia - OECD
+
+- Date: 2026-10-29
+- Source: OECD
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMisAFBVV95cUxOQWdsS3JJbmV4cEcxdFBMNkY0U0VXQTZ0alR3MHQ1ZlRLVG1fOENfVHk2M1NRZVV3X0NHTGkxSUs2aldhTjlkNk1yVmV3a182elRYOEdobzFCWm95enF3Wlc0TU5ORzhHNVdCV1QzOXJfN1Rvejh6bHY2YXRhME5kX3l6b24zN2ZRRjU0d0lPNXlPV2VqNWU3eXpsVkJaWmZneFg2ODBtei1NaTBydmV3Mg?oc=5
+
+Critical minerals in Central Asia &nbsp;&nbsp; OECD
+
+## DOE’s Office of Critical Minerals and Energy Innovation Unveils New Strategy and Initiative to Strengthen American Battery Leadership - Department of Energy (.gov)
+
+- Date: 2026-10-28
+- Source: DOE
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMiswFBVV95cUxOenk5WmE2TXliOE8ta1ZEaWJrLW01SlZtMXAzX2VpeGI5anZYZnh5ZS1pZEhvUzFBS1M4YmNTN0NGdTFyYThqMUpXMm1aVnZCQl9qdWNfbEJmRS0wc3k0S0RWczBBdFJwQVRuaE5WT2M0c1F0b0FTeDYxTjZobDNkWVp6VTVYdldTMXNQOW1QRWFmcU81OHh0aUlobVpOUGRXdlZLaU05NzdGeWR4SU8xNW1Uaw?oc=5
+
+DOE’s Office of Critical Minerals and Energy Innovation Unveils New Strategy and Initiative to Strengthen American Battery Leadership &nbsp;&nbsp; Department of Energy (.gov)
+
+## Critical minerals in Central Asia (EN) - OECD
+
+- Date: 2026-10-28
+- Source: OECD
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMixwFBVV95cUxQbGhYOUpoUlF6VGhuRFVRak9TMkZkQXBnWEJmUmJsam9iMEVULVQ5bkt6dWxSWmk0azFHeFl3d1RwbUJNejNNVzJybGdSTEpkUTVCeGhVSmVaUHlNdV9LNEJ4ZExhX2pqV25HZHNlWVBucllUSmh4SWpVTnR6MFd3ZWdmVkFKSU0tUENReVVxRG5qZDB4RmRJTG56Tkx4d0pzUDVLUVJldXYxU2JScDdTSTEtUW55aDUyRG9LanlIVTRNZlVqRmd3?oc=5
+
+Critical minerals in Central Asia (EN) &nbsp;&nbsp; OECD
+
+## DOE Announces Battery Recycling Prize Phase III Winners - Department of Energy (.gov)
+
+- Date: 2026-10-23
+- Source: DOE
+- Topics: Recycling
+- Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxQYzJHenBHdXcwTXVBLXdVUWlHOWpKaW1sdVRZbzZ5T3NGZmQ4cVRvZXZrQTY3OEdXNWxPNVhpV0dSX0hEYTZTYkRiYW5hZ0dvbE1MYXVZdlItT2JXOWZGSG9DSEU3X2RMaFJuT1RPY3oxTHUzX2NFVnpxZ2dweU5YRkJsck1EUjN2MTVKT2FEczAyVWQ4Mk96ZzNBVU1oWXhzaGV3?oc=5
+
+DOE Announces Battery Recycling Prize Phase III Winners &nbsp;&nbsp; Department of Energy (.gov)
+
+## GBA Battery Passport Operational Trials - Global Battery Alliance
+
+- Date: 2026-10-20
+- Source: Global Battery Alliance
+- Topics: Policy
+- Link: https://news.google.com/rss/articles/CBMiaEFVX3lxTE52NnNxWXBFR2NWdkdZNTlCNHRyVWlBMklUVzRRdVFMUkFqRzhPNGlhODNYRmxIb1ZheFktSTYwS0poQldlcnRRTDJQU1FSUzBXeFFGdnRybEJPNnUzSEdzZWpJTDhrMmhS?oc=5
+
+GBA Battery Passport Operational Trials &nbsp;&nbsp; Global Battery Alliance
+
+## Critical minerals in Africa (EN) - OECD
+
+- Date: 2026-10-18
+- Source: OECD
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxNQzNDUDhZVVdFaTVOTGh5a2RaT1c3V0ZrS1pIdXNwZldyUDR2SDNVRUQ0aC1uSTRFUnp3OGRJbjF2Q0E4UF8yRml4YkdhbnRmTlp0TTlDd1ltY2JjUlpsUEFHYzdDeDlxMTdQdmozTnVTdnY1VDBjc2o4N3o5UFB6aGExbGlpZFhhVXNVb3dpemNhbnpoTnMtbkpLNTMxaEkyRWx0cEctXzRaMkp2YnFFUXNyYmFxRXRqaWRjcDhFTQ?oc=5
+
+Critical minerals in Africa (EN) &nbsp;&nbsp; OECD
+
+## Attachment E for Michigan Critical Minerals FY2019 - USGS (.gov)
+
+- Date: 2026-10-15
+- Source: USGS
+- Topics: Critical minerals
+- Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNalFYdGtvNmR1MTIxZDV6ODVPTDh6WDFraVF3ekVGSlNSb2FEUWRHMzNzcTZNTXhWSlNWVVEzS0JKV0k3a0tfTHk5Sy04UWU4V09ZbzR6RWUwQXdZekk1S1NPQmlyT0Q3b0dNT09CekFwaWFNQ1gyLWQ0NS1fdHZWU2dIX2p1bXlVVEJadEFsRFVweFIydTVWOHZxb0VjNDBBTU8wLTFpTGlLd2hHQWZ0d20zWkZQTFJoaFNPN0Y3MnhUZlU?oc=5
+
+Attachment E for Michigan Critical Minerals FY2019 &nbsp;&nbsp; USGS (.gov)
+
+## Recycling efficiency and recovery of materials from waste batteries - JRC Publications
+
+- Date: 2026-10-07
+- Source: European Commission
+- Topics: Recycling
+- Link: https://news.google.com/rss/articles/CBMic0FVX3lxTE14REtBR0cyRXBzNDhYMVYzTWs2ZlhOeDNVWERzSjZUcGdhS0UxRlBBRG4xT2VreVc3Q2JpeXZHRWRHOHNoT2k2TjNJUEdMSzc4RjFhWl9SYzg5a3AxRXBqNzlZNjZkQktlY0JWU0ZhUXNDTUU?oc=5
+
+Recycling efficiency and recovery of materials from waste batteries &nbsp;&nbsp; JRC Publications
