@@ -11,7 +11,6 @@ import requests
 from openpyxl import load_workbook
 
 CORE_TERMS = {
-    'hydro': ['hydropower', 'hydro-solar', 'reservoir', 'spill', 'refill', 'operating rule'],
     'battery': ['recycling', 'second life', 'second-life', 'repurpos', 'circular',
                 'end-of-life', 'material flow', 'recovery rate', 'recycled content',
                 'critical mineral', 'hydrometallurg', 'direct recycling', 'black mass',
@@ -21,14 +20,14 @@ CORE_TERMS = {
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('topic', nargs='?', choices=CORE_TERMS, default='hydro')
+    parser.add_argument('topic', nargs='?', choices=CORE_TERMS, default='battery')
     parser.add_argument('--dest', type=Path, default=Path(__file__).resolve().parent / 'literature2')
     parser.add_argument('--branch', default='battery-circularity')
     parser.add_argument('--limit', type=int, default=10)
     args = parser.parse_args()
     dest = args.dest / args.topic
     dest.mkdir(parents=True, exist_ok=True)
-    prefix = 'data' if args.topic == 'hydro' else f'data/{args.topic}'
+    prefix = 'data/battery'
     session = requests.Session()
     rows = []
     for filename in ('literature.xlsx', 'external_sources.xlsx'):

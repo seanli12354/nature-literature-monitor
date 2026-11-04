@@ -17,7 +17,7 @@ SMTP_PASSWORD = os.environ["SMTP_PASSWORD"]
 
 from topic_config import output_paths
 
-TOPICS = os.environ.get("TOPICS", "hydro battery").split()
+TOPICS = ["battery"]
 FILES = []
 for topic in TOPICS:
     data, reports = output_paths(topic)
