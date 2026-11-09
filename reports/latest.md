@@ -1,6 +1,6 @@
-# Literature monitor — 2026-11-03
+# Literature monitor — 2026-11-09
 
-**Window:** 2026-05-07 to 2026-11-03  |  **New this run:** 56  |  **High/Medium relevance in database:** 271
+**Window:** 2026-05-13 to 2026-11-09  |  **New this run:** 1  |  **High/Medium relevance in database:** 272
 
 Based on OpenAlex metadata and abstracts only, not full-text review.
 
@@ -310,6 +310,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Application to the Cambodian power grid, which depends on hydropower, coal, oil, and imports, demonstrating real-world relevance.
 - **Direction hint:** Investigate how varying levels of operational integration between water and power systems affect the utility of streamflow forecasts for enhancing hydropower flexibility and grid reliability under climate variability.
 
+## Balancing equity and efficiency in transboundary water systems with Atkinson’s welfare function
+- **Journal/date/type:** Nature Water / 2026-06-24 / article
+- **DOI:** https://doi.org/10.1038/s44221-026-00671-4  |  **Citations/yr:** 4.0
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** High  |  **Scope:** Transferable mechanism
+- **Stated gap / future work:** None stated explicitly, but the framework's adaptability to changing objectives suggests further exploration in diverse contexts and dynamic conditions.
+- **Real-world hook:** Application to hydropower operations and floating photovoltaic expansion in the Zambezi Watercourse, a transboundary water system.
+- **Direction hint:** Investigate how equity-focused optimization frameworks can be integrated into reservoir operation planning under climate uncertainty to improve drought resilience without significant efficiency trade-offs.
+
 ## Unfolding the relationship between seasonal forecast skill and value in hydropower production: a global analysis
 - **Journal/date/type:** Hydrology and earth system sciences / 2022-05-09 / article
 - **DOI:** https://doi.org/10.5194/hess-26-2431-2022  |  **Citations/yr:** 4.0
@@ -418,15 +427,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** The study is tied to the renewable energy transition and sustainable development goals in the Yellow River Basin, a region facing significant sustainability pressures.
 - **Direction hint:** Investigate how integrated hydropower, solar, wind, and pumped-storage systems can be optimized for flexible operation under climate variability and drought conditions to support renewable integration and water-energy-ecology trade-offs.
 
-## Balancing equity and efficiency in transboundary water systems with Atkinson’s welfare function
-- **Journal/date/type:** Nature Water / 2026-06-24 / article
-- **DOI:** https://doi.org/10.1038/s44221-026-00671-4  |  **Citations/yr:** 2.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (flexibility OR "grid services" OR balancing); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (drought OR "power shortage" OR outage OR blackout); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
-- **Relevance:** High  |  **Scope:** Transferable mechanism
-- **Stated gap / future work:** None stated explicitly, but the framework's adaptability to changing objectives suggests further exploration in diverse contexts and dynamic conditions.
-- **Real-world hook:** Application to hydropower operations and floating photovoltaic expansion in the Zambezi Watercourse, a transboundary water system.
-- **Direction hint:** Investigate how equity-focused optimization frameworks can be integrated into reservoir operation planning under climate uncertainty to improve drought resilience without significant efficiency trade-offs.
-
 ## A Nonlinear Model for Evaluating Dynamic Resilience of Water Supply Hydropower Generation‐Environment Conservation Nexus System
 - **Journal/date/type:** Water Resources Research / 2023-11-01 / article
 - **DOI:** https://doi.org/10.1029/2023wr034922  |  **Citations/yr:** 2.0
@@ -463,6 +463,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Application of the model to select multiple pumped-hydro storage projects near the Sobradinho hydropower plant reservoir in Brazil.
 - **Direction hint:** How can this integer programming approach be integrated with power system operation models to evaluate the flexibility benefits of PHS for wind and solar integration under climate and hydrological uncertainties?
 
+## A Conversion–Management–Perception framework for safe reservoir operation in hydro–wind–photovoltaic complementary systems under multi-source uncertainty
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2026-11-07 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2026.117691  |  **Citations/yr:** 0.0
+- **Found via:**  | cites Variable renewables fortify Ecuador’s power system against recurrences of drough; Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew; Short-term risk-management for hydro-wind-solar hybrid energy system considering
+- **Relevance:** High  |  **Scope:** Regional
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** How can integrated management frameworks optimize reservoir operations considering uncertainties from multiple renewable sources including solar PV and wind?
+
 ## Seasonal hydropower forecast framework using a combination of deep learning and physics-based methods
 - **Journal/date/type:** EarthArXiv / 2026-10-29 / preprint
 - **DOI:** https://doi.org/10.31223/x50b98  |  **Citations/yr:** 0.0
@@ -484,7 +493,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Complementary operation rules of hydropower-photovoltaic systems to prevent power curtailment
 - **Journal/date/type:** Applied Energy / 2026-09-25 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.128872  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar OR wind) AND ("water saving" OR "water conservation" OR "stored water" OR "water balance" OR "water level" OR "carryover storage"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Evaluation of the risk and benefit of the complementary operation of the large w
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar OR wind) AND ("water saving" OR "water conservation" OR "stored water" OR "water balance" OR "water level" OR "carryover storage"); (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Evaluation of the risk and benefit of the complementary operation of the large w
 - **Relevance:** High  |  **Scope:** Not established from title
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -511,7 +520,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Unlocking the potential of existing dams: A multi-mode comparison of pumped storage for hydro-wind-solar integration
 - **Journal/date/type:** Renewable Energy / 2026-08-21 / article
 - **DOI:** https://doi.org/10.1016/j.renene.2026.126347  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Balancing-oriented hydropower operation makes the clean energy transition more a; Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Balancing-oriented hydropower operation makes the clean energy transition more a; Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
 - **Relevance:** High  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -556,7 +565,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Power shortages in hydro-wind-photovoltaic complementary systems: occurring conditions, temporal patterns, and planning implications
 - **Journal/date/type:** Applied Energy / 2026-07-13 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.128427  |  **Citations/yr:** 0.0
-- **Found via:**  | cites Economic operation of a wind-solar-hydro complementary system considering risks ; Robust hydroelectric unit commitment considering integration of large-scale phot; Evaluation of the risk and benefit of the complementary operation of the large w; Short-term risk-management for hydro-wind-solar hybrid energy system considering
+- **Found via:**  | cites Economic operation of a wind-solar-hydro complementary system considering risks ; Evaluation of the risk and benefit of the complementary operation of the large w; Robust hydroelectric unit commitment considering integration of large-scale phot; Short-term risk-management for hydro-wind-solar hybrid energy system considering
 - **Relevance:** High  |  **Scope:** Not established from title
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -628,7 +637,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Study on control strategies of year-end drawdown level in multi-year regulation reservoir under hydro-photovoltaic bundled operation condition
 - **Journal/date/type:** Applied Energy / 2026-06-06 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.128157  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Short-term risk-management for hydro-wind-solar hybrid energy system considering
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Short-term risk-management for hydro-wind-solar hybrid energy system considering
 - **Relevance:** High  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -1291,6 +1300,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Planned future hydropower dams concentrated in Global South countries and their potential to elevate extinction risk.
 - **Direction hint:** Investigate operational strategies or planning frameworks for hydropower that minimize biodiversity impacts while supporting renewable energy goals, especially in regions with high conservation value.
 
+## A smart energy systems planning framework for high-renewable transitions in emerging energy systems: Application to Ghana
+- **Journal/date/type:** Renewable Energy / 2026-08-02 / article
+- **DOI:** https://doi.org/10.1016/j.renene.2026.126215  |  **Citations/yr:** 4.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
+- **Relevance:** Medium  |  **Scope:** Regional
+- **Stated gap / future work:** None stated explicitly in the abstract.
+- **Real-world hook:** Application to Ghana's national energy system as a representative Sub-Saharan African case study for high-renewable transitions.
+- **Direction hint:** Investigate how integrating large-scale solar PV with hydropower reservoirs and storage affects reservoir operations, turbine releases, and spill under realistic operating constraints in emerging energy systems similar to Ghana.
+
 ## Multi-objective optimization of water–sediment-ecology coordinated operation for cascade reservoirs in the Yellow River Basin
 - **Journal/date/type:** Journal of Hydrology / 2026-07-22 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136069  |  **Citations/yr:** 4.0
@@ -1525,6 +1543,15 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate methods to incorporate streamflow forecast uncertainty into operational optimization models for cascade hydropower systems to enhance flexibility and reliability.
 
+## Renewable energy droughts under high variable renewables penetration: meteorological drivers, system impacts, and planning uses
+- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2026-09-11 / article
+- **DOI:** https://doi.org/10.1016/j.rser.2026.117463  |  **Citations/yr:** 2.0
+- **Found via:** (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Balancing-oriented hydropower operation makes the clean energy transition more a
+- **Relevance:** Medium  |  **Scope:** Regional (with strong regional concentration of research scope noted)
+- **Stated gap / future work:** Research priorities include improving climate projections, hydropower operations modeling, forecasting methods, and characterization of extreme renewable energy droughts.
+- **Real-world hook:** Increasing penetration of variable renewable energy sources in power systems leading to exposure to meteorologically driven renewable energy droughts.
+- **Direction hint:** Investigate how hydropower operations and reservoir management can be optimized to mitigate renewable energy drought impacts under variable renewable penetration.
+
 ## Direct air capture enables sustainable methanol production in water-scarce regions
 - **Journal/date/type:** Nature Communications / 2026-08-24 / article
 - **DOI:** https://doi.org/10.1038/s41467-026-76865-x  |  **Citations/yr:** 2.0
@@ -1543,15 +1570,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Explore how AI-enhanced stochastic dynamic programming can improve flexible operation of cascade hydropower systems under uncertainty.
 
-## A smart energy systems planning framework for high-renewable transitions in emerging energy systems: Application to Ghana
-- **Journal/date/type:** Renewable Energy / 2026-08-02 / article
-- **DOI:** https://doi.org/10.1016/j.renene.2026.126215  |  **Citations/yr:** 2.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Regional
-- **Stated gap / future work:** None stated explicitly in the abstract.
-- **Real-world hook:** Application to Ghana's national energy system as a representative Sub-Saharan African case study for high-renewable transitions.
-- **Direction hint:** Investigate how integrating large-scale solar PV with hydropower reservoirs and storage affects reservoir operations, turbine releases, and spill under realistic operating constraints in emerging energy systems similar to Ghana.
-
 ## The Environmental Cost of Digital Sovereignty: Water, Energy, and Emissions Impacts of Sovereign AI Infrastructure in the Global South
 - **Journal/date/type:** arXiv / 2026-07-15 / preprint
 - **DOI:** https://doi.org/10.48550/arxiv.2607.13443  |  **Citations/yr:** 2.0
@@ -1564,16 +1582,25 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Lost flexibility: Hydropower capabilities in large-scale, Pan-European Energy system models
 - **Journal/date/type:** Applied Energy / 2026-07-03 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.128324  |  **Citations/yr:** 2.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Need for better representation of hydropower operational behavior in large-scale, aggregated energy system models to improve accuracy, especially under high renewable penetration scenarios.
 - **Real-world hook:** Application to the North European Backbone pan-European energy system model and implications for the pan-European transmission network development.
 - **Direction hint:** How can hydropower operational constraints be integrated with solar PV-induced turbine release changes to improve water-energy accounting and reservoir management under renewable integration?
 
+## Intelligent mining of generation operation rules for cascade hydropower reservoirs driven by large language models and knowledge graphs
+- **Journal/date/type:** Journal of Hydrology / 2026-06-17 / article
+- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135896  |  **Citations/yr:** 2.0
+- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy) | cites Complementary operation with wind and photovoltaic power induces the decrease in
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Not established from title
+
 ## Short-term net load smoothing via stochastic scheduling of runoff-contained cascade hydropower under wind-photovoltaic uncertainty
 - **Journal/date/type:** Renewable Energy / 2026-06-10 / article
 - **DOI:** https://doi.org/10.1016/j.renene.2026.126061  |  **Citations/yr:** 2.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -1717,7 +1744,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## A scenario-based risk control framework for medium-term dispatch of hydro-wind-solar hybrid systems under consecutive multi-day extreme events
 - **Journal/date/type:** Applied Energy / 2026-10-28 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.129163  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid) | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew; Complementary operation with wind and photovoltaic power induces the decrease in
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Complementary operation with wind and photovoltaic power induces the decrease in; Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** None stated
@@ -1762,7 +1789,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Coopetition and coordination mechanisms between energy and peak-shaving benefits in giant cascade hydropower systems: From mechanism identification to operational application
 - **Journal/date/type:** Applied Energy / 2026-10-22 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.129126  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -1786,10 +1813,19 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Use of hydropower-based electricity in solvent-based regeneration processes and its environmental trade-offs in global warming potential and water consumption.
 - **Direction hint:** Investigate how hydropower's water consumption trade-offs affect broader water-energy-environment nexus decisions in energy and water treatment systems under varying operational scenarios.
 
+## Variable-condition feedforward control strategy for primary frequency regulation of hydropower units under wide operating conditions
+- **Journal/date/type:** Energy / 2026-10-15 / article
+- **DOI:** https://doi.org/10.1016/j.energy.2026.142679  |  **Citations/yr:** 0.0
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Relevance:** Medium  |  **Scope:** Not established from title
+- **Stated gap / future work:** Not established from title
+- **Real-world hook:** Not established from title
+- **Direction hint:** Investigate how advanced control strategies for hydropower units might interact with reservoir operating rules and turbine discharge constraints under variable renewable integration.
+
 ## Scenario-adaptive scheduling of cascade hydro-wind-solar-pumped storage systems driven by hydrological variability
 - **Journal/date/type:** Journal of Hydrology / 2026-10-11 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2026.136585  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew; Economic operation of a wind-solar-hydro complementary system considering risks ; Evaluation of the risk and benefit of the complementary operation of the large w
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Economic operation of a wind-solar-hydro complementary system considering risks ; Evaluation of the risk and benefit of the complementary operation of the large w; Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -1798,20 +1834,11 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## A scenario-based evaluation framework for renewable capacity scale and photovoltaic capacity ratio in a hydro–wind–photovoltaic–pumped-storage hybrid energy system
 - **Journal/date/type:** Energy Conversion and Management / 2026-10-05 / article
 - **DOI:** https://doi.org/10.1016/j.enconman.2026.122214  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** None stated
 - **Direction hint:** Investigate how varying photovoltaic capacity ratios influence reservoir operations and water accounting in hybrid hydro-solar systems.
-
-## Variable-Condition Feedforward Control Strategy for Primary Frequency Regulation of Hydropower Units under Wide Operating Conditions
-- **Journal/date/type:** Energy / 2026-10-01 / article
-- **DOI:** https://doi.org/10.1016/j.energy.2026.142679  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Investigate how advanced control strategies for hydropower units might interact with reservoir operating rules and turbine discharge constraints under variable renewable integration.
 
 ## From Hazard to Resource: A Screening‐Level Assessment of Glacial Lake Hydropower Potential and Development Suitability in the Poiqu River Basin, Central Himalaya
 - **Journal/date/type:** Water Resources Research / 2026-10-01 / 
@@ -1861,7 +1888,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Price makers in 100 % renewable power systems: shadow price formation through flexibility options, hydropower, and congestion in a multi-zonal model
 - **Journal/date/type:** Energy Conversion and Management / 2026-09-21 / article
 - **DOI:** https://doi.org/10.1016/j.enconman.2026.122181  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -1879,7 +1906,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Coordinated dispatch of hydro-wind-photovoltaic systems based on a differentiated peak-shaving method for cascaded hydropower stations
 - **Journal/date/type:** Renewable Energy / 2026-09-18 / article
 - **DOI:** https://doi.org/10.1016/j.renene.2026.126476  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Economic operation of a wind-solar-hydro complementary system considering risks 
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Economic operation of a wind-solar-hydro complementary system considering risks 
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -1902,15 +1929,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
 - **Direction hint:** Explore how integrating physics-informed AI models can improve scheduling and operational decisions in hydro-solar-wind hybrid systems, especially accounting for hydrodynamic effects like backwater.
-
-## Renewable energy droughts under high variable renewables penetration: meteorological drivers, system impacts, and planning uses
-- **Journal/date/type:** Renewable and Sustainable Energy Reviews / 2026-09-11 / article
-- **DOI:** https://doi.org/10.1016/j.rser.2026.117463  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (drought OR "dry year" OR "power shortage") AND (solar OR wind OR photovoltaic OR grid) | cites Balancing-oriented hydropower operation makes the clean energy transition more a
-- **Relevance:** Medium  |  **Scope:** Regional (with strong regional concentration of research scope noted)
-- **Stated gap / future work:** Research priorities include improving climate projections, hydropower operations modeling, forecasting methods, and characterization of extreme renewable energy droughts.
-- **Real-world hook:** Increasing penetration of variable renewable energy sources in power systems leading to exposure to meteorologically driven renewable energy droughts.
-- **Direction hint:** Investigate how hydropower operations and reservoir management can be optimized to mitigate renewable energy drought impacts under variable renewable penetration.
 
 ## Time-of-Use Pricing Enhances Vehicle-to-Grid Benefits for Power Systems and Vehicle Owners but May Undermine Decarbonization
 - **Journal/date/type:** Environmental Science & Technology / 2026-09-03 / article
@@ -1951,7 +1969,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Multi-timescale coordination of hydro–wind–PV systems with pumped storage for enhanced operational flexibility
 - **Journal/date/type:** Energy Conversion and Management / 2026-08-15 / article
 - **DOI:** https://doi.org/10.1016/j.enconman.2026.122051  |  **Citations/yr:** 0.0
-- **Found via:**  | cites Economic operation of a wind-solar-hydro complementary system considering risks ; Complementary scheduling of hydro-wind-PV-storage systems: Addressing flexibilit
+- **Found via:**  | cites Complementary scheduling of hydro-wind-PV-storage systems: Addressing flexibilit; Economic operation of a wind-solar-hydro complementary system considering risks 
 - **Relevance:** Medium  |  **Scope:** Not established from title
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -2005,7 +2023,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## An adaptive situation awareness model for short-term scheduling of cascade hydropower serving grids system under inflow and renewable energy uncertainties
 - **Journal/date/type:** Applied Energy / 2026-07-30 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.128560  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable") | cites Quantifying the impact of extreme weather on China’s hydropower–wind–solar renew
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -2041,7 +2059,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## Resilience-oriented stochastic short-term scheduling of basin-scale hydro-wind-solar systems under compound uncertainties
 - **Journal/date/type:** Applied Energy / 2026-07-13 / article
 - **DOI:** https://doi.org/10.1016/j.apenergy.2026.128432  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric OR reservoir) AND (photovoltaic OR solar) AND (spill OR spillage OR "spilled water" OR "water spillage" OR curtailment); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Regional
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title
@@ -2101,15 +2119,6 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 - **Real-world hook:** Not established from title
 - **Direction hint:** Investigate how hybrid modeling approaches combining physical and data-driven methods can enhance hydropower forecasting accuracy under changing system dynamics.
 
-## Intelligent mining of generation operation rules for cascade hydropower reservoirs driven by large language models and knowledge graphs
-- **Journal/date/type:** Journal of Hydrology / 2026-06-17 / article
-- **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135896  |  **Citations/yr:** 0.0
-- **Found via:** (reservoir OR dam) AND (operation OR reoperation) AND (electricity OR power OR energy) | cites Complementary operation with wind and photovoltaic power induces the decrease in
-- **Relevance:** Medium  |  **Scope:** Not established from title
-- **Stated gap / future work:** Not established from title
-- **Real-world hook:** Not established from title
-- **Direction hint:** Not established from title
-
 ## Assessment of Sentinel-1 C-band SAR snow depth assimilation in operational hydrological modeling of high-alpine catchments
 - **Journal/date/type:** Journal of Hydrology / 2026-06-16 / article
 - **DOI:** https://doi.org/10.1016/j.jhydrol.2026.135888  |  **Citations/yr:** 0.0
@@ -2140,7 +2149,7 @@ Based on OpenAlex metadata and abstracts only, not full-text review.
 ## A universal joint dispatch model for hydro-wind-solar systems under complex grid structures
 - **Journal/date/type:** Energy / 2026-06-06 / article
 - **DOI:** https://doi.org/10.1016/j.energy.2026.141378  |  **Citations/yr:** 0.0
-- **Found via:** (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable"); (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit")
+- **Found via:** (hydropower OR hydroelectric) AND (flexibility OR "grid services" OR balancing OR "capacity credit"); (hydropower OR hydroelectric) AND (photovoltaic OR solar OR wind) AND (complementary OR complementarity OR hybrid) AND (operation OR scheduling OR dispatch); (hydropower OR hydroelectric) AND (solar OR wind OR photovoltaic OR "variable renewable")
 - **Relevance:** Medium  |  **Scope:** Potentially Global or transferable mechanism
 - **Stated gap / future work:** Not established from title
 - **Real-world hook:** Not established from title

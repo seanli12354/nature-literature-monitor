@@ -1,4 +1,4 @@
 # Weekly external information monitor
 
-Run date: 2026-11-03
+Run date: 2026-11-09
 New records: 0
